@@ -1,0 +1,68 @@
+$list-item-color-grey = #9f9f9f
+$list-item-gutter = 10px
+$list-padding = 8px
+
+.announcement-list
+	height: 279px
+	padding-bottom: $list-padding
+	overflow-y: scroll
+
+	.data-inline-list__list-item
+		position: relative
+		padding: 8px 8px 9px 20px
+		cursor: pointer
+
+		&:hover
+			background-color: #fbfbfb
+
+		// real border
+		&:after
+			content: ''
+			position: absolute
+			display: block
+			left: 0
+			bottom: 0
+			width: 'calc(100% - %s)' % ($list-item-gutter * 2)
+			min-height: 1px
+			border-bottom: 1px solid #f2f2f2
+			margin: 0 $list-item-gutter
+		> .ljit-list-item
+			border-bottom: none
+
+		&__icon
+			margin-right: 4px
+			transform: translateY(-2px)
+
+		> .ljit-list-item
+			padding: 0
+
+			.ljit-list-item__title
+				font-size: 16px
+				font-weight: normal
+				line-height: 1.45
+				color: #222222
+
+			.ljit-list-item__description
+				margin-bottom: 0
+				font-size: 12px
+				font-weight: normal
+				color: $list-item-color-grey
+				line-height: normal
+				opacity: 1
+
+	// announce list item title ellipsis
+	width: 100%
+	.data-inline-list__list-item
+		width: inherit
+		> .ljit-list-item
+			width: inherit
+			> div
+				width: inherit
+				> div
+					width: inherit
+					.ljit-list-item__title
+						display: block
+						width: inherit
+						white-space: nowrap
+						overflow: hidden
+						text-overflow: ellipsis

@@ -1,0 +1,42 @@
+.ljit-mobile-confirm-betting-drawer
+	.ljit-btn
+		display: block
+		margin: 36px auto
+		width: 107px
+		font-size: 16px
+
+	&__content
+		min-height: 150px
+
+	&__verify-password
+		display: flex
+		align-items: center
+		justify-content: space-between
+		padding: 12px 17px
+		margin: 0
+		border-bottom: 1px solid rgb(240, 240, 240)
+		height: 60px
+
+		.ant-form-item-label
+			padding: 0
+			white-space: nowrap
+			flex-shrink: 0
+			width: 84px
+			margin-right: 24px
+
+			> label::before
+				display: none
+
+		.ant-form-item-control-wrapper
+			width: 100%
+
+		.ant-form-explain
+			display: none
+
+		&::before,
+		&::after
+			display: none
+
+		.ljit-input
+			input::placeholder
+				text-align: center

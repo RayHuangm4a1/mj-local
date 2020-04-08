@@ -1,0 +1,520 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Betting weizhi block should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BettingWeizhiBlock
+    checkboxStyle="solid"
+    className="mock-class-name"
+    description="您选择了 2 个位置，系统自动根据位置组合成 1 个方案。"
+    onPressCheckbox={[Function]}
+    options={
+      Array [
+        Object {
+          "isSelected": true,
+          "name": "萬",
+        },
+        Object {
+          "isSelected": false,
+          "name": "千",
+        },
+        Object {
+          "isSelected": false,
+          "name": "百",
+        },
+        Object {
+          "isSelected": false,
+          "name": "十",
+        },
+        Object {
+          "isSelected": false,
+          "name": "個",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <CheckBox
+            autoFocus={false}
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            value={true}
+          >
+            萬
+          </CheckBox>,
+          <CheckBox
+            autoFocus={false}
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            value={false}
+          >
+            千
+          </CheckBox>,
+          <CheckBox
+            autoFocus={false}
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            value={false}
+          >
+            百
+          </CheckBox>,
+          <CheckBox
+            autoFocus={false}
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            value={false}
+          >
+            十
+          </CheckBox>,
+          <CheckBox
+            autoFocus={false}
+            className=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            value={false}
+          >
+            個
+          </CheckBox>,
+        ],
+        <div
+          className="ljit-betting-weizhi-block__description"
+        >
+          <Icon
+            color="primary"
+            isTranslucent={false}
+            size="small"
+            spin={false}
+            style={Object {}}
+            type="info"
+          />
+          <span>
+            您选择了 2 个位置，系统自动根据位置组合成 1 个方案。
+          </span>
+        </div>,
+      ],
+      "className": "ljit-betting-weizhi-block ljit-betting-weizhi-block--solid mock-class-name",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "萬",
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "children": "萬",
+          "className": "",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "value": true,
+        },
+        "ref": null,
+        "rendered": "萬",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "千",
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "children": "千",
+          "className": "",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "value": false,
+        },
+        "ref": null,
+        "rendered": "千",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "百",
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "children": "百",
+          "className": "",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "value": false,
+        },
+        "ref": null,
+        "rendered": "百",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "十",
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "children": "十",
+          "className": "",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "value": false,
+        },
+        "ref": null,
+        "rendered": "十",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "個",
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": false,
+          "children": "個",
+          "className": "",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "value": false,
+        },
+        "ref": null,
+        "rendered": "個",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Icon
+              color="primary"
+              isTranslucent={false}
+              size="small"
+              spin={false}
+              style={Object {}}
+              type="info"
+            />,
+            <span>
+              您选择了 2 个位置，系统自动根据位置组合成 1 个方案。
+            </span>,
+          ],
+          "className": "ljit-betting-weizhi-block__description",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "primary",
+              "isTranslucent": false,
+              "size": "small",
+              "spin": false,
+              "style": Object {},
+              "type": "info",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "您选择了 2 个位置，系统自动根据位置组合成 1 个方案。",
+            },
+            "ref": null,
+            "rendered": "您选择了 2 个位置，系统自动根据位置组合成 1 个方案。",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <CheckBox
+              autoFocus={false}
+              className=""
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value={true}
+            >
+              萬
+            </CheckBox>,
+            <CheckBox
+              autoFocus={false}
+              className=""
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value={false}
+            >
+              千
+            </CheckBox>,
+            <CheckBox
+              autoFocus={false}
+              className=""
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value={false}
+            >
+              百
+            </CheckBox>,
+            <CheckBox
+              autoFocus={false}
+              className=""
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value={false}
+            >
+              十
+            </CheckBox>,
+            <CheckBox
+              autoFocus={false}
+              className=""
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              value={false}
+            >
+              個
+            </CheckBox>,
+          ],
+          <div
+            className="ljit-betting-weizhi-block__description"
+          >
+            <Icon
+              color="primary"
+              isTranslucent={false}
+              size="small"
+              spin={false}
+              style={Object {}}
+              type="info"
+            />
+            <span>
+              您选择了 2 个位置，系统自动根据位置组合成 1 个方案。
+            </span>
+          </div>,
+        ],
+        "className": "ljit-betting-weizhi-block ljit-betting-weizhi-block--solid mock-class-name",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "萬",
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "children": "萬",
+            "className": "",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "value": true,
+          },
+          "ref": null,
+          "rendered": "萬",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "千",
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "children": "千",
+            "className": "",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "value": false,
+          },
+          "ref": null,
+          "rendered": "千",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "百",
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "children": "百",
+            "className": "",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "value": false,
+          },
+          "ref": null,
+          "rendered": "百",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "十",
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "children": "十",
+            "className": "",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "value": false,
+          },
+          "ref": null,
+          "rendered": "十",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "個",
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": false,
+            "children": "個",
+            "className": "",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "value": false,
+          },
+          "ref": null,
+          "rendered": "個",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Icon
+                color="primary"
+                isTranslucent={false}
+                size="small"
+                spin={false}
+                style={Object {}}
+                type="info"
+              />,
+              <span>
+                您选择了 2 个位置，系统自动根据位置组合成 1 个方案。
+              </span>,
+            ],
+            "className": "ljit-betting-weizhi-block__description",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "primary",
+                "isTranslucent": false,
+                "size": "small",
+                "spin": false,
+                "style": Object {},
+                "type": "info",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "您选择了 2 个位置，系统自动根据位置组合成 1 个方案。",
+              },
+              "ref": null,
+              "rendered": "您选择了 2 个位置，系统自动根据位置组合成 1 个方案。",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

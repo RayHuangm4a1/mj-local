@@ -1,0 +1,79 @@
+$cell-font-size = 14px
+$thead-bg-color = #fafafa
+
+.ljit-table
+	// props bordered
+	&--bordered
+		.ant-table-bordered .ant-table-body > table,
+		.ant-table-bordered .ant-table-fixed-right table,
+		.ant-table-bordered .ant-table-fixed-left table
+			border-width: 0
+
+		.ant-table-thead > tr > th:last-child,
+		.ant-table-tbody > tr > td:last-child
+			border-right-width: 0
+
+	// props align
+	&--align-left
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: left
+	&--align-center
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: center
+	&--align-right
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: right
+
+	.ant-table-thead > tr > th
+		color: rgba(0, 0, 0, 0.85)
+		font-size: $cell-font-size
+		font-weight: 500
+		line-height: 1.57
+		background-color: $thead-bg-color
+
+		.ant-table-header-column
+			display: inline-block
+			vertical-align: top
+	.ant-table-tbody
+		font-size: $cell-font-size
+		background-color: #FFF
+	.ant-table-tbody > .ant-table-expanded-row > td
+		text-align: left
+		background-color: $thead-bg-color
+
+	.cell-primary
+		color: #1890ff
+	.cell-danger
+		color: #f5222d
+
+	.ant-table-small
+		border: none
+		> .ant-table-content
+			> .ant-table-body
+				margin: 0
+
+	.ant-table-pagination
+		display: flex
+
+		li
+			order: 3
+		.ant-pagination-total-text
+			order: 1
+			margin-right: 8px
+		.ant-pagination-options
+			order: 2
+			margin-left: 0
+			margin-right: 20px
+
+			> .ant-pagination-options-size-changer
+				margin-right: 0
+
+		.ant-pagination-prev,
+		.ant-pagination-next
+			> a
+				display: flex
+				justify-content: center
+				align-items: center

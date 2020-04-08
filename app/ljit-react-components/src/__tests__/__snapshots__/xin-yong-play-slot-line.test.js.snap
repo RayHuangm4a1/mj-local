@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XinYongPlaySlotLine should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <XinYongPlaySlotLine
+    betting={
+      Object {
+        "amount": 10,
+        "play": Object {
+          "id": 53000,
+          "name": "大",
+          "odds": 1954,
+        },
+      }
+    }
+    className="mock-class"
+    defaultAmount={0}
+    disabledText="mock-text"
+    isDisabled={false}
+    onChange={[Function]}
+    play={
+      Object {
+        "id": 53000,
+        "name": "大",
+        "odds": 1954,
+      }
+    }
+    playSlotType="circle"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-xin-yong-play-slot-line__ball"
+        >
+          <Circle
+            fontSize="extra-small"
+            size="extra-small"
+            text="大"
+            type="selected"
+          />
+        </div>,
+        <div
+          className="ljit-xin-yong-play-slot-line__odds"
+        >
+          <ControlledTooltip
+            isVisible={false}
+            onVisibleChange={[Function]}
+            overlayClassName="ljit-xin-yong-play-slot-line__overlay"
+            overlayColor="white"
+            placement="top"
+            title={
+              <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            }
+          >
+            <div>
+              <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            </div>
+          </ControlledTooltip>
+        </div>,
+        <div
+          className="ljit-xin-yong-play-slot-line__status"
+        >
+          <Input
+            className="ljit-xin-yong-play-slot-line__input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onPressEnter={[Function]}
+            readOnly={false}
+            value="10"
+          />
+        </div>,
+      ],
+      "className": "ljit-xin-yong-play-slot-line ljit-xin-yong-play-slot-line--checked mock-class",
+      "onClick": [Function],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Circle
+            fontSize="extra-small"
+            size="extra-small"
+            text="大"
+            type="selected"
+          />,
+          "className": "ljit-xin-yong-play-slot-line__ball",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "fontSize": "extra-small",
+            "size": "extra-small",
+            "text": "大",
+            "type": "selected",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ControlledTooltip
+            isVisible={false}
+            onVisibleChange={[Function]}
+            overlayClassName="ljit-xin-yong-play-slot-line__overlay"
+            overlayColor="white"
+            placement="top"
+            title={
+              <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            }
+          >
+            <div>
+              <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            </div>
+          </ControlledTooltip>,
+          "className": "ljit-xin-yong-play-slot-line__odds",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            </div>,
+            "isVisible": false,
+            "onVisibleChange": [Function],
+            "overlayClassName": "ljit-xin-yong-play-slot-line__overlay",
+            "overlayColor": "white",
+            "placement": "top",
+            "title": <DecimalNumber
+              className=""
+              data={1954}
+              decimalPlaces={4}
+              hasSeparator={true}
+              isCurrency={false}
+              isPercent={false}
+              isTolerance={false}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />,
+            },
+            "ref": [Function],
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "className": "",
+                "data": 1954,
+                "decimalPlaces": 4,
+                "hasSeparator": true,
+                "isCurrency": false,
+                "isPercent": false,
+                "isTolerance": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Input
+            className="ljit-xin-yong-play-slot-line__input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onPressEnter={[Function]}
+            readOnly={false}
+            value="10"
+          />,
+          "className": "ljit-xin-yong-play-slot-line__status",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "ljit-xin-yong-play-slot-line__input",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "onPressEnter": [Function],
+            "readOnly": false,
+            "value": "10",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-xin-yong-play-slot-line__ball"
+          >
+            <Circle
+              fontSize="extra-small"
+              size="extra-small"
+              text="大"
+              type="selected"
+            />
+          </div>,
+          <div
+            className="ljit-xin-yong-play-slot-line__odds"
+          >
+            <ControlledTooltip
+              isVisible={false}
+              onVisibleChange={[Function]}
+              overlayClassName="ljit-xin-yong-play-slot-line__overlay"
+              overlayColor="white"
+              placement="top"
+              title={
+                <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />
+              }
+            >
+              <div>
+                <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />
+              </div>
+            </ControlledTooltip>
+          </div>,
+          <div
+            className="ljit-xin-yong-play-slot-line__status"
+          >
+            <Input
+              className="ljit-xin-yong-play-slot-line__input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onPressEnter={[Function]}
+              readOnly={false}
+              value="10"
+            />
+          </div>,
+        ],
+        "className": "ljit-xin-yong-play-slot-line ljit-xin-yong-play-slot-line--checked mock-class",
+        "onClick": [Function],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Circle
+              fontSize="extra-small"
+              size="extra-small"
+              text="大"
+              type="selected"
+            />,
+            "className": "ljit-xin-yong-play-slot-line__ball",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "fontSize": "extra-small",
+              "size": "extra-small",
+              "text": "大",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ControlledTooltip
+              isVisible={false}
+              onVisibleChange={[Function]}
+              overlayClassName="ljit-xin-yong-play-slot-line__overlay"
+              overlayColor="white"
+              placement="top"
+              title={
+                <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />
+              }
+            >
+              <div>
+                <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />
+              </div>
+            </ControlledTooltip>,
+            "className": "ljit-xin-yong-play-slot-line__odds",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <div>
+                <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />
+              </div>,
+              "isVisible": false,
+              "onVisibleChange": [Function],
+              "overlayClassName": "ljit-xin-yong-play-slot-line__overlay",
+              "overlayColor": "white",
+              "placement": "top",
+              "title": <DecimalNumber
+                className=""
+                data={1954}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <DecimalNumber
+                  className=""
+                  data={1954}
+                  decimalPlaces={4}
+                  hasSeparator={true}
+                  isCurrency={false}
+                  isPercent={false}
+                  isTolerance={false}
+                />,
+              },
+              "ref": [Function],
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "",
+                  "data": 1954,
+                  "decimalPlaces": 4,
+                  "hasSeparator": true,
+                  "isCurrency": false,
+                  "isPercent": false,
+                  "isTolerance": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Input
+              className="ljit-xin-yong-play-slot-line__input"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onPressEnter={[Function]}
+              readOnly={false}
+              value="10"
+            />,
+            "className": "ljit-xin-yong-play-slot-line__status",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "ljit-xin-yong-play-slot-line__input",
+              "disabled": false,
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onFocus": [Function],
+              "onPressEnter": [Function],
+              "readOnly": false,
+              "value": "10",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

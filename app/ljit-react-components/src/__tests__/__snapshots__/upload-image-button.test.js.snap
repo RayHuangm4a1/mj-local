@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload Image Button should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadImageButton
+    fileLimit={1}
+    onChange={[Function]}
+    remindText="允许的副档名：gif、jpg、jpeg、png、bmp。"
+    text="选择档案"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "acceptExtentions": Array [
+        "gif",
+        "jpg",
+        "jpeg",
+        "png",
+        "bmp",
+      ],
+      "beforeUpload": [Function],
+      "children": <Button
+        block={false}
+        ghost={false}
+        htmlType="button"
+        loading={false}
+      >
+        <Icon
+          type="upload"
+        />
+        选择档案
+      </Button>,
+      "className": "ljit-upload-image-button",
+      "fileLimit": 1,
+      "fileList": undefined,
+      "isUploadListVisible": true,
+      "listType": "picture",
+      "onChange": [Function],
+      "onRemove": [Function],
+      "remindText": "允许的副档名：gif、jpg、jpeg、png、bmp。",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "block": false,
+        "children": Array [
+          <Icon
+            type="upload"
+          />,
+          "选择档案",
+        ],
+        "ghost": false,
+        "htmlType": "button",
+        "loading": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "type": "upload",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "选择档案",
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "acceptExtentions": Array [
+          "gif",
+          "jpg",
+          "jpeg",
+          "png",
+          "bmp",
+        ],
+        "beforeUpload": [Function],
+        "children": <Button
+          block={false}
+          ghost={false}
+          htmlType="button"
+          loading={false}
+        >
+          <Icon
+            type="upload"
+          />
+          选择档案
+        </Button>,
+        "className": "ljit-upload-image-button",
+        "fileLimit": 1,
+        "fileList": undefined,
+        "isUploadListVisible": true,
+        "listType": "picture",
+        "onChange": [Function],
+        "onRemove": [Function],
+        "remindText": "允许的副档名：gif、jpg、jpeg、png、bmp。",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "block": false,
+          "children": Array [
+            <Icon
+              type="upload"
+            />,
+            "选择档案",
+          ],
+          "ghost": false,
+          "htmlType": "button",
+          "loading": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "type": "upload",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "选择档案",
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

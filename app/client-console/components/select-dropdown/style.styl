@@ -1,0 +1,23 @@
+$ljit-select-dropdown-text-color = rgba(0, 0, 0, .65)
+$ljit-select-dropdown-active-background-color = #ff8113
+$ljit-select-dropdown-active-text-color = #fff
+
+.ljit-select-dropdown-menu
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .23)
+
+	.ant-select-dropdown-menu-item
+		color: $ljit-select-dropdown-text-color
+		padding: 4px 6px
+		text-align: left
+		font-size: 12px
+		&:first-child,
+		&:last-child,
+		~/
+			border-radius: 0
+
+	.ant-select-dropdown-menu-item-active
+		background-color: $ljit-select-dropdown-active-background-color
+		color: $ljit-select-dropdown-active-text-color
+	.ant-select-dropdown-menu-item-selected
+		background-color: $ljit-select-dropdown-active-background-color
+		color: $ljit-select-dropdown-active-text-color

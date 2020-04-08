@@ -1,0 +1,28 @@
+$medium-font-size = 24px
+$large-font-size = 32px
+$affix-margin = 10px
+
+.ljit-statistic
+	.ant-statistic-title
+		font-size: 14px;
+		line-height: normal;
+		color: #8c8c8c;
+
+	.ant-statistic-content-prefix
+		margin-right: $affix-margin
+	.ant-statistic-content-suffix
+		margin-left: $affix-margin
+
+	.ant-statistic-content-value
+		color: #262626
+
+	&--size-medium
+		.ant-statistic-content-value
+			font-size: $medium-font-size
+			.ant-statistic-content-value-decimal
+				font-size: $medium-font-size
+	&--size-large
+		.ant-statistic-content-value
+			font-size: $large-font-size
+			.ant-statistic-content-value-decimal
+				font-size: $large-font-size

@@ -1,0 +1,46 @@
+item-style() 
+	background-color: #fff
+	border-bottom: 1px solid rgb(240, 240, 240)
+	height: 54px
+	padding: 16px 11px
+
+.betting-record-detail-page
+	color: rgb(74, 74, 74)
+	font-size: 16px
+
+	&__lottery
+		height: 84px
+		margin: 10px 0
+		background-color: #fff
+		padding: 15px 20px
+		display: flex
+		justify-content: space-between
+		align-items: center
+		font-size: 14px
+		> div
+			font-size: 16px
+			font-weight: 900
+			.ljit-lottery-icon
+				margin-right: 15px
+				> img
+					width: 54px
+					height: 54px
+
+	&__details-list
+		margin-bottom: 10px
+
+	&__detail-item
+		item-style()
+		margin: 0
+		.ljit-label-text__label
+			font-weight: 400
+
+	&__bet-content
+		background-color: #fff
+		> div
+			&:first-child
+				item-style()
+				font-weight: 600
+			&:last-child
+				padding: 14px 18px
+				height: 104px

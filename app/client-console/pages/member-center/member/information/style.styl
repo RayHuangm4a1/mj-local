@@ -1,0 +1,100 @@
+$card-width = 280px
+$cards-column = 3
+$cards-column-gap = 16px
+$cards-row-gap = 15.5px
+$cards-column-gap-count = $cards-column - 1
+$card-container-width = $card-width * $cards-column + ($cards-column-gap * $cards-column-gap-count)
+
+.ljit-member-basic-info
+	padding: 7.5px 90px 0px
+	background-color #fff
+	border-radius: 4px
+	overflow: scroll
+	&__user
+		display: flex
+		align-items: center
+		.ljit-statistic
+			&:nth-child(2)
+				margin-left: 79px
+			&:nth-child(3)
+				margin-left: 24px
+	.ljit-member-basic-info__text
+		width: 50%
+		margin-top: 8px
+		.ljit-label-text__label
+			color: rgba(0, 0, 0, 0.85)
+		.ljit-label-text__text
+			color: #595959
+	.remind-text
+		margin: 0
+
+	.ljit-member-basic-info__node
+		width: 50%
+		margin-top: 8px
+		margin-bottom: 0
+		display: inline-block
+		.ant-form-item-label
+			text-align: left
+			line-height: 21px
+			color: rgba(0, 0, 0, 0.85)
+			font-weight: 600
+			width: 30%
+			margin-right: 8px
+		.ant-form-item-control-wrapper
+			width: 60%
+			color: #595959
+			.ant-form-item-control
+				line-height: 21px
+			.icon-style
+				height: 100%
+				margin-left: 8px
+
+	&__bank-cards
+		display: grid
+		width: $card-container-width
+		grid-template-columns: repeat($cards-column, 1fr)
+		grid-column-gap: $cards-column-gap
+		grid-row-gap: $cards-row-gap
+
+.ljit-member-basic-info
+	&__container
+		width: 100%
+		box-sizing: border-box
+		border-bottom: solid 1px #e6e2e2
+		padding: 15.5px 0
+		&-title
+			margin-bottom: 7px
+			display: flex
+			align-items: center
+			color: #222222
+			font-size: 14px
+			&::before
+				content: ''
+				display: inline-block
+				margin-right: 9px
+				width: 3px
+				height: 16px
+				background-color: #ff8113
+		&-content
+			padding: 0 9px
+
+.ljit-member-basic-info__modal
+	.ant-modal
+		&-title
+			font-size: 18px
+		&-close
+			display: none
+		&-body
+			padding: 4px 26px
+			.ljit-form-label
+				padding: 19.5px 42px
+				&:first-child
+					border-bottom: solid 1px #e6e2e2
+			.ant-form-item
+				margin-bottom 0
+				.ant-form-item-label
+					line-height 20px
+					> label
+						color #9f9f9f
+				.ljit-input
+					margin-bottom 0

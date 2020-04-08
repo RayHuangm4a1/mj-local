@@ -1,0 +1,49 @@
+// TODO move to shared colors
+$color-orange-1 = #ff8113
+$color-white = #ffffff
+$color-grey-1 = #e4e4e4
+$color-grey-2 = #9f9f9f
+$color-grey-3 = #d0d0d0
+
+$tab-font-color = $color-grey-2
+$tab-hovered-font-color = $color-orange-1
+$tab-actived-font-color = $color-white
+$tab-background-color = $color-grey-1
+$tab-hovered-background-color = $color-grey-3
+$tab-actived-background-color = $color-orange-1
+$tab-content-background-color = $color-white
+$tab-font-weight = 500
+
+.card-tabs
+	&.ljit-tabs
+		> .ant-tabs-bar
+			margin-bottom: 0
+
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									font-weight: $tab-font-weight
+									color: $tab-font-color
+									background-color: $tab-background-color
+
+									&:hover,
+									&:active
+										color: $tab-font-color
+										background-color: $tab-hovered-background-color
+
+								> .ant-tabs-tab-active
+									font-weight: $tab-font-weight
+									color: $tab-actived-font-color
+									background-color: $tab-actived-background-color
+
+									&:hover,
+									&:active
+										font-weight: $tab-font-weight
+										color: $tab-actived-font-color
+										background-color: $tab-actived-background-color
+
+		> .ant-tabs-content
+			background-color: $tab-content-background-color

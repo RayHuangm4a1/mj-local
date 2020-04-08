@@ -1,0 +1,171 @@
+$ORANGE_COLOR = #ff8113
+$FONT_COLOR = #646464
+
+.agent-user-management
+	padding: 20px 12px 24px 12px
+
+	&__header
+		display: flex
+		justify-content: space-between
+		line-height: 40px
+
+		.ljit-form
+			display: flex
+			align-items: center
+
+			.ljit-btn
+				width: 68px
+				font-size: 16px
+				font-weight: 600
+				padding: 0
+
+		.ljit-form-label
+			margin-bottom: 0
+			margin-right: 15px
+			display: flex
+
+			&:nth-child(3)
+				margin-right: 10px
+			&:nth-child(4)
+				margin-left: 10px
+
+			.ljit-input-number,
+			.ljit-input
+				width: 104px
+
+		.ant-form-item-control,
+			.ant-form-item-label,
+			.ant-input,
+			.ant-input-number,
+			.ant-input-number-input,
+			.ant-btn
+				line-height: 28px
+				height: 28px
+				padding-top: 0
+				padding-bottom: 0
+
+		&-right
+			display: flex
+			align-items: center
+
+			.ljit-btn
+				width: 80px
+				margin-left: 8px
+				font-size: 16px
+				font-weight: 600
+				padding: 0
+
+	&__body
+		> .ljit-label
+			display: flex
+			align-items: center
+			margin-bottom: 0
+			.ant-form-item-label
+				> label
+					color: $FONT_COLOR
+					opacity: 0.5
+
+		.ant-table-body
+			.ljit-text-button
+				color: $ORANGE_COLOR
+
+			.ljit-icon-button
+				margin-right: 6px
+				height: 20px
+
+		.ljit-user-breadcrumb
+			margin-left: 6px
+
+			&__crumb
+				color: $ORANGE_COLOR
+				&--active
+					cursor: pointer
+					&:hover,
+					&:active
+						color: $ORANGE_COLOR
+				&--omit
+					color: $FONT_COLOR
+
+			&__separator
+				color: $FONT_COLOR
+				margin-left: 8px
+				margin-right: 8px
+				opacity: 0.5
+
+		.ant-pagination.mini
+			.ant-pagination-item,
+			.ant-pagination-prev,
+			.ant-pagination-next
+				min-width: 26px
+				height: 26px
+				line-height: 25px
+			.ant-pagination-prev,
+			.ant-pagination-next
+				.ant-pagination-item-link
+					margin: 0
+			.ant-pagination-prev
+				margin-right: 2px
+			.ant-pagination-next
+				margin-left: 2px
+			.ant-pagination-options
+				margin-left: 11px
+			.ant-pagination-options-quick-jumper
+				input
+					width: 40px
+					height: 26px
+
+	&__modal
+		.ant-modal-body
+			padding: 20px 68px 37px 68px
+			.ljit-form-label
+				margin-bottom: 15px
+				.ant-form-item-label
+					line-height: normal
+					> label
+						color: #9f9f9f
+						font-weight: 500
+		.prompt-message
+			font-size: 12px
+			color: $FONT_COLOR
+			svg
+				margin-right: 6px
+				fill: $ORANGE_COLOR
+		.ant-input-number
+			width: 100%
+			&-handler-wrap
+				display: none
+
+.enable-transfer-modal
+	&__title
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+.created-user-details-modal
+	.ljit-label-text
+		margin: 0 0 20px 0
+		.ljit-label-text__label
+			width: 20%
+		&:last-child
+			margin: 0
+
+.children-transfer-modal
+	.ant-modal-body
+		padding: 0
+		.transfer-message
+			width: 100%
+			padding: 8px 0px
+			background-color: #fff3e8
+			text-align: center
+			font-size: 12px
+			color: $FONT_COLOR
+			> span
+				color: #ffa258
+				cursor: pointer
+		.ant-form
+			padding: 12px 68px 20px
+
+.free-transfer-modal
+	.ant-form-item-required
+		&::before
+			display: none

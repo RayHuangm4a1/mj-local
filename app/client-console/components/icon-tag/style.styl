@@ -1,0 +1,31 @@
+.icon-tag
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	// TODO remove it when use Icon
+	&__icon
+		width: 36px
+		height: 36px
+		border-radius: 50%
+		background-color: red
+
+	&__text
+		margin-top: 4px
+		padding: 2px 10px
+		font-size: 14px
+		border-radius: 15px
+		line-height: 18px
+		box-sizing: border-box
+		border: 1px solid transparent
+
+	&--outline-selected
+		.icon-tag__text
+			border: 1px solid rgb(255, 130, 21)
+			color: rgb(255, 130, 21)
+			background-color: rgb(255,230,207)
+			font-weight: 900
+
+	&--bold-selected
+		.icon-tag__text
+			font-weight: 900

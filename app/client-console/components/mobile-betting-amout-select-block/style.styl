@@ -1,0 +1,79 @@
+.ljit-mobile-betting-amount-select-block
+	display: flex
+	padding: 0 6px
+
+	&__item
+		width: 100%
+		display: flex
+		flex-direction: column
+		margin: 0 6px
+
+		&-title
+			text-align: center
+			font-size: 12px
+			color: rgb(138, 138, 143)
+			margin-bottom: 2px
+
+		.ljit-btn, .ant-select-selection
+			border: 1px solid rgb(240, 240, 240)
+			color: rgb(74, 74, 74)
+			height: 28px
+
+		.ljit-form-select
+			min-width: 80px
+
+		.ant-select-selection__rendered
+			height: 26px
+			line-height: 26px
+			display: flex
+			justify-content: center
+
+		.ant-select-selection-selected-value
+			font-size: 16px
+			height: 26px
+			line-height: 26px
+			font-weight: bold
+
+	&__multiple-block
+		display: flex
+		min-width: 120px
+		font-size: 16px
+		font-weight: bold
+		align-items: center
+
+		> .ljit-input-number
+			width: 100%
+			height: 28px
+			z-index: 1
+			border: 1px solid rgb(240, 240, 240)
+			border-radius: 0
+
+			> .ant-input-number-input-wrap
+
+				> input
+					height: 26px
+					color: rgb(74, 74, 74)
+					border: none
+					font-size: 16px
+					font-weight: bold
+
+			> .ant-input-number-handler-wrap
+				display: none
+
+		> .ljit-btn
+			font-size: 16px
+			font-weight: bold
+			padding-top: 0
+			padding-bottom: 0
+			z-index: 2
+
+			> span
+				line-height: 26px
+
+			&:first-child
+				border-right: 0px
+				border-radius: 3px 0px 0px 3px
+
+			&:last-child
+				border-left: 0px
+				border-radius: 0px 3px 3px 0px

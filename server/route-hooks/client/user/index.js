@@ -1,0 +1,22 @@
+exports.beforeGetUserRequest = require('./get-user-request').before;
+exports.beforeGetUserDailyStatsRequest = require('./get-user-daily-stats-request').before;
+exports.beforeUpdateNicknameRequest = require('./update-nickname-request').before;
+exports.beforeUpdateGreetingRequest = require('./update-greeting-request').before;
+exports.beforeSetSecurityQuestionsRequest = require('./set-security-questions-request').before;
+exports.beforeUpdateLoginPasswordViaPasswordRequest = require('./update-login-password-via-password-request').before;
+exports.beforeUpdateBetPasswordViaPasswordRequest = require('./update-bet-password-via-password-request').before;
+exports.beforeUpdateFundsPasswordViaPasswordRequest = require('./update-funds-password-via-password-request').before;
+exports.beforeUpdateTemplateDividendSettingsRequest = require("./update-template-dividend-settings-request").before;
+exports.beforeEnableLoginGeoValidationRequest = require('./enable-login-geo-validation-request').before;
+exports.beforeDisableLoginGeoValidationRequest = require('./disable-login-geo-validation-request').before;
+exports.beforeEnableGoogleTOTPRequest = require('./enable-google-totp-request').before;
+exports.beforeDisableGoogleTOTPRequest = require('./disable-google-totp-request').before;
+exports.beforeUpdateFundsPasswordViaGoogleTOTPRequest = require('./update-funds-password-via-google-totp-request').before;
+exports.beforeUpdateBetPasswordViaGoogleTOTPRequest = require('./update-bet-password-via-google-totp-request').before;
+exports.beforeUpdateLoginPasswordViaGoogleTOTPRequest = require('./update-login-password-via-google-totp-request').before;
+exports.beforeUpdateFundsPasswordViaSecurityQuestionRequest = require('./update-funds-password-via-security-question-request').before;
+exports.beforeUpdateBetPasswordViaSecurityQuestionRequest = require('./update-bet-password-via-security-question-request').before;
+exports.beforeUpdateLoginPasswordViaSecurityQuestionRequest = require('./update-login-password-via-security-question-request').before;
+exports.beforeSetFavoriteLotteriesRequest = require('./set-favorite-lotteries-request').before;
+
+exports.afterGetUserRequest = require('./get-user-request').after;

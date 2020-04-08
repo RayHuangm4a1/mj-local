@@ -1,0 +1,40 @@
+.xin-yong-bet-dropdown-menu
+	.ljit-dropdown-menu-bar
+		border-bottom: 1px solid rgb(240, 240, 240)
+		// TODO remove this after pr 1138
+		position: inherit
+
+		&__dropdown--visible
+			height: calc(100% - 48px)
+
+		&__dropdown-content
+			border-top: 1px solid rgb(240, 240, 240)
+
+		.ljit-table
+			.drawing-info-card-code-ball-circle
+				white-space: nowrap
+
+			tbody
+				> tr
+					> th
+						background: rgb(245, 245, 250)
+					> td:first-child
+						border-right: 2px solid rgb(206, 206, 210)
+				> tr:nth-child(2n)
+					background: rgb(243, 243, 243)
+	.ljit-dropdown-menu-bar__menu-item
+		white-space: nowrap
+
+	&__lottery-selector
+		display: flex
+
+		.ljit-check-selector
+			ul
+				margin: 0
+				border: none
+			&:first-child
+				min-width: 105px
+				border-right: 1px solid rgb(240, 240, 240)
+			&:last-child
+				flex-grow: 1
+

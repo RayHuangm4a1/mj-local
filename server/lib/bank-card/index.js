@@ -1,0 +1,1 @@
+exports.simplifyBankCardNumber = require('./simplify-bank-card-number');

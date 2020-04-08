@@ -1,0 +1,56 @@
+$orange-color = #ff8113
+$grey-color = #c0c0c0
+$modal-header-padding = 12px
+$modal-body-padding = 30px 32px
+$modal-footer-padding = 8px
+$modal-title-color = #222
+$modal-title-size = 18px
+$modal-title-size-weight = 600
+$modal-button-text-size = 16px
+$modal-button-text-weight = 600
+
+.ljit-client-message-modal
+	.ant-modal-header
+		padding: $modal-header-padding
+
+	.ant-modal-body
+		padding: $modal-body-padding
+		font-size: 16px
+		color: rgba(0, 0, 0, 0.85)
+
+	.ant-modal-title
+		color: $modal-title-color
+		font-size: $modal-title-size
+		font-weight: $modal-title-size-weight
+
+	.ant-modal-close
+		display: none
+
+	.ant-modal-footer
+		padding: $modal-footer-padding
+
+		button
+			width: 84px
+			height: 32px
+			padding: 0 6px
+			font-size: $modal-button-text-size
+			font-weight: $modal-button-text-weight
+
+	&__btn-cancel
+		&,
+		&:focus,
+		&:hover,
+		&:active
+			border-color: inherit
+			color: $grey-color
+			border-color: $grey-color
+		&--hidden
+			display: none
+
+	&__btn-ok
+		&,
+		&:focus,
+		&:hover,
+		&:active
+			background-color: $orange-color
+			border-color: $orange-color

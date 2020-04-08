@@ -1,0 +1,75 @@
+.ljit-lottery-wallet
+	border-radius: 8px
+	top: -6px
+	background-color: #ffffff
+
+	&__wallet-type
+		height: 17px
+		color: #c0c0c0
+		line-height: 17px
+
+	&__container
+		margin-bottom: 12.5px
+
+	&__item
+		padding: 8.5px 0
+		border-bottom: 1px solid #e0e0e0
+		box-sizing: border-box
+		color: #646464
+		display: flex
+		justify-content: space-between
+		align-items: center
+		p
+			margin: 0
+		div
+			display: flex
+			justify-content: space-between
+			align-items: center
+			cursor: pointer
+
+		&:first-child
+			p
+				margin-left: 6px
+				color: #646464
+				span
+					margin-left: 12px
+
+		&--active:hover
+			p,
+			span
+				color: #ff8113
+
+		.ljit-lottery-wallet__item__third__party
+			p
+				&:first-child
+					margin-right: 12px
+
+		.ljit-lottery-wallet__button
+			border-radius: 12px
+			font-size: 12px
+			margin-left: 6px
+			width: 50px
+			height: 18px
+			padding: 0
+			text-align: center
+
+			&--withdraw-all
+				width: 64px
+				font-weight: 400
+				height: 20px
+
+				&:hover
+					color: #fff
+					background-color: #ff8113
+
+				&[disabled]
+					> span
+						color: #707070
+
+	&__choose
+		cursor: pointer
+		color: #ff8113
+		font-size: 14px
+
+.ljit-lottery-wallet.ant-menu-root.ant-menu-inline
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.42)

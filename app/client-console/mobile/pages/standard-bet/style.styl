@@ -1,0 +1,74 @@
+.standard-bet-page
+	height: 100%
+	background-color: #fff
+	border-top: 1px solid #f0f0f0
+
+	&__button-block
+		padding: 0 12px
+		height: 24px
+	&__random-block
+		flex-direction: column
+		font-size: 12px
+		padding-left: 8px
+		border-left: 1px solid rgb(240, 240, 240)
+		position: relative
+		right: -4px
+		height: 100%
+		justify-content: center
+		> i
+			margin-bottom: 3px
+	&__text-label-block
+		flex-direction: column
+		font-size: 12px
+		.ljit-text-button
+			color: rgb(255, 129, 19)
+
+	.ljit-mobile-betting-checkout
+		position: fixed
+		bottom: 0
+		.ljit-btn
+			font-weight: 600
+	.mobile-drawing-code-ball-block
+		border-bottom: 5px solid #f0f0f0
+	&__betting-block
+		height: calc(100% - 275px)
+		min-height: calc(100% - 275px)
+		overflow: scroll
+		> div:first-child
+			min-height: calc(100% - 72px)
+		.ljit-mobile-betting-amount-select-block
+			margin-bottom: 24px
+	.ljit-mobile-betting-block
+		padding: 9px 12px
+		.ljit-mobile-betting-block__title
+			text-align: center
+		.ljit-mobile-betting-block__upper
+			align-items: center
+	.ljit-betting-element-input__weizhi-block--mobile.ljit-betting-weizhi-block
+		text-align: center
+		padding: 0
+		padding-bottom: 16px
+
+.standard-bet-page
+	&__lottery-selector,
+	&__play-selector
+		border-top: 1px solid rgb(232, 232, 237)
+		display: flex
+		align-items: stretch
+		height: 400px
+		.ljit-check-selector
+			height: auto
+			ul
+				margin: 0
+				overflow: scroll
+			&:first-child
+				width: 105px
+				ul
+					li
+						color: rgb(108, 107, 110)
+			&:last-child
+				flex: 1
+	&__play-selector
+		.ljit-check-selector
+			&:nth-child(2)
+				width: 115px

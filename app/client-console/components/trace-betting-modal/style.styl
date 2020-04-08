@@ -1,0 +1,194 @@
+$theme-color = #ff8113
+$light-grey = #c0c0c0
+$white = #ffffff
+$input-height = 24px
+
+.trace-betting-modal
+	.ant-modal-body
+		padding 0px
+
+	&__cancel-button
+		width 84px
+		color $light-grey
+
+		&:active, &:focus, &:hover
+			border-color $light-grey
+			color $light-grey
+
+	&__bet-button
+		width 84px
+		color $white
+		background-color $theme-color
+
+		&:active, &:focus, &:hover
+			border-color $theme-color
+			color $theme-color
+
+	.has-error
+		.ant-input:not([disabled]):focus,
+		.ant-input-number:not([disabled]):focus,
+		.ant-input:not([disabled]):hover,
+		.ant-input-number:not([disabled]):hover
+			border-color #ff4d4f
+			outline 0
+			-webkit-box-shadow 0 0 0 2px rgba(245,34,45,0.2)
+			box-shadow 0 0 0 2px rgba(245,34,45,0.2)
+
+.trace-config-input-group
+	&__divider
+		margin 0px
+
+	&__row
+		margin 4px 24px
+
+	&__col
+		display flex
+		line-height $input-height
+		align-items center
+
+		&--left
+			width 232px
+
+	&__item
+		display flex
+		margin 0px
+		height 32px
+		line-height 32px
+		align-items center
+
+		.ant-form-item-label > label
+			font-weight normal
+			font-style normal
+			font-stretch normal
+			letter-spacing normal
+			color #646464
+
+		.ant-form-item-label, .ant-form-item-control
+			height $input-height
+			line-height $input-height
+
+	&__checkbox
+		margin-right 24px
+
+	&__verify-password
+		margin 12px auto
+		display flex
+
+		.ant-input
+			width 219px
+			text-align center
+
+.trace-plan-input-group
+	display flex
+	margin 12px 16px 12px 24px
+
+	&__generate-button
+		margin-left auto
+		width 133px
+		font-size 16px
+		font-weight 600
+		font-style normal
+		font-stretch normal
+		line-height normal
+		letter-spacing normal
+		&:not([disabled])
+			color $white
+			background-color $theme-color
+
+			&:active, &:focus, &:hover
+				border-color $theme-color
+				color $theme-color
+				background-color $white
+
+.trace-tab
+	width 880px
+	background-color $white
+
+	.trace-betting-list
+		&__wrapper
+			display flex
+			flex-direction column
+			margin 16px 0px
+
+		&__table-row
+			margin-bottom 16px
+			flex 1 1 381px
+			overflow-y scroll
+
+		&__labelcontent
+			margin 0px
+			padding 0px
+
+			.ant-form-item-control
+				line-height 25px
+
+		&__summary-row
+			padding 0px 24px
+
+		&__number
+			font-size 16px
+			font-weight 600
+			font-style normal
+			font-stretch normal
+			line-height normal
+			letter-spacing normal
+			color $theme-color
+
+		&__divider
+			flex-shrink 0
+			margin 16px 0px
+
+		&__button-row
+			text-align right
+
+	&__row
+		margin 0px 16px 0px 24px
+
+	&__col
+		margin-right 80px
+		display flex
+		line-height $input-height
+		min-width auto
+		align-items center
+
+		&:last-child
+			margin-right 0px
+
+		&--sub
+			height $input-height
+
+	&__item
+		display flex
+		margin 0px
+		height 32px
+		line-height 32px
+		align-items center
+
+		.ant-form-item-label > label
+			font-weight normal
+			font-style normal
+			font-stretch normal
+			letter-spacing normal
+			color #646464
+
+		.ant-form-item-label, .ant-form-item-control
+			height $input-height
+			line-height $input-height
+
+		&--sub
+			height $input-height
+
+	&__input-number
+		height $input-height
+		width 84px
+
+		input
+			text-align center
+			height 17px
+
+		&--small
+			width 64px
+			margin 0px 4px
+
+	&__unit
+		margin-left 3px

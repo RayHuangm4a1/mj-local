@@ -1,0 +1,94 @@
+$border-line = solid 1px #e6e2e2
+
+.transfer-page
+	padding: 24px 88px 24px 67px
+
+	.user-info-block
+		display: flex
+		align-items: center
+		border-bottom: $border-line
+		padding-bottom: 8px
+		margin-bottom: 4px
+
+		&__user-avatar
+			width: 243px
+		
+		&__tooltip-icon-wrapper
+			margin: 2px 0 0 5px
+
+		&__tooltip-icon
+			svg
+				fill: #5ca9f8
+				stroke: #fff
+
+		&__wallet
+			width: 199px
+
+		&__button
+			text-align: right
+			flex: 1
+
+	.transfer-form
+		&__divider
+			margin: 12px 0px
+
+		&__submit-button
+			display: flex
+			justify-content: center
+
+			button
+				width: 110px
+
+		.type-form-item
+			display: flex
+			margin-bottom: 16px
+			.ant-form-item-label
+				margin-right: 22px
+
+		.selected-wallets-form-item
+			margin-bottom: 13px
+			.ant-form-item-label
+				display: flex
+				margin-bottom: 7px
+				label
+					line-height: 14px
+					font-size: 12px
+					color: #646464
+
+		.amount-form-item
+			display: flex
+			margin-bottom: 0px
+			.quick-input-block__radio-group
+				margin-left: 12px
+
+		.fin-password-form-item
+			display: flex
+			margin-bottom: 12px
+		
+		.wallet-selector
+			display: flex
+			.ljit-wallets-info-card
+				&--basic, &--disabled
+					border: 1px solid rgba(0,0,0,0)
+
+			&__primary
+				display: flex
+				flex-direction: column
+				border-right: $border-line
+				.ljit-wallets-info-card
+					margin: 8px 16px 8px 0px
+					height: 75px
+		
+			&__third-party
+				flex: 1
+				.ljit-wallets-info-card
+					margin: 8px 0px 8px 16px
+					padding-top: 4px
+					height: 56px
+					&__value
+						margin-top: 4px
+
+		.wallet-info-card
+			.ljit-wallets-info-card__value
+				font-size: 12px
+				line-height: 1.57

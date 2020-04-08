@@ -1,0 +1,1 @@
+exports.handleGetSecurityQuestionsRequest = require('./handle-get-security-questions-request');

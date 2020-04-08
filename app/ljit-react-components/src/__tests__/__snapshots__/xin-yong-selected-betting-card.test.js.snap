@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XinYongSelectedBettingCard should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <XinYongSelectedBettingCard
+    className="mock-class"
+    data={
+      Object {
+        "amount": 100,
+        "betcontent": "小",
+        "odds": 1.996,
+        "reward": 200,
+      }
+    }
+    isShowingCloseButton={true}
+    onClose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "className": "selected-betting-card mock-class",
+      "isShowingCloseButton": true,
+      "left": <React.Fragment>
+        <LabelText
+          className="selected-betting-card__number"
+          fontSize="medium"
+          label="号码 :"
+          labelColType="large"
+          labelStyle={Object {}}
+          text="小"
+          textStyle={Object {}}
+        />
+        <LabelText
+          className="selected-betting-card__amount"
+          fontSize="medium"
+          label="金额 :"
+          labelColType="large"
+          labelStyle={Object {}}
+          text={100}
+          textStyle={Object {}}
+        />
+      </React.Fragment>,
+      "onClose": [Function],
+      "right": <React.Fragment>
+        <LabelText
+          fontSize="medium"
+          label="赔率 :"
+          labelColType="large"
+          labelStyle={Object {}}
+          text={
+            <DecimalNumber
+              className=""
+              data={1.996}
+              decimalPlaces={4}
+              hasSeparator={true}
+              isCurrency={false}
+              isPercent={false}
+              isTolerance={false}
+            />
+          }
+          textStyle={Object {}}
+        />
+        <LabelText
+          fontSize="medium"
+          label="可赢 :"
+          labelColType="large"
+          labelStyle={Object {}}
+          text={
+            <DecimalNumber
+              className=""
+              data={200}
+              decimalPlaces={4}
+              hasSeparator={true}
+              isCurrency={false}
+              isPercent={false}
+              isTolerance={false}
+            />
+          }
+          textStyle={Object {}}
+        />
+      </React.Fragment>,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "className": "selected-betting-card mock-class",
+        "isShowingCloseButton": true,
+        "left": <React.Fragment>
+          <LabelText
+            className="selected-betting-card__number"
+            fontSize="medium"
+            label="号码 :"
+            labelColType="large"
+            labelStyle={Object {}}
+            text="小"
+            textStyle={Object {}}
+          />
+          <LabelText
+            className="selected-betting-card__amount"
+            fontSize="medium"
+            label="金额 :"
+            labelColType="large"
+            labelStyle={Object {}}
+            text={100}
+            textStyle={Object {}}
+          />
+        </React.Fragment>,
+        "onClose": [Function],
+        "right": <React.Fragment>
+          <LabelText
+            fontSize="medium"
+            label="赔率 :"
+            labelColType="large"
+            labelStyle={Object {}}
+            text={
+              <DecimalNumber
+                className=""
+                data={1.996}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            }
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="medium"
+            label="可赢 :"
+            labelColType="large"
+            labelStyle={Object {}}
+            text={
+              <DecimalNumber
+                className=""
+                data={200}
+                decimalPlaces={4}
+                hasSeparator={true}
+                isCurrency={false}
+                isPercent={false}
+                isTolerance={false}
+              />
+            }
+            textStyle={Object {}}
+          />
+        </React.Fragment>,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

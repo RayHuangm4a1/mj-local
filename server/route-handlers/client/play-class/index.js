@@ -1,0 +1,1 @@
+exports.handleGetPlayClassesRequest = require('./handle-get-play-classes-request');

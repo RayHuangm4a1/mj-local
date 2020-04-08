@@ -1,0 +1,25 @@
+.ljit-input-dynamic-table
+	&__button
+		height: 50px
+		margin-top: 16px
+		display: flex
+		justify-content: center
+		align-items: center
+	// props align
+	&--align-left
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: left
+	&--align-center
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: center
+	&--align-right
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: right
+	td
+		.ant-form-item
+			margin-bottom: 0
+		.ant-form-item-control.has-error .ant-form-explain
+			color: #f5222d

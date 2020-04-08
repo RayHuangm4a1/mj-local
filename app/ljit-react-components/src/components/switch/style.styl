@@ -1,0 +1,25 @@
+$switch-width = 25px
+$inner-spacing = 2px
+$long-spacing = 19px
+$short-spacing = $switch-width - $inner-spacing - $long-spacing
+$cycle-diameter = 8px
+
+.ljit-switch
+	min-width: $switch-width
+	height: 12px
+	line-height: 10px
+
+	&--checked
+		.ant-switch-inner
+			margin-right: $long-spacing;
+			margin-left: $short-spacing;
+
+	.ant-switch-inner
+		margin-right: $short-spacing;
+		margin-left: $long-spacing;
+
+	// cycle
+	&:after
+		width: $cycle-diameter
+		height: $cycle-diameter
+		border-radius: $cycle-diameter

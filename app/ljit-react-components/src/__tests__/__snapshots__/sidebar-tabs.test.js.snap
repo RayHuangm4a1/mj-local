@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarTabs should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SidebarTabs
+    tabData={
+      Array [
+        Object {
+          "key": "key1",
+          "path": "/first",
+          "tab": "tab1",
+        },
+        Object {
+          "key": "key2",
+          "path": "/second",
+          "tab": "tab2",
+        },
+      ]
+    }
+  >
+    <div>
+      tab1
+       content
+    </div>
+    <div>
+      tab2
+       content
+    </div>
+  </SidebarTabs>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "activeKey": undefined,
+      "children": Array [
+        <TabPane
+          className="ljit-sidebar-tabpanes"
+          tab={
+            <Link
+              className="tab-control"
+              replace={false}
+              to="/first"
+            >
+              <span
+                className="tab-padding"
+              >
+                tab1
+              </span>
+            </Link>
+          }
+        >
+          <div>
+            tab1
+             content
+          </div>
+        </TabPane>,
+        <TabPane
+          className="ljit-sidebar-tabpanes"
+          tab={
+            <Link
+              className="tab-control"
+              replace={false}
+              to="/second"
+            >
+              <span
+                className="tab-padding"
+              >
+                tab2
+              </span>
+            </Link>
+          }
+        >
+          <div>
+            tab2
+             content
+          </div>
+        </TabPane>,
+      ],
+      "className": "ljit-sidebar-tabs",
+      "hasTabInkBar": true,
+      "isAnimated": true,
+      "isTabBordered": true,
+      "isTabFillWidth": false,
+      "onChange": [Function],
+      "tabPosition": "left",
+      "tabType": "line",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "key1",
+        "nodeType": "function",
+        "props": Object {
+          "children": <div>
+            tab1
+             content
+          </div>,
+          "className": "ljit-sidebar-tabpanes",
+          "tab": <Link
+            className="tab-control"
+            replace={false}
+            to="/first"
+          >
+            <span
+              className="tab-padding"
+            >
+              tab1
+            </span>
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "key1",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "tab1",
+              " content",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "tab1",
+            " content",
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "key2",
+        "nodeType": "function",
+        "props": Object {
+          "children": <div>
+            tab2
+             content
+          </div>,
+          "className": "ljit-sidebar-tabpanes",
+          "tab": <Link
+            className="tab-control"
+            replace={false}
+            to="/second"
+          >
+            <span
+              className="tab-padding"
+            >
+              tab2
+            </span>
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "key2",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "tab2",
+              " content",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "tab2",
+            " content",
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "activeKey": undefined,
+        "children": Array [
+          <TabPane
+            className="ljit-sidebar-tabpanes"
+            tab={
+              <Link
+                className="tab-control"
+                replace={false}
+                to="/first"
+              >
+                <span
+                  className="tab-padding"
+                >
+                  tab1
+                </span>
+              </Link>
+            }
+          >
+            <div>
+              tab1
+               content
+            </div>
+          </TabPane>,
+          <TabPane
+            className="ljit-sidebar-tabpanes"
+            tab={
+              <Link
+                className="tab-control"
+                replace={false}
+                to="/second"
+              >
+                <span
+                  className="tab-padding"
+                >
+                  tab2
+                </span>
+              </Link>
+            }
+          >
+            <div>
+              tab2
+               content
+            </div>
+          </TabPane>,
+        ],
+        "className": "ljit-sidebar-tabs",
+        "hasTabInkBar": true,
+        "isAnimated": true,
+        "isTabBordered": true,
+        "isTabFillWidth": false,
+        "onChange": [Function],
+        "tabPosition": "left",
+        "tabType": "line",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "key1",
+          "nodeType": "function",
+          "props": Object {
+            "children": <div>
+              tab1
+               content
+            </div>,
+            "className": "ljit-sidebar-tabpanes",
+            "tab": <Link
+              className="tab-control"
+              replace={false}
+              to="/first"
+            >
+              <span
+                className="tab-padding"
+              >
+                tab1
+              </span>
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "key1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "tab1",
+                " content",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "tab1",
+              " content",
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "key2",
+          "nodeType": "function",
+          "props": Object {
+            "children": <div>
+              tab2
+               content
+            </div>,
+            "className": "ljit-sidebar-tabpanes",
+            "tab": <Link
+              className="tab-control"
+              replace={false}
+              to="/second"
+            >
+              <span
+                className="tab-padding"
+              >
+                tab2
+              </span>
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "key2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "tab2",
+                " content",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "tab2",
+              " content",
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

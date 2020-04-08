@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Number should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputNumber
+    disabled={false}
+    formatType=""
+    max={50}
+    min={0}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="mock-placeholder"
+    readOnly={false}
+    step={2}
+    value={1}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "className": "ljit-input-number form-field",
+      "defaultValue": undefined,
+      "disabled": false,
+      "formatter": undefined,
+      "id": undefined,
+      "max": 50,
+      "min": 0,
+      "onChange": [Function],
+      "parser": undefined,
+      "placeholder": "mock-placeholder",
+      "readOnly": false,
+      "step": 2,
+      "style": undefined,
+      "value": 1,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "className": "ljit-input-number form-field",
+        "defaultValue": undefined,
+        "disabled": false,
+        "formatter": undefined,
+        "id": undefined,
+        "max": 50,
+        "min": 0,
+        "onChange": [Function],
+        "parser": undefined,
+        "placeholder": "mock-placeholder",
+        "readOnly": false,
+        "step": 2,
+        "style": undefined,
+        "value": 1,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

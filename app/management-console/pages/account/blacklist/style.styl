@@ -1,0 +1,57 @@
+.ljit-blacklist-page
+	.page-block
+		padding-left: 38px
+
+		&__content
+			padding: 24px 0
+
+	.ljit-menu
+		height: 100%
+		.ljit-menu__item
+			margin: 0
+
+	.member-menu-content
+		background-color: #fff
+		padding: 0 36px 0 32px
+
+.management-ip-banned,
+.management-bank-banned,
+.backlist-frontstage-white-list
+	.page-block
+		&:first-child
+			border-bottom: 1px solid #e8e8e8
+		&__header
+			border: none
+			padding: 0
+		+ .page-block
+			&:last-child
+				margin-top: 42px
+
+	&__table
+		margin-left: 17px
+
+.management-bank-banned
+	label[for="number"]::before
+		display: none
+
+	.ljit-row
+		margin-left: -8px
+
+	.ljit-col:nth-child(2),
+	.ljit-col:nth-child(5)
+		.ljit-form-label
+			display: flex
+		.ant-form-item-label
+			width: 70px
+
+	.ljit-col:nth-child(2) .ant-form-explain
+		margin-top: -3px
+
+	.ljit-col:nth-child(3)
+		padding-left: 20px
+
+	.ant-input-affix-wrapper,
+	.ant-select,
+	.ant-calendar-picker
+		width: 100%
+		min-width: 214px

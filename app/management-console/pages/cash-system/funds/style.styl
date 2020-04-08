@@ -1,0 +1,83 @@
+$white = #ffffff
+$table-border-bottom-color = #f0f2f5
+
+.funds-settings
+	.page-block__content
+		padding: 24px 36px 24px 0
+
+	& .fund-search__item.fund-search__item--inline
+		padding-bottom: 10px
+
+		& .ljit-input
+			width: 264px
+
+		& .ant-form-item-required::before
+			content: ''
+
+		& .ant-form-item-label
+			vertical-align: top
+
+	&__member-dama
+		padding-left: 34px
+
+		& .ant-table-small > .ant-table-content > .ant-table-body > table
+			> .ant-table-thead > tr > th
+				padding: 13px 8px
+
+			> .ant-table-tbody
+				border-bottom: 1px solid $table-border-bottom-color
+
+				> tr > td
+					padding: 11px 8px
+
+	&__transfer
+		padding-left: 34px
+
+		& .info
+			margin-bottom: 32px
+
+			.recycle-and-transfer
+				margin-top: 17px
+
+				button:first-child
+					margin-right: 16px
+
+	& .ljit-layout-content
+		background-color: $white
+		padding-top: 5px
+
+	& .ant-menu-root.ant-menu-inline
+		height: 100%
+
+	& .fund-search
+		&__item
+			&--inline,
+			.ant-form-item-control-wrapper
+				display: inline-block
+				vertical-align: middle
+
+		&__button
+			vertical-align: top
+			margin-top: 4px
+			margin-left: 16px
+
+	&__adjustment-modal
+		& .ljit-input-number
+			width: 199px
+
+		& .ant-modal-body
+			padding-left: 6px
+
+		& .ant-form-item-required::before
+			content: ''
+
+	&__single-transfer-modal
+		& .ljit-form-label:not(.ljit-form-label--no-margin)
+			margin-bottom: 14px
+
+		& .ljit-form-select,
+		& .ljit-input-number
+			width: 350px
+
+		& .ant-form-item-required::before
+			content: ''

@@ -1,0 +1,42 @@
+$border-color = #e8e8e8
+
+.user-page
+	.form-block
+		background-color: #FFFFFF
+
+		&__header
+			padding: 16px 34px
+			border-bottom: solid 1px $border-color;
+			color: rgba(0,0,0,.85)
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1.5;
+
+		&__body
+			padding: 20px 34px
+
+		&__footer
+			padding: 16px 20px
+			border-top: solid 1px $border-color;
+			text-align: right
+
+			button + button
+				margin-left: 16px
+
+	.form-block + .form-block
+		margin-top: 24px
+
+	.form-item
+		margin-bottom: 12px
+
+	.form-button
+		min-width: 78px
+
+	.qrcode-wrapper
+		display: inline-block
+		vertical-align: top
+		padding: 5px
+
+	.reminder
+		max-width none
+		margin-top: 24px

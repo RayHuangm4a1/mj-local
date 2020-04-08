@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload Input Button should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <UploadInputButton
+    onChange={[Function]}
+    text="上传档案"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "acceptExtentions": Array [],
+      "beforeUpload": [Function],
+      "children": Array [
+        <Input
+          className="ljit-upload-input-button__input"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onPressEnter={[Function]}
+          readOnly={true}
+          value=""
+        />,
+        <Button
+          block={false}
+          className="ljit-upload-input-button__button"
+          ghost={false}
+          htmlType="button"
+          loading={false}
+        >
+          <Icon
+            type="upload"
+          />
+          上传档案
+        </Button>,
+      ],
+      "className": "ljit-upload-input-button",
+      "fileLimit": 1,
+      "fileList": undefined,
+      "isUploadListVisible": false,
+      "listType": "text",
+      "onChange": [Function],
+      "onRemove": [Function],
+      "remindText": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "ljit-upload-input-button__input",
+          "disabled": false,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "onPressEnter": [Function],
+          "readOnly": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "block": false,
+          "children": Array [
+            <Icon
+              type="upload"
+            />,
+            "上传档案",
+          ],
+          "className": "ljit-upload-input-button__button",
+          "ghost": false,
+          "htmlType": "button",
+          "loading": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "type": "upload",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "上传档案",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "acceptExtentions": Array [],
+        "beforeUpload": [Function],
+        "children": Array [
+          <Input
+            className="ljit-upload-input-button__input"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onPressEnter={[Function]}
+            readOnly={true}
+            value=""
+          />,
+          <Button
+            block={false}
+            className="ljit-upload-input-button__button"
+            ghost={false}
+            htmlType="button"
+            loading={false}
+          >
+            <Icon
+              type="upload"
+            />
+            上传档案
+          </Button>,
+        ],
+        "className": "ljit-upload-input-button",
+        "fileLimit": 1,
+        "fileList": undefined,
+        "isUploadListVisible": false,
+        "listType": "text",
+        "onChange": [Function],
+        "onRemove": [Function],
+        "remindText": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "ljit-upload-input-button__input",
+            "disabled": false,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "onPressEnter": [Function],
+            "readOnly": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "block": false,
+            "children": Array [
+              <Icon
+                type="upload"
+              />,
+              "上传档案",
+            ],
+            "className": "ljit-upload-input-button__button",
+            "ghost": false,
+            "htmlType": "button",
+            "loading": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "type": "upload",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "上传档案",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

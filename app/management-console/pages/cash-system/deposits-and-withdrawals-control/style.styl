@@ -1,0 +1,115 @@
+$white = #ffffff
+$grey2 = #fafafa
+$grey8 = #e8e8e8
+
+block-setting(hasUnit, paddingRight = 26%, inputWidth = 399px)
+	.ljit-form
+		text-align: center
+
+		> div:not(.ljit-form-button-row)
+			display: flex
+			justify-content: flex-end
+			padding-right: paddingRight
+
+			& .ljit-form-label
+				display: flex
+				margin-bottom: 18px
+
+				> div
+					margin-right: 11px
+
+				& .ljit-input-number,
+				& .ljit-input
+					width: inputWidth
+
+		if hasUnit
+			.unit
+				position: relative
+				top: 8px
+
+.deposits-and-withdrawals-control
+	.page-block__content
+		padding: 24px 36px 24px 0
+
+	& .ljit-layout-content
+		background-color: $white
+
+	& .ant-menu-root.ant-menu-inline
+		height: 100%
+
+	&__withdrawals
+		padding-left: 55px
+		padding-top: 32px
+
+	&__settings
+		padding-bottom: 16px
+		block-setting(false)
+
+	&__fee-settings
+		padding-top: 24px
+		border-top: 1px solid $grey8
+
+		& .ljit-form
+			margin: 28px 0
+
+			& .ljit-row
+				font-size: 14px
+				height: 63px
+				border-bottom: 1px solid $grey8
+
+				> div
+					text-align: center
+					& .ljit-form-label
+						margin: 10px 0
+					&:first-child
+						padding: 16px 0
+
+				&.title
+					height: 54px
+					background-color: $grey2
+					font-weight: 500
+					border-bottom: 0
+					border-radius: 4px
+
+					.ant-col
+						text-align: center
+						padding: 16px 0
+
+	&__deposits
+		padding-top: 32px
+		block-setting(true)
+
+	&__single-member-settings
+		padding-left: 55px
+
+		.header-button-bar__pool
+			margin-bottom: 23px
+
+			.ant-input-affix-wrapper
+				width: 272px
+
+		& .ant-table-small > .ant-table-content > .ant-table-body > table
+			border-bottom: 1px solid $grey8
+			> .ant-table-thead > tr > th,
+			> .ant-table-tbody > tr > td
+				padding: 13px 8px
+
+	& .ljit-form-button-row
+		& .ant-form-item
+			margin: 20px 0 -4px 0
+			& .ljit-form-search-btn
+				width: 98px
+
+
+	& .ant-form-item-required::before
+		content: ''
+
+	&__create-account-modal
+		& .ant-modal-body
+			block-setting(false, 11%, 316px)
+		
+		& .ant-form-item-required::before
+			content: ''
+
+		& .ant-modal-body
+			padding: 24px 24px 8px 24px

@@ -1,0 +1,41 @@
+.ljit-comment-modal
+	.ljit-table
+		margin-bottom: 40px
+	.ant-modal-body
+		> div
+			textarea
+				margin-top: 7px
+			&:first-child
+				margin-bottom: 24px
+			&:last-child
+				text-align: center
+		.header-button-bar__item
+			.ljit-btn
+				&:first-child
+					margin-right: 16px
+					border: #1890ff 1px solid
+		.ant-form-item-required:before
+			content: ''
+
+	&__cancel-pin-button
+		width: 56px
+
+	&__scroll-container
+		max-width: 100%
+
+	&__timeline
+		min-height: 186px
+		max-height: 481px
+		overflow: scroll
+		.ant-timeline-item-head
+			top: 6px
+		.ant-timeline-item-content
+			top: 0px
+			text-align: left
+			margin-left: 24px
+			div 
+				&:first-child
+					color: rgba(0, 0, 0, 0.85)
+				&:last-child
+					opacity: 0.45
+					font-size: 12px

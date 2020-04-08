@@ -1,0 +1,60 @@
+$betting-block-aside-padding = 6px
+
+.ljit-mobile-betting-block
+	background-color #fff
+	width: 100%
+	padding: 7px $betting-block-aside-padding 6px;
+	align-items: center
+	&__upper
+		display: flex
+	&__title
+		width: 2.5rem
+		color: rgb(155,155,155)
+		font-size: 14px
+		font-weight: 400
+		padding-right: 8px
+	&__select-block
+		display: flex
+		width: 97%
+		justify-content: flex-end
+		&-options
+			width: 16.6%
+			.ljit-code-ball--round
+				width: 100%
+				.ljit-tag-shape--round
+					border-radius: 0px
+		&-options:first-of-type
+			.ljit-code-ball--round
+				.ljit-tag-shape--round
+					border-radius: 4px 0 0 4px
+		&-options:last-of-type
+			.ljit-code-ball--round
+				.ljit-tag-shape--round
+					border-radius: 0 4px 4px 0
+	&__select-block-options
+		> .ljit-code-ball-button--round
+			> .ljit-code-ball--primary
+				.ljit-tag
+					color: rgb(74,74,74)
+					background-color: rgb(240,240,240)
+					border: 1px solid rgb(206,206,210)
+					font-weight: 400
+	&__balls
+		margin 10px 4px
+
+.ljit-mobile-betting-ball
+	width: calc((100% - 24px) / 9)
+	display: inline-block
+	&__ball
+		> .ljit-code-ball-button--circle
+			> .ljit-code-ball--primary
+				> .ljit-tag
+					color: rgb(74,74,74)
+					background-color: rgb(240,240,240)
+					border: 1px solid rgb(206,206,210)
+					font-weight: 400
+
+.ljit-mobile-betting-ball:nth-child(10n) 
+	display: inline-block
+	width: 24px
+	margin: 0

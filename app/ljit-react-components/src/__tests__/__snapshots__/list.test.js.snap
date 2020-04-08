@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    dataSource={
+      Array [
+        Object {
+          "content": "content 1",
+          "key": "1",
+          "onRenderOperation": [Function],
+          "remindText": "",
+          "title": "title 1",
+        },
+        Object {
+          "content": "conten 2",
+          "key": "2",
+          "remindText": "remind text",
+          "title": "title 2",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bordered": false,
+      "className": "ljit-list",
+      "dataSource": Array [
+        Object {
+          "content": "content 1",
+          "key": "1",
+          "onRenderOperation": [Function],
+          "remindText": "",
+          "title": "title 1",
+        },
+        Object {
+          "content": "conten 2",
+          "key": "2",
+          "remindText": "remind text",
+          "title": "title 2",
+        },
+      ],
+      "itemLayout": "horizontal",
+      "loading": false,
+      "pagination": false,
+      "renderItem": [Function],
+      "size": "large",
+      "split": true,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bordered": false,
+        "className": "ljit-list",
+        "dataSource": Array [
+          Object {
+            "content": "content 1",
+            "key": "1",
+            "onRenderOperation": [Function],
+            "remindText": "",
+            "title": "title 1",
+          },
+          Object {
+            "content": "conten 2",
+            "key": "2",
+            "remindText": "remind text",
+            "title": "title 2",
+          },
+        ],
+        "itemLayout": "horizontal",
+        "loading": false,
+        "pagination": false,
+        "renderItem": [Function],
+        "size": "large",
+        "split": true,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

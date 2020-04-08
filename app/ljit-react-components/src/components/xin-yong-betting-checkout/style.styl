@@ -1,0 +1,68 @@
+.ljit-xin-yong-betting-checkout
+	width: 900px
+	box-sizing: border-box
+	background-color: #fff
+	border: solid 1px #e9e9e9
+	padding: 12px 24px
+	display: inline-flex
+	align-items: center
+	justify-content: space-between
+	&__input
+		display: flex
+		align-items: center
+		.ljit-input-number
+			width: 110px
+			margin-left: 16px
+			text-align: center
+
+	&__chip
+		width: 210px
+		display: flex
+		align-items: center
+		justify-content: space-between
+
+	&__balance
+		color: #1b1b1b
+		min-width: 225px
+		display: flex
+		justify-content: space-around
+
+	&__button
+		button
+			margin-left: 8px
+			width: 84px
+			text-align: center
+
+	&__reset__button,
+	&__submit__button
+		border-color: #fc9327
+		font-weight: 600
+		line-height: 20px
+		font-size: 16px
+		&:focus
+			border-color: #fc9327
+		&:hover
+			border-color: #fc9327
+
+	.ant-input-number-handler-wrap
+		display: none;
+
+.ljit-xin-yong-betting-checkout--square
+	padding: 8px 10px
+	width: 253px
+	height: 162px
+	flex-direction: column
+	.ljit-input
+		width: 156px
+
+	.ljit-xin-yong-betting-checkout__chip
+		width: 100%
+
+	.ljit-xin-yong-betting-checkout__balance
+		justify-content: space-between
+
+	button
+		width: 112px
+		margin-left: 0
+		&:last-child
+			margin-left: 6px

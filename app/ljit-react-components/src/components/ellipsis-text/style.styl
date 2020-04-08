@@ -1,0 +1,25 @@
+.ljit-ellipsis
+	position: relative
+	&__text
+		position: relative
+		overflow: hidden
+		text-align: justify
+		padding-right: 4em;
+	&__dot
+		&::before
+			content: '...';
+			position: absolute;
+			right: 3em;
+			bottom: 0;
+	&__button
+		position: absolute
+		bottom: 0
+		right: 0
+		text-align: center
+		color: #1890ff
+		background: #e7f3fc
+		border-radius: 0.5rem
+		min-width: 2rem
+		padding: 0
+		border: 0
+		cursor: pointer

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XinYongPlaySlotSquare should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <XinYongPlaySlotSquare
+    className="mock-class"
+    isDisabled={false}
+    isSelected={false}
+    onClick={[Function]}
+    play={
+      Object {
+        "id": 0,
+        "name": 0,
+        "odds": 1.995,
+      }
+    }
+    playSlotType=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-xin-yong-play-slot-square__ball"
+        >
+          0
+        </div>,
+        <div
+          className="ljit-xin-yong-play-slot-square__odds"
+        >
+          <DecimalNumber
+            className=""
+            data={1.995}
+            decimalPlaces={4}
+            hasSeparator={true}
+            isCurrency={false}
+            isPercent={false}
+            isTolerance={false}
+          />
+        </div>,
+      ],
+      "className": "ljit-xin-yong-play-slot-square mock-class",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 0,
+          "className": "ljit-xin-yong-play-slot-square__ball",
+        },
+        "ref": null,
+        "rendered": 0,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <DecimalNumber
+            className=""
+            data={1.995}
+            decimalPlaces={4}
+            hasSeparator={true}
+            isCurrency={false}
+            isPercent={false}
+            isTolerance={false}
+          />,
+          "className": "ljit-xin-yong-play-slot-square__odds",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "",
+            "data": 1.995,
+            "decimalPlaces": 4,
+            "hasSeparator": true,
+            "isCurrency": false,
+            "isPercent": false,
+            "isTolerance": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-xin-yong-play-slot-square__ball"
+          >
+            0
+          </div>,
+          <div
+            className="ljit-xin-yong-play-slot-square__odds"
+          >
+            <DecimalNumber
+              className=""
+              data={1.995}
+              decimalPlaces={4}
+              hasSeparator={true}
+              isCurrency={false}
+              isPercent={false}
+              isTolerance={false}
+            />
+          </div>,
+        ],
+        "className": "ljit-xin-yong-play-slot-square mock-class",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 0,
+            "className": "ljit-xin-yong-play-slot-square__ball",
+          },
+          "ref": null,
+          "rendered": 0,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <DecimalNumber
+              className=""
+              data={1.995}
+              decimalPlaces={4}
+              hasSeparator={true}
+              isCurrency={false}
+              isPercent={false}
+              isTolerance={false}
+            />,
+            "className": "ljit-xin-yong-play-slot-square__odds",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "",
+              "data": 1.995,
+              "decimalPlaces": 4,
+              "hasSeparator": true,
+              "isCurrency": false,
+              "isPercent": false,
+              "isTolerance": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

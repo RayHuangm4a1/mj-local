@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Bar should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SliderBar
+    disabled={false}
+    max={1000}
+    min={0}
+    onChange={[Function]}
+    step={1}
+    suffix="单位"
+    value={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Slider
+          className="ljit-slider-bar__slider"
+          disabled={false}
+          max={1000}
+          min={0}
+          onChange={[Function]}
+          step={1}
+          tipFormatter={[Function]}
+          value={10}
+        />,
+        <InputNumber
+          className="ljit-slider-bar__number"
+          disabled={false}
+          formatType=""
+          max={1000}
+          min={0}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          readOnly={false}
+          step={1}
+          value={10}
+        />,
+        <div
+          className="ljit-slider-bar__suffix"
+        >
+          单位
+        </div>,
+      ],
+      "className": "ljit-slider-bar",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "ljit-slider-bar__slider",
+          "disabled": false,
+          "max": 1000,
+          "min": 0,
+          "onChange": [Function],
+          "step": 1,
+          "tipFormatter": [Function],
+          "value": 10,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "ljit-slider-bar__number",
+          "disabled": false,
+          "formatType": "",
+          "max": 1000,
+          "min": 0,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "readOnly": false,
+          "step": 1,
+          "value": 10,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "单位",
+          "className": "ljit-slider-bar__suffix",
+        },
+        "ref": null,
+        "rendered": "单位",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Slider
+            className="ljit-slider-bar__slider"
+            disabled={false}
+            max={1000}
+            min={0}
+            onChange={[Function]}
+            step={1}
+            tipFormatter={[Function]}
+            value={10}
+          />,
+          <InputNumber
+            className="ljit-slider-bar__number"
+            disabled={false}
+            formatType=""
+            max={1000}
+            min={0}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            readOnly={false}
+            step={1}
+            value={10}
+          />,
+          <div
+            className="ljit-slider-bar__suffix"
+          >
+            单位
+          </div>,
+        ],
+        "className": "ljit-slider-bar",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "ljit-slider-bar__slider",
+            "disabled": false,
+            "max": 1000,
+            "min": 0,
+            "onChange": [Function],
+            "step": 1,
+            "tipFormatter": [Function],
+            "value": 10,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "ljit-slider-bar__number",
+            "disabled": false,
+            "formatType": "",
+            "max": 1000,
+            "min": 0,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "readOnly": false,
+            "step": 1,
+            "value": 10,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "单位",
+            "className": "ljit-slider-bar__suffix",
+          },
+          "ref": null,
+          "rendered": "单位",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

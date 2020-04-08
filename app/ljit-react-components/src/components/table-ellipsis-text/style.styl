@@ -1,0 +1,33 @@
+.ljit-table-ellipsis-text
+	position: relative
+	width: 200px
+	&:hover > &__tooltips
+		display: initial;
+		opacity: 1;
+	&__text
+		color: #1890ff
+		width: 200px
+		overflow: hidden
+		white-space: nowrap
+		text-overflow: ellipsis
+	&__tooltips
+		text-align: left
+		font-size: small
+		display: none;
+		position: absolute;
+		background-color: #ffffff;
+		padding: 10px;
+		-webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,0.3);
+		opacity: 0;
+		transition: opacity 0.5s ease;
+		z-index: 1000
+		&--top
+			bottom: 100%
+		&--bottom
+			top: 100%
+		&--left
+			right: 100%
+			top: 0
+		&--right
+			left: 100%
+			top: 0

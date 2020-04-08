@@ -1,0 +1,39 @@
+.themeHeader
+	&:global.client-header
+		background $THEME-HEADER-GRADIENT
+
+/* TODO if menu change to dropdown change style */
+.themeHeaderMenu :global
+	.ljit-menu__sub,
+	.ljit-menu__item
+		color $THEME-HEADER-TEXT-COLOR
+		font-size 20px
+	.ljit-menu__sub.ant-menu-submenu-active,
+	.ant-menu-submenu.ljit-menu__sub:hover,
+	.ant-menu-item.ljit-menu__item:hover
+		color $THEME-HEADER-TEXT-COLOR
+		border-color $THEME-HEADER-TEXT-COLOR
+
+.themeHeaderLogoText
+	color $THEME-HEADER-TEXT-COLOR
+
+.themeHeaderPersonal
+	color $THEME-HEADER-TEXT-COLOR
+
+.themeHeaderPersonalMenu :global
+	.ljit-menu
+		background-color TRANSPARENT
+	.ant-menu-submenu.ljit-menu__sub:hover,
+	.ant-menu-item.ljit-menu__item:hover
+		color $THEME-HEADER-TEXT-COLOR
+		border-color $THEME-HEADER-TEXT-COLOR
+
+.themeHeaderPersonalMenu :global
+	.ljit-menu__item
+		color $THEME-HEADER-TEXT-COLOR
+
+.themeHeaderPersonalAvatarName :global
+	.ljit-user-avatar__content
+		.ljit-user-avatar__username
+			color $THEME-HEADER-TEXT-COLOR
+

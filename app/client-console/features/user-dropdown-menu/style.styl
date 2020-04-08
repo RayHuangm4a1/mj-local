@@ -1,0 +1,111 @@
+.ljit-user-dropdown-menu
+	width: 258px
+	border-radius: 8px
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.42)
+	border: solid 1px #e0e0e0
+	background-color: #fff
+	margin-top: -4px
+
+	&__balance
+		display: flex
+
+		.ljit-statistic
+			width: 50%
+			padding: 12px 15px 6px 15px
+
+			.ljit-icon
+				margin-right: 3px
+
+			.ant-statistic-title
+				display: flex
+				align-items: center
+				font-size: 12px
+
+				.ljit-icon
+					color: #f8c241
+
+			.ant-statistic-content
+				font-size: 14px
+				font-weight: 500
+				font-family: inherit
+
+			.ant-statistic-content-value
+				font-size: 14px
+				color: #646464
+
+				.ant-statistic-content-value-decimal
+					font-size: 14px
+
+	&__user-info
+		padding: 5px 14px 1px 14px
+		background: #f2f2f2
+
+		.ljit-label-text
+			&__label, &__text
+				color: #646464
+				font-weight: normal
+
+		.ljit-label-text,
+		.ant-form-item-control,
+		.ant-form-item-label
+			line-height: 17px
+			height: 17px
+			font-size: 12px
+			white-space: nowrap
+
+		.ljit-divider
+			margin: 4px 0 5px 0
+
+		> div:last-child
+			display: grid
+			grid-template-columns: repeat(2, 1fr)
+
+			.ant-form-item-label
+				> label
+					color: #555
+					font-weight: normal
+
+			.ant-form-item
+				color: #555
+				font-weight: 500
+
+			.ljit-label
+				margin-bottom: 8px
+				display: flex
+
+				> div:first-child
+					width: 50%
+				> div:last-child
+					width: 50%
+
+			.ljit-text-button
+				color: #5fa7f8
+				font-weight: 500
+
+	&__actions
+		.ljit-text-button
+			color: #ff8113
+
+		> div:first-child
+			padding: 7px 33px
+			display: flex
+			justify-content: space-between
+			align-items: center
+
+			.ljit-divider
+				width: 1.3px
+				height 16px
+
+		> .ljit-divider
+			margin: 0
+
+		> div:last-child
+			padding: 5px
+			display: flex
+			justify-content: center
+
+			.ljit-text-button
+				color: #555555
+				font-size: 12px
+
+

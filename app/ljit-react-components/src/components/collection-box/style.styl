@@ -1,0 +1,72 @@
+$collection-box-menu-border-color = #d6d2ce
+$collection-box-menu-background-color = #f2f2f2
+$collection-box-menu-highlight-background-color = #fff
+
+$collection-box-item-color = #000
+$collection-box-item-highlight-background-color = #fff
+$collection-box-item-highlight-color = #ff8113
+
+.ljit-collection-box
+	border: 1px solid $collection-box-menu-border-color
+	width: 100%
+	height: 400px
+
+	&__menus
+		display: flex
+		height: 100%
+
+	&__menu
+		padding-left: 0
+		list-style: none
+		width: 160px
+		margin-bottom: 0
+		border-right: 1px solid $collection-box-menu-border-color
+		overflow-y: auto
+		&:first-child
+			background-color: $collection-box-menu-background-color
+		&:last-child
+			border-right: 0
+			width: 100%
+			flex: 1
+			background-color: $collection-box-menu-highlight-background-color
+
+	&__menu:first-child
+		.ljit-collection-box__menu-item
+			padding: 9px 15px 9px 33px
+
+			&--selected::before
+				content: ''
+				width: 8px
+				height: 8px
+				background-color: $collection-box-item-highlight-color
+				border-radius: 50%
+				position: absolute
+				top: 16px
+				left: 17px
+
+	&__menu:last-child
+		.ljit-collection-box__menu-item
+			padding: 9px 17px 9px 32px
+
+			&--selected::after
+				content: '✓'
+				font-size: 20px
+				position: absolute
+				top: 5px
+				right: 17px
+
+	&__menu-item
+		border-bottom: 1px solid $collection-box-menu-border-color
+		font-size: 14px
+		color: $collection-box-item-color
+		display: flex
+		justify-content: flex-start
+		align-items: center
+		&:hover
+			cursor: pointer
+
+		&--selected
+			background-color: $collection-box-item-highlight-background-color
+			color: $collection-box-item-highlight-color
+			position: relative
+

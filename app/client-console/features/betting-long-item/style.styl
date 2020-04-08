@@ -1,0 +1,82 @@
+$highlight-text-color = #222222
+$total-width = 874px
+$consecutive-periods-width-ratio = unit(100 * 130px / $total-width, '%');
+$name-width-ratio = $consecutive-periods-width-ratio
+$issue-width-ratio = $consecutive-periods-width-ratio
+$betting-width-ratio = $consecutive-periods-width-ratio
+$timer-width-ratio = unit(100 * 158px / $total-width, '%');
+$code-ball-width-ratio = unit(100 * 196px / $total-width, '%');
+
+.betting-long__item
+	background-color: #fbfbfb
+	width: 100%
+	height: 80px
+	border-radius: 3px
+	text-align: center
+
+	&__consecutive-periods
+		width: $consecutive-periods-width-ratio
+		font-size: 14px
+		> span
+			position: relative
+			top: 2px
+			font-size: 20px
+			font-weight: 600
+			margin: 0px 10px
+			color: $highlight-text-color
+			letter-spacing: -3px
+		> img
+			width: 12px
+			height: 12px
+			margin-left: 10px
+			transform: translateY(-1px)
+
+	&__name
+		display: flex
+		justify-content: center
+		align-items: center
+		width: $name-width-ratio
+		height: 64px
+		padding: 0 20px
+		border-radius: 4px
+		color: $highlight-text-color
+		font-size: 18px
+		font-weight: 600
+		background-color: #ffffff
+
+	&__betting
+		width: $betting-width-ratio
+		font-size: 14px
+		> span
+			position: relative
+			top: 2px
+			left: 4px
+			font-weight: 600
+			font-size: 20px
+			color: #ed7600
+
+	&__issue
+		width: $issue-width-ratio
+		> div
+			font-size: 14px
+			color: #646464
+
+	&__timer
+		width: $timer-width-ratio
+		padding: 0 0 0 10.5px
+		top: 2px
+
+		.ljit-drawing-counting-down-card
+			.ant-statistic-content-value
+				font-size: 36px
+
+	&__code-ball
+		width: $code-ball-width-ratio
+		.ljit-btn
+			padding: 0px
+			width: 56px
+			height: 40px
+			font-size: 20px
+			border-radius: 5px
+			&:first-child
+				margin-right: 20px

@@ -1,0 +1,72 @@
+$dark-menu-bg-color = #001529
+$dark-menu-sub-bg-color = #000c17
+$dark-menu-item-highlight-color = #1890ff
+$dark-arrow-bg-color = #FFFFFF
+$light-arrow-bg-color = rgba(0,0,0,.65)
+
+$first-layer-height = 52px
+$arrow-rotate = 53deg
+$arrow-translate-x = 4px
+
+setSelectedItemColor(color)
+	// color
+	// item selected
+	.ljit-menu__item.ant-menu-item-selected
+		background-color: color
+
+setArrowColor(color)
+	.ljit-menu__sub
+		> .ant-menu-submenu-title
+			> .ant-menu-submenu-arrow
+				&:before
+				&:after
+					background-color: color
+
+.ljit-menu
+	// arrow
+	.ljit-menu__sub
+		> .ant-menu-submenu-title
+			> .ant-menu-submenu-arrow
+				opacity .65
+				&:before
+				&:after
+					width: 10px
+					height: 1.5px
+					background-color: transparent
+				&:before
+					transform: rotate(0 - $arrow-rotate) translateX($arrow-translate-x);
+				&:after
+					transform: rotate($arrow-rotate) translateX(0 - $arrow-translate-x);
+	.ljit-menu__sub.ant-menu-submenu-open
+		> .ant-menu-submenu-title
+			> .ant-menu-submenu-arrow
+				&:before
+					transform: rotate($arrow-rotate) translateX($arrow-translate-x);
+				&:after
+					transform: rotate(0 - $arrow-rotate) translateX(0 - $arrow-translate-x);
+
+
+	&--light
+		setArrowColor($light-arrow-bg-color)
+	&--dark
+		background-color: $dark-menu-bg-color
+
+		// first layer height
+		>
+			.ljit-menu__item
+				height: $first-layer-height
+				line-height: $first-layer-height
+			.ljit-menu__sub
+				.ant-menu-submenu-title
+					height: $first-layer-height
+					line-height: $first-layer-height
+
+		setArrowColor($dark-arrow-bg-color)
+
+		setSelectedItemColor(dark-menu-item-highlight-color)
+
+		// sub menu
+		> .ljit-menu__sub
+			background-color:  $dark-menu-bg-color
+			.ant-menu-sub
+				background-color: $dark-menu-sub-bg-color

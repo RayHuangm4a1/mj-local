@@ -1,0 +1,35 @@
+$column-count = 5
+$column-gutter = 10px
+$column-interval = $column-count - 1
+$column-total-gutter = $column-gutter * $column-interval
+
+.icon-list
+	max-width: 900px
+	padding: 0
+	margin: 0
+	margin-top: 30px
+	list-style: none
+	font-size: 0
+
+	&__item
+		display: inline-block
+		vertical-align: top
+		width: 'calc((100% - %s) / %s)' % ($column-total-gutter $column-count)
+		padding: 10px 20px
+		margin-bottom: 20px
+		font-size: 14px
+		border-radius: 5px
+
+		& + &
+			margin-left: $column-gutter
+
+		&:nth-child({$column-count}n+1)
+			margin-left: 0
+
+		&:hover
+			background-color: #d0d0d0
+
+.icon-card
+	text-align: center
+	&__name
+		margin-top: 5px

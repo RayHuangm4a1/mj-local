@@ -1,0 +1,18 @@
+.ljit-draggable-table-input
+	&__row
+		&--dragging
+			display: table
+
+	// props align
+	&--align-left
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: left
+	&--align-center
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: center
+	&--align-right
+		.ant-table-thead > tr > th,
+		.ant-table-tbody > tr > td
+			text-align: right

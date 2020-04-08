@@ -1,0 +1,55 @@
+.ljit-label-text
+	display: inline-flex
+	width: 100%
+	margin: 2px 0
+	&__label
+		font-weight: 600
+		margin-right: 8px
+	&__text
+		word-break: break-all
+
+	&__label,
+	&__text
+		&--grey
+			color: #c0c0c0
+		&--black
+			color: #222222
+		&--light-black
+			color: rgb(74, 74, 74)
+	&--font
+		&-large
+			font-size: 20px
+		&-mediun
+			font-size: 14px
+		&-small
+			font-size: 12px
+	&--col
+		&-large
+			.ljit-label-text
+				&__label
+					width: 40%
+				&__text
+					width: 60%
+		&-medium
+			.ljit-label-text
+				&__label
+					width: 30%
+				&__text
+					width: 70%
+		&-small
+			.ljit-label-text
+				&__label
+					width: 20%
+				&__text
+					width: 80%
+		&-auto
+			.ljit-label-text
+				&__label
+					width: auto
+				&__text
+					width: auto
+	&--space-between
+		> label
+			text-align: left
+		> div
+			text-align: right

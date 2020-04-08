@@ -1,0 +1,113 @@
+.mobile-member-center-page
+	background-color: #fff
+	height: 100%
+	overflow: scroll
+
+	&__banner
+		background-image: url("./setting-background.jpg")
+		background-size: cover
+		background-repeat: no-repeat
+		height: 150px
+		padding: 18px 17px 18px 20px
+		display: flex
+		align-items: flex-end
+		justify-content: space-between
+		.ljit-badge
+			> button
+				background-color: rgb(255, 255, 237)
+				border-radius: 50%
+				width: 34px
+				height: 34px
+				display: flex
+				justify-content: center
+				align-items: center
+			.ant-badge-count
+				top: 4px
+			.ant-scroll-number-only
+				> p:not(.current)
+					opacity: 0
+
+	.ljit-user-avatar
+		&__username,
+		&__description
+			color: #fff
+		.ljit-btn
+			background-color rgba(255, 255, 255, 0.42)
+			color: #fff
+			width: 50px
+			height: 20px
+			line-height: 20px
+			font-size: 12px
+			padding: 0
+			margin-left: 12px
+			border-radius: 21px
+			border: 0px
+
+	&__tabs
+		.ant-tabs-bar
+			margin: 0
+			border: 0
+		.ant-tabs-nav-scroll
+			text-align: center
+			padding: 12px 20px
+		.ant-tabs-nav
+			width: 100%
+		.ant-tabs-tab
+			margin: 0
+			width: 50%
+			text-align: center
+			color: rgb(255, 129, 19)
+			border: 1px solid rgb(255, 129, 19)
+			padding: 3px 0
+			font-size: 14px
+			&:first-child
+				border-top-left-radius: 3px
+				border-bottom-left-radius: 3px
+			&:last-child
+				border-top-right-radius: 3px
+				border-bottom-right-radius: 3px
+	.ljit-tabs--bordered>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav>div>.ant-tabs-tab
+		border-color: rgb(255, 129, 19)
+	.ljit-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav>div>.ant-tabs-tab-active
+		background-color: rgb(255, 129, 19)
+		color: #fff
+	.ljit-tabs--inkbar>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav>.ant-tabs-ink-bar
+		background-color: transparent
+	.ljit-tabs>.ant-tabs-bar>.ant-tabs-nav-container>.ant-tabs-nav-wrap>.ant-tabs-nav-scroll>.ant-tabs-nav>div>.ant-tabs-tab:active
+		color: #fff
+
+	&__list-container
+		&--top
+			display: flex
+			padding: 4px 45px 10px
+			justify-content: space-between
+			border-bottom: 1px solid rgb(240, 240, 240)
+			> li
+				display: flex
+				flex-direction: column
+				text-align: center
+				> i 
+					margin-bottom: 5px
+		&--content
+			> li
+				display: flex
+				justify-content: space-between
+				padding: 0px 15px
+				align-items: center
+				border-bottom: 1px solid rgb(240, 240, 240)
+				height: 48px
+				color: rgb(74, 74, 74)
+				> div
+					display: flex
+					align-items: center
+					line-height: 24px
+					> i
+						margin-right: 4px
+				> i
+					svg
+						fill: rgb(191, 191, 191)
+	> p
+		margin: 0
+		line-height: 44px
+		padding-left: 15px
+		color: rgb(74, 74, 74)

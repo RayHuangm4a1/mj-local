@@ -1,0 +1,253 @@
+@import '../../lib/styling/color.styl';
+
+$cycle-diameter = 6px
+
+$success-color = #448224
+$success-cycle-color = #52c41a
+$success-background-color = #d9f7be
+$success-border-color = #559036
+$error-color = #cf1322
+$error-cycle-color = $lightRed500
+$error-background-color = $lightRed300
+$error-border-color = $lightRed500
+$warning-color = $warmOrange900
+$warning-cycle-color = $warmOrange500
+$warning-background-color = $warmOrange300
+$warning-border-color = $warmOrange700
+$win-color = $grassGreen900
+$win-cycle-color = $grassGreen500
+$win-background-color = $grassGreen300
+$lose-color = $grey45
+$lose-cycle-color = $grey45
+$lose-background-color = $grey8
+$draw-color = #8e3ed4
+$draw-cycle-color = #8e3ed4
+$draw-background-color = #e8d5f9
+$remove-color = $warmOrange900
+$remove-cycle-color = $warmOrange500
+$remove-background-color = $grassGreen300
+$pending-color = $brightBlue500
+$pending-cycle-color = $brightBlue500
+$pending-background-color = $brightBlue100
+$betWin-background-color = $topaz
+$betLose-background-color = $coral
+$betUnOpened-background-color = $grey25
+$betCanceled-background-color = $grey65
+$betOpening-background-color = $butterscotch
+$hollow-color = $grey45
+$hollow-background-color = transparent
+
+$drawOpening-color = $brightBlue500
+$drawOpening-background-color = $brightBlue100
+$drawNew-color = $warmOrange900
+$drawNew-background-color = $warmOrange300
+$drawRewarding-color = $lightRed500
+$drawRewarding-background-color = $lightRed300
+$drawRewarded-color = $grassGreen900
+$drawRewarded-background-color = $grassGreen300
+$drawCanceled-color = $grey45
+$drawCanceled-background-color = $grey8
+$drawModified-color = #8e3ed4
+$drawModified-background-color = #e8d5f9
+$drawStopped-color = #4972f5
+$drawStopped-background-color = #dee3ff
+
+$traceComplete-background-color = $topaz
+$traceIncomplete-background-color = $grey25
+
+.ljit-status-tag
+	display inline-block
+	vertical-align middle
+	height auto
+	min-height 24px
+	line-height 22px
+	border-width 1px
+	border-style solid
+	border-color transparent
+	width auto
+
+	&--success
+		color $success-color
+		background-color $success-background-color
+
+	&--error
+		color $error-color
+		background-color $error-background-color
+
+	&--warning
+		background-color $warning-background-color
+
+	&--win
+		background-color $win-background-color
+
+	&--lose
+		color $lose-color
+		background-color $lose-background-color
+
+	&--draw
+		color $draw-color
+		background-color $draw-background-color
+
+	&--remove
+		color $remove-color
+		background-color $remove-background-color
+
+	&--pending
+		color $pending-color
+		background-color $pending-background-color
+
+	&--betWin
+		background-color $betWin-background-color
+
+	&--betLose
+		background-color $betLose-background-color
+
+	&--betUnOpened
+		background-color $betUnOpened-background-color
+
+	&--betCanceled
+		background-color $betCanceled-background-color
+
+	&--betOpening
+		background-color $betOpening-background-color
+
+	&--drawOpening
+		color $drawOpening-color
+		background-color $drawOpening-background-color
+
+	&--drawNew
+		color $drawNew-color
+		background-color $drawNew-background-color
+
+	&--drawRewarding
+		color $drawRewarding-color
+		background-color $drawRewarding-background-color
+
+	&--drawRewarded
+		color $drawRewarded-color
+		background-color $drawRewarded-background-color
+
+	&--drawCanceled
+		color $drawCanceled-color
+		background-color $drawCanceled-background-color
+
+	&--drawModified
+		color $drawModified-color
+		background-color $drawModified-background-color
+
+	&--drawStopped
+		color $drawStopped-color
+		background-color $drawStopped-background-color
+
+	&--drawCanceling
+		color $drawCanceled-color
+		background-color $drawCanceled-background-color
+
+	&--traceComplete
+		background-color $traceComplete-background-color
+
+	&--traceIncomplete
+		background-color $traceIncomplete-background-color
+
+	&__text
+		display inline-block
+		vertical-align middle
+
+	&--default,
+	&--hollow
+		padding 0 12px
+		border-width 0
+		border-radius 16px
+		font-size 14px
+
+		// cycle
+		&::before
+			content ''
+			display inline-block
+			vertical-align middle
+			width $cycle-diameter
+			height $cycle-diameter
+			border-radius $cycle-diameter
+			margin-right 8px
+			background-color: transparent
+
+		~/--success&
+			&::before
+				background-color $success-cycle-color
+
+		~/--error&
+			&::before
+				background-color $error-cycle-color
+
+		~/--warning&
+			color $warning-color
+			&::before
+				background-color $warning-cycle-color
+
+		~/--win&
+			color $win-color
+			&::before
+				background-color $win-cycle-color
+
+		~/--lose&
+			&::before
+				background-color $lose-cycle-color
+
+		~/--draw&
+			&::before
+				background-color $draw-cycle-color
+
+		~/--remove&
+			&::before
+				background-color $remove-cycle-color
+
+		~/--pending&
+			&::before
+				background-color $pending-cycle-color
+
+		~/--betWin&,
+		~/--betLose&,
+		~/--betUnOpened&,
+		~/--betCanceled&,
+		~/--betOpening&,
+		~/--traceComplete&,
+		~/--traceIncomplete
+			border-radius 3px
+			color #fff
+			width 61px
+			height 20px
+			min-height 20px
+			font-size 12px
+			&::before
+				display: none
+		~/--hollow
+			background-color $hollow-background-color
+			color $hollow-color
+
+		~/--drawOpening&,
+		~/--drawNew&,
+		~/--drawRewarding&,
+		~/--drawRewarded&,
+		~/--drawCanceled&,
+		~/--drawModified&,
+		~/--drawStopped&
+			span
+				position: relative
+				top: 1px
+			&::before
+				display: none
+
+	&--outline
+		padding 0
+		padding-left 20px
+		padding-right 19px
+
+		~/--success&
+			border-color $success-border-color
+
+		~/--warning&
+			color $warning-border-color
+			border-color $warning-border-color
+
+		~/--error&
+			border-color $error-border-color

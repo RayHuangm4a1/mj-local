@@ -1,0 +1,95 @@
+@import '../features/client-header/style.styl'
+@import '../pages/lottery/layout/lottery-info-header/style.styl'
+
+$content-height = 'calc(100vh - %s - %s)' % ($client-header-height $client-page-header-height)
+$default-content-width = 1440px
+$min-content-width = 1270px
+$page-right-default-padding = 24px
+$block-left-default-padding = 8px
+
+#{$default-content-width}
+
+.root-layout
+	min-width 1440px
+
+.client-layout
+	min-height 0
+	// clear default min height
+	.ljit-layout:not(.lottery-layout)
+		min-height 0
+
+.lottery-layout
+	position relative
+	min-height $content-height
+
+	&__sider
+		position absolute
+		z-index 10
+		left 0
+		min-height 100%
+
+.content-column
+	position absolute
+	min-width 1440px
+
+	&__left
+		display: flex
+		justify-content: flex-end
+
+	&__left,
+	&__main,
+	&__right
+		position relative
+
+	&__main
+		float left
+		width 900px
+	&__right
+		float left
+		width calc(300px - 8px)
+	&__left
+		float left
+		width calc(240px - 8px)
+	&__main + &__right,
+	&__left + &__main
+		margin-left 8px
+	&::after
+		content ''
+		clear both
+		display block
+
+$client-layout__left = 'calc(240px - %s - (%s - 100vw))' % ($block-left-default-padding $default-content-width)
+$client-header__padding-right--1440 = 'calc(293px - (%s - 100vw))' % ($default-content-width)
+$client-header__padding-right--1270 = 'calc(293px - (%s - %s))' % ($default-content-width $min-content-width)
+$lottery-label-selector__padding-left = 'calc(240px + %s - (%s - 100vw))' % ($block-left-default-padding $default-content-width)
+
+//TODO: myFavorites component add to page, setting the size
+//TODO: member-center side bar add to page, setting the position
+@media (max-width: 1440px)
+	.content-column__left
+		width $client-layout__left
+	.root-layout
+		min-width 100vw
+	.client-header
+		.client-header-content
+			width 'calc(100vw - %s)' % ($page-right-default-padding)
+	.lottery-layout__content
+		> .ljit-label-selector
+			width 'calc(900px + %s)' % ($lottery-label-selector__padding-left)
+
+@media (max-width: 1430px)
+	.lottery-layout__my-favorite
+		display: none
+
+@media (max-width: 1270px)
+	.content-column__left
+		width 70px
+	.root-layout
+		min-width $min-content-width
+	.client-header
+		.client-header-content
+			width 'calc( %s - %s)' % ($min-content-width $page-right-default-padding)
+	.lottery-layout__content
+		width $min-content-width
+		> .ljit-label-selector
+			width calc(900px + 86px);

@@ -1,0 +1,60 @@
+$primary-color = #ff8113;
+$check-box-border-width = 2px;
+
+.ljit-betting-weizhi-block
+	display flex
+	&__description
+		margin-left: 24px
+		display: flex
+		align-items: center
+		font-size: 12px
+		> i
+			margin-right 8px
+			> svg
+				color: $primary-color
+	&--solid
+		.ljit-checkbox
+			.ant-checkbox-checked
+				.ant-checkbox-inner
+					background-color: $primary-color
+					border-color: $primary-color
+		.ant-checkbox-wrapper,
+		.ant-checkbox
+			&:hover 
+				.ant-checkbox-inner
+					border-color: $primary-color
+		.ant-checkbox-input
+			&:focus 
+				& + .ant-checkbox-inner
+					border-color: $primary-color
+		.ant-checkbox-wrapper 
+			+ .ant-checkbox-wrapper 
+				margin-left: 4px
+	&--hollow
+		.ljit-checkbox
+			.ant-checkbox
+				.ant-checkbox-inner
+					border: $check-box-border-width solid rgb(191,191,191)
+			.ant-checkbox-checked
+				.ant-checkbox-inner
+					border: $check-box-border-width solid $primary-color
+					background-color: white
+				.ant-checkbox-inner::before
+					content: ' ';
+					position: absolute;
+					background-color: #FFFFFF
+					width: 70%;
+					height: 70%;
+					border-left: none;
+					border-bottom: none;
+					top: 'calc(-1 * %s)' % $check-box-border-width
+					right: 'calc(-1 * %s)' % $check-box-border-width
+				.ant-checkbox-inner::after
+					left: 25%
+					height: 70%
+					width: 40%
+					border: 1px solid $primary-color
+					border-top: none
+					border-left: none
+					transform: rotate(45deg) scale(1.5) translate(-50%, -50%)
+					background transparent

@@ -1,0 +1,3 @@
+export const MAX_DIVIDEND_AMOUNT = 100000000;
+export const TEN_THOUSAND = 10000;
+export const MAX_SELECTION_DAYS = 14;

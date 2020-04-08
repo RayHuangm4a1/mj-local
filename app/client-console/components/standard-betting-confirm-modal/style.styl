@@ -1,0 +1,80 @@
+.ljit-confirm-bet-form
+	.ant-modal-body
+		height: 512px
+
+.ljit-bet-form
+	&__header
+		height: 55px
+		padding-left: 34px
+		display: flex
+		align-items: center
+		color: #646464
+		div
+			display: inline-flex
+			width: 20px
+			height: 20px
+			background-color #ff9022
+			color: #fff
+			border-radius: 50%
+			font-size: 14px
+			justify-content: center
+			align-items: center
+			margin-right: 8px
+
+	&__content
+		height: 405px
+		.ljit-table
+			.ant-table-thead > tr > th
+				background: #eeeeee
+				color: #646464
+
+			.ant-table-body
+				max-height: 407px
+				overflow-y: auto
+				padding-right: 10px
+			td
+				background: #f6f6f6
+				color: #222222
+				padding: 7px
+			.betcontent
+				max-width: 112px
+				white-space: nowrap
+				text-overflow: ellipsis
+				overflow: hidden
+		.ljit-icon
+			color: #c0c0c0
+			cursor: pointer
+
+		.ant-table-small > .ant-table-content > .ant-table-body > table
+			> .ant-table-tbody > tr > td
+				padding: 2px 8px
+
+		.ant-table-thead > tr:first-child
+			> th:last-child
+				border-top-right-radius: 0
+			> th:first-child
+				border-top-left-radius: 0
+
+		.ant-input-number
+			width: 71px
+			height: 100%
+
+			&-input-wrap
+				display: flex
+				input
+					text-align: center
+					height: 24px
+
+	&__footer
+		font-size: 14px
+		p
+			padding: 0 18px 0 27px
+			margin: 0
+			height: 54px
+			line-height: 54px
+			border-radius: 4px 4px 0 0
+
+			span
+				color: #ff9022
+				font-weight: 600
+				font-size: 16px

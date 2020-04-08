@@ -1,0 +1,278 @@
+$tab-font-color = rgba(0,0,0,.65)
+$tab-actived-color = #1890ff
+$tab-actived-font-color = $tab-actived-color
+$tab-actived-ink-bar-color = $tab-actived-color
+$tab-actived-font-weight = 500
+$tab-hovered-font-color = #40a9ff
+$tab-pressed-font-color = #096dd9
+$tab-background-color = #fafafa
+$tab-actived-background-color = #ffffff
+$tab-border-color = #e8e8e8
+$tab-actived-border-color = #ffffff
+$tab-cleared-color = transparent
+$tab-cleared-value = 0
+$groupcard-border-radius = 6px
+$tab-type-list-font-color = #646464
+$tab-type-list-hovered-background-color = #d6d6d6
+$tab-type-list-active-background-color = #ff8113
+$tab-type-list-active-font-color = #fff
+
+.ljit-tabs
+	// Tab Font, Color
+	color: $tab-font-color
+	> .ant-tabs-bar
+		> .ant-tabs-nav-container
+			order: 2
+			> .ant-tabs-nav-wrap
+				> .ant-tabs-nav-scroll
+					> .ant-tabs-nav
+						> div
+							> .ant-tabs-tab
+								font-weight: $tab-actived-font-weight
+								&:hover
+									color: $tab-hovered-font-color
+								&:active
+									color: $tab-pressed-font-color
+
+							> .ant-tabs-tab-active
+								color: $tab-actived-font-color
+
+	> .ant-tabs-card-bar
+		> .ant-tabs-nav-container
+			> .ant-tabs-nav-wrap
+				> .ant-tabs-nav-scroll
+					> .ant-tabs-nav
+						> div
+							> .ant-tabs-tab-active
+								background-color: $tab-actived-background-color
+
+	// Tab Type
+	&--type-cardgroup
+		> .ant-tabs-card-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									border-radius: $tab-cleared-value
+	&--position-top&--type-cardgroup
+		> .ant-tabs-card-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									margin-right: $tab-cleared-value
+									&:first-child
+										border-top-left-radius: $groupcard-border-radius
+									&:last-child
+										border-top-right-radius: $groupcard-border-radius
+
+	&--position-right&--type-cardgroup
+		> .ant-tabs-card-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									margin-bottom: $tab-cleared-value
+									&:first-child
+										border-top-right-radius: $groupcard-border-radius
+									&:last-child
+										border-bottom-right-radius: $groupcard-border-radius
+
+	&--position-bottom&--type-cardgroup
+		> .ant-tabs-card-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									margin-right: $tab-cleared-value
+									&:first-child
+										border-bottom-left-radius: $groupcard-border-radius
+									&:last-child
+										border-bottom-right-radius: $groupcard-border-radius
+
+	&--position-left&--type-cardgroup
+		> .ant-tabs-card-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									margin-bottom: $tab-cleared-value
+									&:first-child
+										border-top-left-radius: $groupcard-border-radius
+									&:last-child
+										border-bottom-left-radius: $groupcard-border-radius
+
+	&--type-list
+		color: $tab-type-list-font-color
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									margin-bottom: $tab-cleared-value
+									margin-right: $tab-cleared-value
+									&:hover
+										color: $tab-type-list-font-color
+										background: $tab-type-list-hovered-background-color
+									&:active
+										color: $tab-type-list-active-font-color
+
+								> .ant-tabs-tab-active
+									background-color: $tab-type-list-active-background-color
+									color: $tab-type-list-active-font-color
+									&:hover
+										background-color: $tab-type-list-active-background-color
+										color: $tab-type-list-active-font-color
+	// title
+	&__title
+		order: 1
+
+	// Tab Border
+	&--bordered
+		> .ant-tabs-bar
+			border-color: $tab-border-color
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									border-color: $tab-border-color
+
+	&--position-top&--bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-bottom-color: $tab-actived-border-color
+
+	&--position-right&--bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-left-color: $tab-actived-border-color
+
+	&--position-bottom&--bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-top-color: $tab-actived-border-color
+
+	&--position-left&--bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-right-color: $tab-actived-border-color
+
+	&--no-bordered
+		> .ant-tabs-bar
+			border-color: $tab-cleared-color
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									border-color: $tab-cleared-color
+
+	&--position-top&--no-bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-bottom-color: $tab-cleared-color
+
+	&--position-right&--no-bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-left-color: $tab-cleared-color
+
+	&--position-bottom&--no-bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-top-color: $tab-cleared-color
+
+	&--position-left&--no-bordered
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab-active
+									border-right-color: $tab-cleared-color
+
+	// Tab Ink Bar
+	&--inkbar
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> .ant-tabs-ink-bar
+								background-color: $tab-actived-ink-bar-color
+
+	&--no-inkbar
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> .ant-tabs-ink-bar
+								height: $tab-cleared-value;
+								background-color: $tab-cleared-color;
+
+	// &--fillwidth
+	&--fillwidth&--position-top,
+	&--fillwidth&--position-bottom
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							width: 100%
+							> div
+								display: flex
+								> .ant-tabs-tab
+									flex: 1
+									text-align: center

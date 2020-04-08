@@ -1,0 +1,65 @@
+$orange = #ff8113
+$border-color = #d8d8d8
+$cards-column = 3
+$cards-column-gap = 16px
+$cards-row-gap = 24px
+
+.ljit-member-bank-info
+	&__container
+		padding: 43px 72px 43px 72px
+
+	&__bank-cards-grid
+		margin: auto
+		display: grid
+		grid-template-columns: repeat($cards-column, 1fr)
+		grid-column-gap: $cards-column-gap
+		grid-row-gap: $cards-row-gap
+
+	&__add-bank-card
+		display: flex
+		min-height: 123px
+		align-items: center
+		border: 1px solid $orange
+		border-radius: 3px
+		cursor: pointer
+
+	&__add-bank-card-content
+		cursor: pointer
+		margin: auto
+		color: $orange
+		font-size: 12px
+		font-weight: 500
+		font-style: normal
+		font-stretch: normal
+		line-height: 1.83
+		letter-spacing: normal
+
+	&__icon-wrapper
+		display: flex
+		margin: auto
+
+		> i
+			margin: auto
+
+	&__modal-content
+		padding: 4px 68px
+
+	&__form-item
+		margin-top: 20px
+		margin-bottom: 20px
+
+		.ant-form-item-label
+			font-size: 14px;
+			font-weight: 500;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			> label
+				color: #9f9f9f;
+
+		.ljit-input
+			margin: 0px
+
+		.ant-form-item-required::before
+			display: none

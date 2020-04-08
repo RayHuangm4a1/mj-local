@@ -1,0 +1,166 @@
+$border-color = #e8e8e8
+$black = #000000
+$statistic-font-color = #5cb0ff
+$remind-text-color = #e3362f
+$brightBlue500 = #1890ff
+
+.cash-system-credit-bank-page
+	.deposit-online-table
+		margin 32px 0px
+
+	.ljit-collapsable-form-button-row
+		margin-top: 30px
+
+	.status-block
+		.ljit-checkbox
+			position: absolute
+			left: 92px
+			top: 10px
+			z-index: 99
+
+		.ljit-checkbox-group
+			position: relative
+			top: 38px
+			padding-top: 5px
+			border-top: 1px solid $border-color
+
+			.ant-checkbox-wrapper
+				margin-left: 8px
+
+	.ljit-table
+		.ant-table-thead
+			white-space: nowrap
+
+		.table-operation
+			white-space: nowrap
+
+		.table-expand-item
+			display: inline-block
+			width: 50%
+		.level
+			width: 50px
+
+		.ant-table-pagination
+			.ant-pagination-total-text,
+			.ant-pagination-options
+				display: none
+
+		& .ant-table-tbody
+			border-bottom: 1px solid $border-color
+
+	&__totalizing
+		margin-bottom: 16px
+		margin-top: 25px
+
+		> div
+			width: 257px
+			margin-right: 2px
+
+		.ljit-card-border
+			border-radius: 2px;
+			box-shadow: 0 2px 6px 0 alpha($black, .15)
+			border: 0
+
+			.ant-statistic-content-prefix
+				color: $statistic-font-color
+				font-size: 20px
+				position: relative
+				top: -2px
+
+			.ant-statistic-content-value
+				font-size: 28px
+
+	& .header-button-bar__item
+		margin: 23px 0 17px 0
+		.cancel-all-selected-item
+			margin-left: 16px
+			color: #e02020
+			border-color: #e02020
+			&:hover,
+			&:active,
+			&:focus
+				color: #e02020
+				border-color: #e02020
+
+		.ljit-button-color--brightBlue500
+			border-color: $brightBlue500
+
+.cash-system-credit-deposit-confirm-modal
+	.title
+		margin-bottom 16px
+		font-size 16px
+		font-weight 500
+		font-style normal
+		font-stretch normal
+		line-height 1.5
+		letter-spacing normal
+		color: $black
+
+	.attr
+		margin 16px 0px
+
+		.attr-label
+			text-align right
+			display inline-block
+			width 85px
+
+		.attr-value
+			margin-left 24px
+			display inline-block
+
+	.input-row
+		margin 16px 0px
+
+		.input-form
+			display flex
+			margin 0px
+
+			.ant-form-explain-holder
+				height 0
+
+			.ljit-input
+				width: 240px
+
+		.inputgroup
+			display flex
+
+		.input-button
+			margin-left 24px
+
+	.ant-table-content
+		border-bottom: 1px solid $border-color
+
+.cash-system-credit-bank-page.customize-columns-modal
+	& .ant-modal-body
+		.ljit-form-label
+			margin-bottom: 22px
+
+		.ljit-checkbox-group
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+
+			.ljit-checkbox-group__option
+				width: 150px
+				margin-left: 0
+				margin-bottom: 10px
+
+			.ant-checkbox-disabled+span
+				color: inherit
+
+		.remind-text
+			margin-top: 0
+			color: $remind-text-color
+			font-size: 14px
+
+	.header-button-bar__item
+		margin: 23px 0
+		.cancel-all-selected-item
+			margin-left: 16px
+			color: #e02020
+			border-color: #e02020
+			&:hover,
+			&:active,
+			&:focus
+				color: #e02020
+				border-color: #e02020

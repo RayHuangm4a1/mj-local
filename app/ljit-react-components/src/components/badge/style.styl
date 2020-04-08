@@ -1,0 +1,18 @@
+$count-font-size = 10px
+$count-diameter = 18px
+$count-color = #f5222d
+$count-border-color = #ffffff
+
+.ljit-badge
+	& > .ant-badge-count
+		min-width: $count-diameter
+		height: $count-diameter
+		line-height: $count-diameter
+		font-size: $count-font-size
+		background-color: $count-color
+
+	&--bordered > .ant-badge-count
+		box-shadow: 0 0 0 1px $count-border-color
+
+	&--no-bordered > .ant-badge-count
+		box-shadow: 0 0 0 1px transparent

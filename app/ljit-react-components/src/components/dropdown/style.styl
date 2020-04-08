@@ -1,0 +1,21 @@
+.ljit-dropdown
+	&--with-arrow
+		position: relative
+		&--on-top
+			margin-top: 9px
+		&--on-bottom
+			margin-bottom: 9px
+	&__arrow
+		display: block
+		position: absolute
+		z-index: 10
+		width: 0
+		height: 0
+		border-left: 8px solid transparent
+		border-right: 8px solid transparent
+		&--on-top
+			bottom: calc(100% - 1px)
+			border-bottom: 10px solid #fff
+		&--on-bottom
+			top: calc(100% - 1px)
+			border-top: 10px solid #fff

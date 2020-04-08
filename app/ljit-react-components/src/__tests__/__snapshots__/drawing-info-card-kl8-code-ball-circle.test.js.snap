@@ -1,0 +1,1322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawingInfoCardKL8CodeBallCircle should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DrawingInfoCardKL8CodeBallCircle
+    fontSize="small"
+    size="small"
+    splitOpencodes={
+      Array [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="drawing-info-card-kl8-code-ball-circle__upper"
+        >
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="1"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="2"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="3"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="4"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="5"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="6"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="7"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="8"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="9"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="10"
+            type="selected"
+          />
+        </div>,
+        <div
+          className="drawing-info-card-kl8-code-ball-circle__lower"
+        >
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="11"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="12"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="13"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="14"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="15"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="16"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="17"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="18"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="19"
+            type="selected"
+          />
+          <Circle
+            className="drawing-info-card-kl8-code-ball-circle__code-ball"
+            fontSize="small"
+            size="small"
+            text="20"
+            type="selected"
+          />
+        </div>,
+      ],
+      "className": "drawing-info-card-kl8-code-ball-circle",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="1"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="2"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="3"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="4"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="5"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="6"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="7"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="8"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="9"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="10"
+              type="selected"
+            />,
+          ],
+          "className": "drawing-info-card-kl8-code-ball-circle__upper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "1",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "2",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "3",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "4",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "5",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "6",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "7",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "8",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "9",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "10",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="11"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="12"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="13"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="14"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="15"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="16"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="17"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="18"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="19"
+              type="selected"
+            />,
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="20"
+              type="selected"
+            />,
+          ],
+          "className": "drawing-info-card-kl8-code-ball-circle__lower",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "11",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "12",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "13",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "14",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "15",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "16",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "17",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "18",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "8",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "19",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "9",
+            "nodeType": "function",
+            "props": Object {
+              "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+              "fontSize": "small",
+              "size": "small",
+              "text": "20",
+              "type": "selected",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="drawing-info-card-kl8-code-ball-circle__upper"
+          >
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="1"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="2"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="3"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="4"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="5"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="6"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="7"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="8"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="9"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="10"
+              type="selected"
+            />
+          </div>,
+          <div
+            className="drawing-info-card-kl8-code-ball-circle__lower"
+          >
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="11"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="12"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="13"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="14"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="15"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="16"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="17"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="18"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="19"
+              type="selected"
+            />
+            <Circle
+              className="drawing-info-card-kl8-code-ball-circle__code-ball"
+              fontSize="small"
+              size="small"
+              text="20"
+              type="selected"
+            />
+          </div>,
+        ],
+        "className": "drawing-info-card-kl8-code-ball-circle",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="1"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="2"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="3"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="4"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="5"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="6"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="7"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="8"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="9"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="10"
+                type="selected"
+              />,
+            ],
+            "className": "drawing-info-card-kl8-code-ball-circle__upper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "1",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "2",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "3",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "4",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "5",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "6",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "7",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "8",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "9",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "10",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="11"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="12"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="13"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="14"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="15"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="16"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="17"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="18"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="19"
+                type="selected"
+              />,
+              <Circle
+                className="drawing-info-card-kl8-code-ball-circle__code-ball"
+                fontSize="small"
+                size="small"
+                text="20"
+                type="selected"
+              />,
+            ],
+            "className": "drawing-info-card-kl8-code-ball-circle__lower",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "11",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "12",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "13",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "14",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "15",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "16",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "17",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "18",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "8",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "19",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "9",
+              "nodeType": "function",
+              "props": Object {
+                "className": "drawing-info-card-kl8-code-ball-circle__code-ball",
+                "fontSize": "small",
+                "size": "small",
+                "text": "20",
+                "type": "selected",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

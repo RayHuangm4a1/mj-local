@@ -1,0 +1,199 @@
+$button-style()
+	height: 22px
+	padding: 0px 12px
+	span
+		font-size: 12px
+		line-height: 21px
+	&:not([disabled])
+		&:hover,
+		&:active,
+		&:focus
+			color: #ff8113
+			background-color: #fff
+			border-color: #ff8113
+
+.ljit-member-security
+	padding: 33px 144px 33px 123px
+	&__login-info
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding-bottom: 16px
+		border-bottom: 1px solid #e8e8e8
+		.ljit-label-text--col-medium
+			.ljit-label-text
+				&__label
+					font-weight: 500
+					color: rgba(0, 0, 0, 0.85)
+					font-size: 14px
+					width: 15%
+				&__text
+					color: #595959
+					font-size: 14px
+		.ljit-btn
+			$button-style()
+	&__container
+		display: grid
+		grid-template-columns: 1fr 1fr
+		grid-column-gap: 24px
+		.ljit-list-item
+			padding: 8px 0
+			&__title
+				.ljit-icon
+					margin-right: 10px
+				span
+					font-size: 12px
+			&__description
+				font-size: 12px
+				min-height: 36px
+			.ljit-btn
+				margin-left: 18px
+				$button-style()
+	&__security-question
+		color: #000000
+		line-height: 1.83
+	&__text-binding
+		color: #ff5c00
+		font-size: 14px
+
+.modify-password-modal__content,
+.reset-password-modal__content
+	padding: 16px 80px 22px 56px
+	.ant-form-item
+		margin-bottom: 18px
+	.ant-form-item-with-help
+		margin-bottom: 0px
+	.ant-form-item-label
+		line-height: inherit
+		> .ant-form-item-no-colon
+			font-size: 14px;
+			font-weight: 500
+			font-stretch: normal
+			font-style: normal
+			line-height: normal
+			letter-spacing: normal
+			color: #9f9f9f
+		> .ant-form-item-required::before
+			display: none
+
+	.ant-form-item-control-wrapper
+		.ant-form-item-control
+			line-height: 32px
+		.ljit-input
+			margin-bottom: 0px
+			height: 28px
+			input
+				height: 28px
+		.ant-form-explain
+			min-height: 18px
+			line-height: 1.5
+			margin: 0px
+
+.modify-password-modal__content,
+.reset-password-modal__content
+	padding: 16px 80px 22px 56px
+	p
+		margin-bottom: 4px
+		font-size: 14px
+		font-weight: 500
+		color: #9f9f9f
+	.ljit-input
+		margin-bottom: 20px
+		height: 28px
+		input
+			height: 28px
+	.ljit-form-select
+		width: 100%
+		margin-bottom: 20px
+		height: 28px
+		.ant-select-selection
+			height: 28px
+			.ant-select-selection__rendered
+				line-height: 28px
+		.ant-select-selection-selected-value
+			color: #222222
+
+.security-questions-modal__content
+	padding: 16px 80px 10px 56px
+	.ant-form-item
+		margin-bottom: 20px
+	.ant-form-item-label
+		line-height: 20px
+		margin-bottom: 4px
+		label
+			color: #9f9f9f
+	.ant-form-item-control
+		line-height: 28px
+		.ljit-input
+			height: 28px
+			input
+				height: 28px
+		.ljit-form-select
+			height: 28px
+			.ant-select-selection
+				height: 28px
+				line-height: 28px
+				.ant-select-selection__rendered
+					line-height: 28px
+					color: #000000
+
+$bind-password-form-item-gutter = 15px
+
+.bind-password-modal
+	&__content
+		padding: 16px 117px 22px 107px
+
+	&__form-item
+		padding-left: $bind-password-form-item-gutter
+		padding-right: $bind-password-form-item-gutter
+
+		> .ant-form-item-label
+			line-height: 20px
+			> label
+				color: #9f9f9f
+
+	.secret-block
+		text-align: center
+		font-size: 14px
+		font-weight: normal
+		line-height: 1.57
+		color: rgba(0,0,0,.85)
+
+		&__title
+			margin-bottom: 19px
+			font-size: 16px
+			font-weight: 500
+			line-height: 1.38
+
+		&__sub-title
+			margin-top: 48px
+			margin-bottom: 8px
+
+		&__token
+			font-weight: 600
+			color: rgba(0,0,0,.85)
+
+.qr-code-modal
+	.ljit-submit-form-modal__btn-ok
+		display: none
+	&__content
+		padding: 24px 138px
+
+// Reomte verification button modal
+.ljit-submit-form-modal.geo-verification-switch-button-modal
+	.card-owner
+		padding: 10px 50px 0 50px
+		.ant-form-item-label
+			margin-bottom: -7px
+			> label
+				color: #9f9f9f
+				&.ant-form-item-required:before
+					content: ''
+
+.unbind-totp-form-modal
+	.ant-modal-body
+		padding: 16px 67px 22px 50px
+
+	&__form-item
+		&:last-child
+			margin-bottom: 0

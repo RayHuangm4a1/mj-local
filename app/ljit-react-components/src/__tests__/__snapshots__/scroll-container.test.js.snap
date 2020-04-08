@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScrollContainer should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ScrollContainer
+    buttonText="mock-text"
+    className="mock-class"
+    isButtonDisabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "maxWidth": "200px",
+      }
+    }
+  >
+    
+	&lt;ul&gt;
+		&lt;li key='1'&gt;mock item 1&lt;/li&gt;
+		&lt;li key='2'&gt;mock item 2&lt;/li&gt;
+		&lt;li key='3'&gt;mock item 3&lt;/li&gt;
+	&lt;/ul&gt;
+  </ScrollContainer>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-scroll-container__body"
+        >
+          
+	&lt;ul&gt;
+		&lt;li key='1'&gt;mock item 1&lt;/li&gt;
+		&lt;li key='2'&gt;mock item 2&lt;/li&gt;
+		&lt;li key='3'&gt;mock item 3&lt;/li&gt;
+	&lt;/ul&gt;
+        </div>,
+        <Button
+          className="ljit-scroll-container__button"
+          color=""
+          disabled={false}
+          icon="down"
+          isFullWidth={true}
+          onClick={[Function]}
+          outline="text"
+        >
+          mock-text
+        </Button>,
+      ],
+      "className": "ljit-scroll-container mock-class",
+      "style": Object {
+        "maxWidth": "200px",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "
+	<ul>
+		<li key='1'>mock item 1</li>
+		<li key='2'>mock item 2</li>
+		<li key='3'>mock item 3</li>
+	</ul>",
+          "className": "ljit-scroll-container__body",
+        },
+        "ref": null,
+        "rendered": "
+	<ul>
+		<li key='1'>mock item 1</li>
+		<li key='2'>mock item 2</li>
+		<li key='3'>mock item 3</li>
+	</ul>",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "mock-text",
+          "className": "ljit-scroll-container__button",
+          "color": "",
+          "disabled": false,
+          "icon": "down",
+          "isFullWidth": true,
+          "onClick": [Function],
+          "outline": "text",
+        },
+        "ref": null,
+        "rendered": "mock-text",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-scroll-container__body"
+          >
+            
+	&lt;ul&gt;
+		&lt;li key='1'&gt;mock item 1&lt;/li&gt;
+		&lt;li key='2'&gt;mock item 2&lt;/li&gt;
+		&lt;li key='3'&gt;mock item 3&lt;/li&gt;
+	&lt;/ul&gt;
+          </div>,
+          <Button
+            className="ljit-scroll-container__button"
+            color=""
+            disabled={false}
+            icon="down"
+            isFullWidth={true}
+            onClick={[Function]}
+            outline="text"
+          >
+            mock-text
+          </Button>,
+        ],
+        "className": "ljit-scroll-container mock-class",
+        "style": Object {
+          "maxWidth": "200px",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "
+	<ul>
+		<li key='1'>mock item 1</li>
+		<li key='2'>mock item 2</li>
+		<li key='3'>mock item 3</li>
+	</ul>",
+            "className": "ljit-scroll-container__body",
+          },
+          "ref": null,
+          "rendered": "
+	<ul>
+		<li key='1'>mock item 1</li>
+		<li key='2'>mock item 2</li>
+		<li key='3'>mock item 3</li>
+	</ul>",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "mock-text",
+            "className": "ljit-scroll-container__button",
+            "color": "",
+            "disabled": false,
+            "icon": "down",
+            "isFullWidth": true,
+            "onClick": [Function],
+            "outline": "text",
+          },
+          "ref": null,
+          "rendered": "mock-text",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

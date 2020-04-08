@@ -1,0 +1,105 @@
+$expandable-panel-background-color = #fff
+$expandable-panel-color = #646464
+$expandable-panel-border-color = #f4f5f8
+
+.ljit-expandable-panel
+	background-color: $expandable-panel-background-color
+	color: #8e9097
+	font-size: 12px
+	width: 24px
+	height: 76px
+	line-height: 1.17
+	display: flex
+	align-items: center
+	position: absolute
+	top: 0
+	transition: all .5s
+
+	&:hover:not(.ljit-expandable-panel--opened)
+		cursor: pointer
+
+	&--closed > div
+		padding: 6px
+		height: 100%
+		display: flex
+		align-items: center
+
+	&--opened
+		padding: 0
+		width: 168px
+		height: auto
+		flex-direction: column
+		animation-name: fadeIn
+		animation-duration: .5s
+
+		> div
+			width: 100%
+
+	&--left
+		border-top-left-radius: 6px
+		border-bottom-left-radius: 6px
+		right: 0
+
+		~/--opened&
+			border-bottom-left-radius: 0
+			border-top-right-radius: 6px
+
+	&--right
+		border-top-right-radius: 6px
+		border-bottom-right-radius: 6px
+		left: 0
+
+		~/--opened&
+			border-bottom-right-radius: 0
+			border-top-left-radius: 6px
+
+	&__top
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 7px 8px
+		height: 30px
+
+	&__title
+		color: $expandable-panel-color
+		font-size: 14px
+		display: flex
+		align-items: center
+		justify-content: space-between
+
+		svg
+			width: 100%
+			height: auto
+			max-width: 25px
+
+		span
+			text-overflow: ellipsis
+			overflow: hidden
+			white-space: nowrap
+			margin-left: 4px
+
+	&__right-icon
+		width: 12px
+		margin-left: 10px
+		i,
+		svg
+			width: 100%
+
+		&:hover
+			cursor: pointer
+
+	&__bottom
+		border-top: 1px solid $expandable-panel-border-color
+		height: 32px
+		text-align: center
+		color: #a5a5a5
+		font-size: 12px
+		line-height: 32px
+		&:hover
+			cursor: pointer
+
+@keyframes fadeIn
+	from
+		opacity: 0
+	to
+		opacity: 1

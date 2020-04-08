@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StandardBettingRowTextInput
+    data="mock-data"
+    onChangeText={[Function]}
+    placeholder="mock-placeholder"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-text-input__button-group"
+        >
+          <Button
+            className="ljit-text-input__button"
+            color=""
+            disabled={false}
+            onClick={[Function]}
+            outline="solid"
+          >
+             导入注单 
+          </Button>
+          <Button
+            className="ljit-text-input__button"
+            color=""
+            disabled={false}
+            onClick={[Function]}
+            outline="solid"
+          >
+             删除重复号 
+          </Button>
+          <Button
+            className="ljit-text-input__button"
+            color=""
+            disabled={false}
+            onClick={[Function]}
+            outline="solid"
+          >
+             清 空 
+          </Button>
+        </div>,
+        <InputTextarea
+          disabled={false}
+          maxRows={7}
+          minRows={7}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onPressEnter={[Function]}
+          placeholder="mock-placeholder"
+          readOnly={false}
+          value="mock-data"
+        />,
+      ],
+      "className": "ljit-text-input",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               导入注单 
+            </Button>,
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               删除重复号 
+            </Button>,
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               清 空 
+            </Button>,
+          ],
+          "className": "ljit-text-input__button-group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": " 导入注单 ",
+              "className": "ljit-text-input__button",
+              "color": "",
+              "disabled": false,
+              "onClick": [Function],
+              "outline": "solid",
+            },
+            "ref": null,
+            "rendered": " 导入注单 ",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": " 删除重复号 ",
+              "className": "ljit-text-input__button",
+              "color": "",
+              "disabled": false,
+              "onClick": [Function],
+              "outline": "solid",
+            },
+            "ref": null,
+            "rendered": " 删除重复号 ",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": " 清 空 ",
+              "className": "ljit-text-input__button",
+              "color": "",
+              "disabled": false,
+              "onClick": [Function],
+              "outline": "solid",
+            },
+            "ref": null,
+            "rendered": " 清 空 ",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": false,
+          "maxRows": 7,
+          "minRows": 7,
+          "onBlur": [Function],
+          "onChange": [Function],
+          "onFocus": [Function],
+          "onPressEnter": [Function],
+          "placeholder": "mock-placeholder",
+          "readOnly": false,
+          "value": "mock-data",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-text-input__button-group"
+          >
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               导入注单 
+            </Button>
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               删除重复号 
+            </Button>
+            <Button
+              className="ljit-text-input__button"
+              color=""
+              disabled={false}
+              onClick={[Function]}
+              outline="solid"
+            >
+               清 空 
+            </Button>
+          </div>,
+          <InputTextarea
+            disabled={false}
+            maxRows={7}
+            minRows={7}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onPressEnter={[Function]}
+            placeholder="mock-placeholder"
+            readOnly={false}
+            value="mock-data"
+          />,
+        ],
+        "className": "ljit-text-input",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Button
+                className="ljit-text-input__button"
+                color=""
+                disabled={false}
+                onClick={[Function]}
+                outline="solid"
+              >
+                 导入注单 
+              </Button>,
+              <Button
+                className="ljit-text-input__button"
+                color=""
+                disabled={false}
+                onClick={[Function]}
+                outline="solid"
+              >
+                 删除重复号 
+              </Button>,
+              <Button
+                className="ljit-text-input__button"
+                color=""
+                disabled={false}
+                onClick={[Function]}
+                outline="solid"
+              >
+                 清 空 
+              </Button>,
+            ],
+            "className": "ljit-text-input__button-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": " 导入注单 ",
+                "className": "ljit-text-input__button",
+                "color": "",
+                "disabled": false,
+                "onClick": [Function],
+                "outline": "solid",
+              },
+              "ref": null,
+              "rendered": " 导入注单 ",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": " 删除重复号 ",
+                "className": "ljit-text-input__button",
+                "color": "",
+                "disabled": false,
+                "onClick": [Function],
+                "outline": "solid",
+              },
+              "ref": null,
+              "rendered": " 删除重复号 ",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": " 清 空 ",
+                "className": "ljit-text-input__button",
+                "color": "",
+                "disabled": false,
+                "onClick": [Function],
+                "outline": "solid",
+              },
+              "ref": null,
+              "rendered": " 清 空 ",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "maxRows": 7,
+            "minRows": 7,
+            "onBlur": [Function],
+            "onChange": [Function],
+            "onFocus": [Function],
+            "onPressEnter": [Function],
+            "placeholder": "mock-placeholder",
+            "readOnly": false,
+            "value": "mock-data",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

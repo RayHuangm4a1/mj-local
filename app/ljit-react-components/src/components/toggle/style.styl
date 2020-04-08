@@ -1,0 +1,18 @@
+.ljit-toggle
+	display: inline-flex
+	border-radius: 10.5px
+	background-position: -100% 0%
+	background-size: 200% 100%
+	transition: background-position .3s
+	&--left-active
+		background-position: 100% 0%
+	&__item
+		cursor: pointer
+		transition: background-position .2s
+		border-radius: 10.5px
+		padding: 0 6px
+		background-size: 200% 100%
+		&--left-active
+			background-position: 100% 0%
+		&--right-active
+			background-position: -100% 0%

@@ -1,0 +1,123 @@
+$color-white = #ffffff;
+$color-orange = #ff8113;
+$color-light-orange = #ffeddd;
+
+.agent-team-betting-page
+	padding: 11px 12px 13px 12px
+	.ant-input,
+	.ant-select-selection--single
+		height: 28px
+	.ant-select-selection__rendered,
+	.ant-select-selection-selected-value
+		line-height: 28px
+	&__form-row
+		height: 40px
+		& .ant-col
+			display: flex
+			& .ant-row
+				display: flex
+			& .ljit-form-label:not(.ljit-select-dropdown-form-item__form-item)
+				margin: 0 15px 0 0
+			& .ljit-form-select,
+			& .ljit-input
+				width: 104px
+			& .ant-cascader-input
+				padding: 0 11px
+				height: 28px
+				width: 104px
+			& .ant-cascader-picker-arrow
+				color: rgba(0,0,0,0.25)
+			& .ant-cascader-picker-label
+				padding: 0 28px 0 12px
+			& .ljit-daterange-picker.ant-calendar-picker
+				& .ant-input
+					top: -1px
+					height: 28px
+					line-height: 1.3
+					&:hover,
+					&:focus,
+					&:active
+						border-color: $color-orange
+				&:hover,
+				&:focus,
+				&:active
+					& .ant-calendar-picker-input:not(.ant-input-disabled)
+						border-color: $color-orange
+
+	& .ant-table-thead
+		& .ant-table-header-column
+			font-weight: normal
+
+	& .ant-form-item
+		margin-bottom: 0px
+		.ant-form-explain
+			display: none
+
+	& .ljit-button--solid.ljit-button-color--orange
+		font-size: 16px
+		top: 3px
+		width: 68px
+		height: 28px
+		padding: 0
+		font-weight: 600
+
+	& .pager-table
+		margin-top: 8px
+		.ljit-status-tag.terminated-type
+			width: 83px
+
+	&__table-item
+		cursor: pointer
+		&--issue
+			color: $color-orange
+		&--id
+			font-size: 10px
+
+	& .ant-checkbox-checked .ant-checkbox-inner
+		background-color: $color-orange
+		border-color: $color-orange
+
+	& .ant-dropdown-menu-item-selected
+		color: $color-orange
+		background-color: $color-light-orange
+		&:hover
+			background-color: $color-light-orange
+
+	& .ant-dropdown-menu-item:hover
+		background-color: $color-light-orange
+
+	& .ant-table-filter-dropdown-link
+		color: $color-orange
+
+	& .ant-pagination-options-quick-jumper
+		& input
+			&:hover,
+			&:focus,
+			&:active
+				border-color: $color-orange
+
+	.betting-issue-select-input
+		padding-top: 6px
+		.ljit-form-select
+			height: 40px
+			display: flex
+			align-items: center
+			.ant-select-selection
+				flex: 1
+				align-self: flex-start
+				border-right-width: 0
+				border-top-right-radius: 0
+				border-bottom-right-radius: 0
+		.ant-form-item-control
+			line-height: 0
+		.ant-input
+				border-top-left-radius: 0
+				border-bottom-left-radius: 0
+
+	&__username-message-modal
+		.ant-modal-body
+			padding: 27.5px 32px 81.5px 32px
+
+.betting-issue-select-dropdown
+	> div
+		margin-top: -10px

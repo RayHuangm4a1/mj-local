@@ -1,0 +1,44 @@
+$list-item-color-grey = #9f9f9f
+$list-item-font-size = 14px
+$list-item-font-weight = 500
+$avatar-diameter = 40px
+$list-padding = 8px
+
+.win-announcement-list
+	height: 279px - ($list-padding * 2)
+	padding-bottom: $list-padding
+	overflow-y: scroll
+
+	.data-inline-list__list-item
+		padding: 6px 16px 10px
+		&:hover
+			background-color: #fbfbfb
+
+		.ljit-list-item
+			padding: 0
+			border-bottom: 1px solid transparent
+
+			.ljit-list-item__title,
+			.ljit-list-item__title-hint
+				font-size: $list-item-font-size
+				font-weight: $list-item-font-weight
+
+			.ljit-list-item__title
+				color: #646464
+
+			.ljit-list-item__title-hint
+				line-height: normal
+				color: $list-item-color-grey
+
+	&__reward-text
+		margin-left: 8px
+		line-height: normal
+		color: #ff9022
+		font-size: $list-item-font-size
+		font-weight: $list-item-font-weight
+
+	&__avatar
+		height: $avatar-diameter
+		width: $avatar-diameter
+		border-radius: $avatar-diameter
+		margin-right: 16px

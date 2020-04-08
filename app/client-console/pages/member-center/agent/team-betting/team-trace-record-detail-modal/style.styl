@@ -1,0 +1,40 @@
+$betting-table-row-height = 39px
+
+.team-trace-record-detail-modal
+	.ljit-input-textarea
+		color: #222222
+
+	.ljit-label
+		margin-bottom: 0
+		> .ant-form-item-label
+			display: flex
+			max-width: 72px
+			> label
+				font-size: 14px
+				font-weight: 500
+				color: #b2b2b2
+
+	&__type-tag
+		&.ljit-status-tag--default
+			&.ljit-status-tag--betOpening, &.ljit-status-tag--betCanceled
+				width: auto
+
+	&__section
+		padding-left: 34px
+		padding-right: 45px
+
+	&__betting-table
+		margin: 24px 0 12px
+		.ant-table-small > .ant-table-content > .ant-table-scroll
+			> .ant-table-body > table > .ant-table-tbody > tr > td
+				height: 40px
+		.ant-table-small > .ant-table-content .ant-table-header
+			padding-right: 30px
+			padding-left: 20px
+			background-color: #eeeded
+
+		.ant-table-fixed-header > .ant-table-content > .ant-table-scroll > .ant-table-body
+			padding: 0 30px 0 20px
+
+		.pager-table .ant-table-pagination
+			margin-right: 30px

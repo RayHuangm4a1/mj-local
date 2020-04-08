@@ -1,0 +1,28 @@
+.ant-input,
+.ant-input-number,
+.ant-select-selection
+	&-focused,
+	&:focus,
+	&:hover
+		border-color: $THEME-INPUT-BORDER
+		box-shadow: 0 0 0 2px $THEME-INPUT-BORDER-BOX-SHADOW
+
+.ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled)
+	border-color: $THEME-INPUT-BORDER
+
+.ljit-radio-group
+	.ljit-radio
+		&:hover
+			.ant-radio-inner
+				border-color: $THEME-INPUT-BORDER
+
+		.ant-radio-checked
+			&::after
+				border: 1px solid $THEME-INPUT-BORDER
+			.ant-radio-inner
+				border-color: $THEME-INPUT-BORDER
+				&::after
+					background-color: $THEME-INPUT-BORDER
+
+.ant-switch-checked
+	background-color: $THEME-INPUT-BORDER

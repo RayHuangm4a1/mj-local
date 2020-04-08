@@ -1,0 +1,91 @@
+$client-header-height = 64px
+$client-header-text-color = #FFFFFF
+
+.client-header
+	height: $client-header-height
+	line-height: $client-header-height
+	padding: 0
+	.client-header-content
+		width calc(1440px - 24px)
+		display: flex
+		justify-content: space-between
+
+		&__left,
+		&__right
+			display: flex
+
+		&__logo
+			width calc(var(--left-block-width) - 24px)
+			font-size: 24px
+			font-weight: 400
+			padding: 0 50px
+			a
+				display: flex
+				align-items: center
+			&--text
+				font-size: 20px
+				font-weight: 600
+				margin-left: 8px
+
+		.client-header-content__menu
+			height: $client-header-height
+			line-height: $client-header-height
+			background-color: transparent
+			display: flex
+			align-items: center
+			border-bottom: none
+
+		.ljit-menu__item
+			font-size: 20px
+			border-bottom: none
+			&:hover
+				border-bottom: none
+
+		.ant-menu-horizontal
+			>.ant-menu-item
+				>a:before
+					bottom: 0
+
+		&__personal
+			display: flex
+			padding-right 42px
+
+			.client-header-content__personal--menu
+				height: $client-header-height
+				line-height: $client-header-height
+				display: flex
+				align-items: center
+				background-color: transparent
+				font-size: 14px
+				border-bottom: none
+				.ljit-menu__item
+					font-size: 14px
+
+			&-icon
+				margin: 0 4px
+				display: flex
+				align-items: center
+				> i
+					line-height: 0
+
+			&--wallet
+				display: flex
+				align-items: center
+				font-size: 14px
+				&-name
+					display: flex
+					align-items: center
+					margin: 0 8px
+					cursor: pointer
+
+		.ljit-user-avatar
+			margin-left: 8px
+			cursor: pointer
+
+.client-header-content__personal--dropdown-wallet
+	background-color: #fff
+	padding: 12px 14px
+	width: 258px
+	border-radius: 8px
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.42)
+	border: solid 1px #e0e0e0

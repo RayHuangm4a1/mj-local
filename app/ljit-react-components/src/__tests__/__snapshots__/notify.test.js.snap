@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Norify Content should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NotifyContent
+    content="notify content"
+    notifyType="error"
+    onClickClose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Icon
+          className="ljit-notify__icon"
+          color="danger"
+          isTranslucent={false}
+          size="middle"
+          spin={false}
+          style={Object {}}
+          theme="filled"
+          type="close-circle"
+        />,
+        <div
+          className="ljit-notify__content"
+        >
+          notify content
+        </div>,
+        <IconButton
+          className="ljit-notify__close"
+          disabled={false}
+          onClick={[Function]}
+          type="close"
+        />,
+      ],
+      "className": "ljit-notify ljit-notify--error",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": "ljit-notify__icon",
+          "color": "danger",
+          "isTranslucent": false,
+          "size": "middle",
+          "spin": false,
+          "style": Object {},
+          "theme": "filled",
+          "type": "close-circle",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "notify content",
+          "className": "ljit-notify__content",
+        },
+        "ref": null,
+        "rendered": "notify content",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": "ljit-notify__close",
+          "disabled": false,
+          "onClick": [Function],
+          "type": "close",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Icon
+            className="ljit-notify__icon"
+            color="danger"
+            isTranslucent={false}
+            size="middle"
+            spin={false}
+            style={Object {}}
+            theme="filled"
+            type="close-circle"
+          />,
+          <div
+            className="ljit-notify__content"
+          >
+            notify content
+          </div>,
+          <IconButton
+            className="ljit-notify__close"
+            disabled={false}
+            onClick={[Function]}
+            type="close"
+          />,
+        ],
+        "className": "ljit-notify ljit-notify--error",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "ljit-notify__icon",
+            "color": "danger",
+            "isTranslucent": false,
+            "size": "middle",
+            "spin": false,
+            "style": Object {},
+            "theme": "filled",
+            "type": "close-circle",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "notify content",
+            "className": "ljit-notify__content",
+          },
+          "ref": null,
+          "rendered": "notify content",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "ljit-notify__close",
+            "disabled": false,
+            "onClick": [Function],
+            "type": "close",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

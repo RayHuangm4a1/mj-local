@@ -1,0 +1,139 @@
+$grey = #e8e8e8
+$border-style = 1px solid $grey
+$text-line-height = 1.57
+$edit-text-size = 12px
+
+.user-info-block
+	background-color: #FFFFFF
+
+	&__col
+		&--full
+			flex: 1
+
+	&__section
+		font-size: 14px
+		color: rgba(0,0,0,.85)
+
+		&--title
+			padding: 13px 20px
+			font-size: 16px
+			font-weight: 500
+			line-height: 1.5
+
+		&--breadcrumb-wrapper
+			padding: 8px 16px
+
+		&--info
+			padding: 16px 20px
+
+		&--status
+			padding: 24px 36px 25px
+
+	&__section + &__section
+		border-top: $border-style
+
+	&__profile
+		font-size: 16px
+		color: #000000
+
+		&-name
+			font-weight: 500
+
+	&__statistics
+		font-size: 0
+
+		&-item
+			display: inline-block
+			vertical-align: top
+			width: calc((100% - 40px) / 5)
+			font-size: 14px
+
+		&-item + &-item
+			margin-left: 10px
+
+	&__status
+		line-height: $text-line-height
+
+	.user-detail-label
+		display: flex
+		margin-bottom: 12px
+		font-size: 14px
+		line-height: 1.57
+		color: #595959
+
+		&__label
+			white-space: nowrap
+			font-weight: 500
+			color: rgba(0,0,0,.85)
+
+		&__content
+			margin-left: 8px
+			word-break: break-all
+
+		&__button
+			position: relative
+			white-space: nowrap
+			margin-left: 10px
+
+			> div > button,
+			> button
+				font-size: $edit-text-size
+
+		&__ellipsis
+			.ljit-ellipsis__button
+				background-color: transparent
+				border-radius: 0
+				font-size: $edit-text-size
+
+			.ljit-ellipsis__text
+				padding-right: 1em
+			.ljit-ellipsis__dot
+				&::before
+					right: 0
+
+	.user-detail-section
+		line-height: $text-line-height
+
+		&__text
+			&--forbidden
+				color: #f5222d
+		&__comment-tag
+			display: inline-block
+			vertical-align: middle
+			padding: 0 12px
+			border-radius: 6px
+			font-size: 14px
+			line-height: $text-line-height
+			color: #f5222d
+			background-color: #fff1f0
+
+	.role-tag
+		display: inline-block
+		vertical-align: middle
+		padding: 0 12px
+		border-radius: 6px
+		font-size: 14px
+		line-height: $text-line-height
+
+		&--zhaoshang
+			color: #448224
+			background-color: #d9f7be
+		&--member
+			color: #8e3ed4
+			background-color: #e8d5f9
+		&--agent
+			color: #1890ff
+			background-color: #e7f3fc
+
+.team-user-status-management-modal
+	&__text--red
+		color: #f5222d
+
+	&__team-operations-layout
+		min-height: 50px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+
+		&--reverse
+			flex-direction: column-reverse

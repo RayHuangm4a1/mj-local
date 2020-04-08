@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    alignType="center"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "column1",
+          "title": "column1",
+        },
+        Object {
+          "dataIndex": "column2",
+          "title": "column2",
+        },
+      ]
+    }
+    dataSource={
+      Array [
+        Object {
+          "_id": "1",
+          "column1": "a",
+          "column2": "a",
+        },
+        Object {
+          "_id": "2",
+          "column1": "b",
+          "column2": "b",
+        },
+        Object {
+          "_id": "3",
+          "column1": "c",
+          "column2": "c",
+        },
+      ]
+    }
+    fixedLeftColumnIndices={Array []}
+    fixedRightColumnIndices={Array []}
+    hasPagination={false}
+    isBordered={true}
+    isLoading={false}
+    isRowExpendAccordion={true}
+    isShowingHeader={true}
+    onTableChange={[Function]}
+    paginationProps={Object {}}
+    rowKey="_id"
+    rowSelection={null}
+    size="small"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bordered": true,
+      "className": "ljit-table ljit-table--bordered ljit-table--align-center",
+      "columns": Array [
+        Object {
+          "dataIndex": "column1",
+          "title": "column1",
+        },
+        Object {
+          "dataIndex": "column2",
+          "title": "column2",
+        },
+      ],
+      "dataSource": Array [
+        Object {
+          "_id": "1",
+          "column1": "a",
+          "column2": "a",
+        },
+        Object {
+          "_id": "2",
+          "column1": "b",
+          "column2": "b",
+        },
+        Object {
+          "_id": "3",
+          "column1": "c",
+          "column2": "c",
+        },
+      ],
+      "expandedRowKeys": Array [],
+      "expandedRowRender": undefined,
+      "indentSize": 20,
+      "loading": false,
+      "locale": Object {
+        "emptyText": "暂无数据",
+        "filterConfirm": "确定",
+        "filterReset": "重置",
+      },
+      "onChange": [Function],
+      "onExpand": [Function],
+      "pagination": false,
+      "rowKey": "_id",
+      "rowSelection": null,
+      "scroll": undefined,
+      "showHeader": true,
+      "size": "small",
+      "sortDirections": Array [
+        "ascend",
+        "descend",
+      ],
+      "useFixedHeader": false,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bordered": true,
+        "className": "ljit-table ljit-table--bordered ljit-table--align-center",
+        "columns": Array [
+          Object {
+            "dataIndex": "column1",
+            "title": "column1",
+          },
+          Object {
+            "dataIndex": "column2",
+            "title": "column2",
+          },
+        ],
+        "dataSource": Array [
+          Object {
+            "_id": "1",
+            "column1": "a",
+            "column2": "a",
+          },
+          Object {
+            "_id": "2",
+            "column1": "b",
+            "column2": "b",
+          },
+          Object {
+            "_id": "3",
+            "column1": "c",
+            "column2": "c",
+          },
+        ],
+        "expandedRowKeys": Array [],
+        "expandedRowRender": undefined,
+        "indentSize": 20,
+        "loading": false,
+        "locale": Object {
+          "emptyText": "暂无数据",
+          "filterConfirm": "确定",
+          "filterReset": "重置",
+        },
+        "onChange": [Function],
+        "onExpand": [Function],
+        "pagination": false,
+        "rowKey": "_id",
+        "rowSelection": null,
+        "scroll": undefined,
+        "showHeader": true,
+        "size": "small",
+        "sortDirections": Array [
+          "ascend",
+          "descend",
+        ],
+        "useFixedHeader": false,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

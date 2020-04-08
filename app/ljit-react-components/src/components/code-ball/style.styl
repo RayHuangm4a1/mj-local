@@ -1,0 +1,27 @@
+statusColorMap = {
+	primary: {
+		text-color: #FFFFFF
+		background-color: #e2e2e2
+	},
+	selected: {
+		text-color: #FFFFFF
+		background-color: #ff4700
+	},
+	disabled: {
+		text-color: #FFFFFF
+		background-color: #dde0e3
+	}
+}
+
+.ljit-code-ball
+	display: inline-flex
+	justify-content: center
+	align-items: center
+
+	> div:hover
+		cursor: pointer
+	for status, color in statusColorMap
+		&--{status}
+			.ljit-tag
+				background-color: color[background-color]
+				color: color[text-color]

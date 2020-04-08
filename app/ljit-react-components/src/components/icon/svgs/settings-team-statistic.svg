@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-30-/-settings-team-statistic" transform="translate(-4.000000, -2.000000)" stroke="#5F5F5F">
+            <g id="Group" transform="translate(5.000000, 3.000000)">
+                <path d="M2,-0.5 L17.0429732,-0.5 C18.4236851,-0.5 19.5429732,0.619288125 19.5429732,2 L19.5429732,16.7577498 L14.7749739,23.6738282 L2,23.6738282 C0.619288125,23.6738282 -0.5,22.5545401 -0.5,21.1738282 L-0.5,2 C-0.5,0.619288125 0.619288125,-0.5 2,-0.5 Z" id="Rectangle-6" fill="#FFFFFF"></path>
+                <circle id="Oval" fill-rule="nonzero" cx="9.71191849" cy="11.4990235" r="6.54785156"></circle>
+                <line x1="4.84952017" y1="7.85156256" x2="9.49219193" y2="12.2460938" id="Line-5" stroke-linecap="square" fill-rule="nonzero"></line>
+                <line x1="15.6738326" y1="9.28710944" x2="9.72656693" y2="12.2033814" id="Line-5" stroke-linecap="square" fill-rule="nonzero"></line>
+                <line x1="9.52148881" y1="12.7734376" x2="8.42285599" y2="17.8857422" id="Line" stroke-linecap="square" fill-rule="nonzero"></line>
+                <path d="M16.7898943,17.0851429 L18.7153514,21.1376559 L11.5353434,21.211395 L14.1569344,16.9437349 C14.5905515,16.2378541 15.5142971,16.0171408 16.2201779,16.450758 C16.4674517,16.6026564 16.6653538,16.8230224 16.7898943,17.0851429 Z" id="Triangle" fill="#FFFFFF" fill-rule="nonzero" transform="translate(15.181518, 18.715428) rotate(-54.000000) translate(-15.181518, -18.715428) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

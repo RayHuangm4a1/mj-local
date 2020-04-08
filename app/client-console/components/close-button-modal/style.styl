@@ -1,0 +1,47 @@
+$close-button-background-color = rgba(255, 255, 255, 0)
+$color-white = #ffffff
+$modal-height = 571px
+$modal-width = 1193px
+
+.ljit-colse-button-modal
+	position: absolute
+
+	& .ant-modal
+		top: 52%
+		left: 50%
+		margin-top: -300px
+		margin-left: -600px
+
+	& .ant-modal-body
+		padding: 0
+
+	& .ant-modal-close
+		top: -24px
+		right: -24px
+
+		& .ant-modal-close-x
+			width: 28px
+			height: 28px
+			font-size: 20px
+			border: 2px solid $color-white
+			color: $color-white
+			background-color: $close-button-background-color
+			line-height: 0
+			border-radius: 50%
+
+	&__content
+		position: relative
+		margin: 0px auto
+		border-radius: 4px
+		background-color: $color-white
+		width: $modal-width
+		height: $modal-height
+
+		&__body
+			display: flex
+			width: $modal-width
+			height: $modal-height
+			flex: 1
+			overflow-x: hidden
+			overflow-y: auto
+			border-radius: 4px

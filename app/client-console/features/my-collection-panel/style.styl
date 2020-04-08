@@ -1,0 +1,32 @@
+$panel-item-color = #646464
+$panel-item-border-color = #f4f5f8
+$panel-item-hover-background-color = #fff3ca
+
+.ljit-my-collection-panel
+	&.ljit-expandable-panel--opened
+		width: 140px
+
+	&__lottery-list
+		width: 100%
+		color: $panel-item-color
+		padding: 0
+		border-radius: none
+		.data-inline-list__list-item
+			padding: 7px 8px
+			border-top: 1px solid $panel-item-border-color
+			border-bottom: none
+			cursor: pointer
+			&:hover
+				background-color: $panel-item-hover-background-color
+				color: $panel-item-color
+			div
+				font-size: 12px
+				line-height: 17px
+				font-weight: normal
+				color: $panel-item-color
+
+	&__wrapper
+		position: relative
+		width: 190px
+		height: 250px
+		border: 1px solid #ccc

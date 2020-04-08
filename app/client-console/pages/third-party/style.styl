@@ -1,0 +1,97 @@
+$fixed-column-width = 246px
+$fixed-small-column-width = 230px
+$min-fixed-small-column-width = 70px
+$column-gutter = 9px
+
+getTotalFixedWidth(fixedSmallCloumnWidth)
+	$fixed-column-width + fixedSmallCloumnWidth + ($column-gutter * 2)
+
+.third-party
+	&__column
+		background-color: #ffffff
+
+		&:nth-child(1)
+			padding: 15px 15px 10px
+
+		&:nth-child(2)
+			min-height: 900px
+			padding-top: 15px
+			padding-bottom: 150px
+
+		& + &
+			margin-top: 9px
+
+	.third-party-layout
+		display: flex
+		justify-content: space-between
+		max-width: 1344px
+		padding-top: 16px
+		padding-bottom: 121px
+
+		&__column
+			width: 'calc(100% - %s)' % (getTotalFixedWidth($fixed-small-column-width))
+
+			&--fixed
+				width: $fixed-column-width
+			&--fixed-small
+				width: $fixed-small-column-width
+
+	.third-party-selection-group
+		&__header
+			margin-bottom: 15px
+
+		&__icon
+			margin-right: 8px
+		&__title
+			font-size: 16px
+			font-weight: 500
+			color: #646464
+		&__search
+			max-width: 238px
+			margin-left: 20px
+			> .ant-input
+				border-radius: 16px
+
+		.ljit-label-selector__item
+			.ant-tag
+				min-width 71px
+				height: 24px
+
+	.third-party__game
+		padding: 5px 20px 0 
+		display: grid
+		grid-template-columns: repeat(5, 1fr)
+		grid-gap: 10px
+
+	.third-party__home
+		padding: 0 57px
+		display: grid
+		grid-template-columns: repeat(2, 1fr)
+		grid-column-gap: 35px
+		grid-row-gap: 15px
+
+	.third-party__wallet
+		padding: 16px 10px 7.5px
+		background-color: #fff
+		border-radius: 6px
+
+		&-title
+			display: flex
+			align-items: center
+			margin-bottom: 6px
+			> span
+				margin-left: 6px
+				font-size: 16px
+				font-weight: 500
+				color: #646464
+
+@media (max-width: 1270px)
+	.third-party
+		.third-party-layout
+			&__column
+				width: 'calc(100% - %s)' % (getTotalFixedWidth($min-fixed-small-column-width))
+
+				&--fixed
+					width: $fixed-column-width
+				&--fixed-small
+					width: $min-fixed-small-column-width

@@ -1,0 +1,45 @@
+.ljit-check-selector
+	display: flex
+	height: 100%
+
+	&--gray
+		background-color: rgb(245, 245, 250)
+	&--white
+		background-color: #fff
+
+	ul
+		width: 100%
+		list-style: none
+		padding: 0
+		height: 100%
+		border-right: 1px solid rgb(232, 232, 237)
+
+		li
+			padding: 8px 0px 8px 24px
+			border-bottom:1px solid rgb(232, 232, 237)
+			box-sizing: border-box
+			cursor: pointer
+
+		.ljit-check-selector__item--active,
+		.ljit-check-selector__item--selected
+			position: relative
+			&::before
+				content: ''
+				width: 8px
+				height: 8px
+				border-radius: 50%
+				background-color rgb(255, 104, 19)
+				position: absolute
+				top: 15px
+				left: 9px
+
+		.ljit-check-selector__item--active
+			color: rgb(255, 104, 19)
+
+		.ljit-check-selector__item--check
+			color: rgb(255, 104, 19)
+			position: relative
+			&::after
+				content: '✓'
+				position: absolute
+				right: 10px

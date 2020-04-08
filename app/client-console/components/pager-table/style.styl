@@ -1,0 +1,88 @@
+$table-color-orange = #ff8113
+$table-color-grey = #eeeded
+$table-color-white = #ffffff
+$table-text-color = rgba(100,100,100,.5)
+
+setInactiveBackgroundColor(color)
+	border-color: color
+	background-color: color
+	margin: 0 2px
+
+setInactiveTextColor()
+	color: $table-text-color
+
+.pager-table
+	&__normal
+		.ant-table
+			height: 438px
+	&__small
+		.ant-table
+			height: 419px
+	&__x-small
+		.ant-table
+			height: 396px
+
+	.ant-table-small > .ant-table-content > .ant-table-scroll
+		> .ant-table-body > table > .ant-table-tbody > tr > td
+			padding: 0
+			height: 44px
+			border-bottom: 1px solid $table-color-grey
+		> .ant-table-header > table > .ant-table-thead > tr > th
+			padding-top: 9px
+			padding-bottom: 9px
+			border-bottom: none
+			background-color: $table-color-grey
+			border-radius: 2px
+
+	.ant-table-pagination
+		margin-top: 16px
+		margin-bottom: 0
+		margin-right: 11px
+
+		> .ant-pagination
+			// inactive
+			&-prev,
+			&-next,
+			&-item
+				> a,
+				> a:focus
+					color: $table-text-color
+			&-jump-prev,
+			&-jump-next
+				.ant-pagination-item-container
+					.ant-pagination-item-link-icon
+						color: $table-text-color
+			&-prev,
+			&-next
+				.ant-pagination-item-link
+					setInactiveBackgroundColor($table-color-grey)
+			&-item
+				&:not(.ant-pagination-item-active)
+					setInactiveBackgroundColor($table-color-grey)
+			// active
+			&-item
+				&:hover,
+				&-active
+					setInactiveBackgroundColor($table-color-orange)
+					> a
+						color: $table-color-white
+		.ant-pagination-options-quick-jumper
+			input
+				text-align: center
+				&:hover
+					border-color: $table-color-orange
+				&:focus
+					border-color: $table-color-orange
+					box-shadow: 0 0 0 2px rgba(255, 129, 19, 0.2)
+
+	.ant-spin-container
+		.ant-table-pagination
+			.ant-pagination-options
+				order: 3
+				margin: 0
+
+	&.ljit-table
+		.ant-table-thead > tr > th
+			font-weight: normal
+			.anticon-filter
+				right: auto

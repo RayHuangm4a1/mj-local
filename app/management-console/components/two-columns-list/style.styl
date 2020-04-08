@@ -1,0 +1,27 @@
+$list-gutter = 32px
+
+.ljit-two-columns-list
+	font-size: 0
+
+	&__list
+		display: inline-block
+		vertical-align: top
+		width: 'calc((100% - %s) / 2)' % $list-gutter
+		font-size: 14px
+		&:last-child
+			margin-left: $list-gutter
+
+	&__table
+		width: 100%
+		& > tbody > tr > td
+			padding-top: 24px
+			padding-bottom: 7px
+			border-bottom: 1px solid #e8e8e8
+			background-color: #FFF
+			color: rgba(0,0,0,.65)
+			text-align: center
+			&:first-child
+				width: 200px
+				font-weight: 500
+				color: rgba(0,0,0,.85)
+				text-align: left

@@ -1,0 +1,14 @@
+exports.beforeGetChildrenBelongToUserRequest = require('./get-children-belong-to-user-request').before;
+exports.beforeUpdateChildrenFixedWageRequest = require('./update-children-fixed-wage-request').before;
+exports.beforeGetTeamDailyStatsBelongToUserRequest = require('./get-team-daily-stats-belong-to-user-request').before;
+exports.beforeGetChildrenFixedWageRequest = require('./get-children-fixed-wage-request').before;
+exports.beforeGrantDividendsBelongToChildrenRequest = require('./grant-dividends-belong-to-children-request').before;
+exports.beforeGetDescendantBettingsRequest = require('./get-descendant-bettings-request').before;
+exports.beforeGetDescendantBettingRequest = require("./get-descendant-betting-request").before;
+exports.beforeUpdateChildrenSelfDividendSettingsRequest = require("./update-children-self-dividend-settings-request").before;
+exports.beforeGetChildrenTeamDividendsRequest = require("./get-children-team-dividends-request").before;
+exports.beforeCreateChildrenRequest = require("./create-children-request").before;
+exports.beforeUpdateChildrenRequest = require("./update-children-request").before;
+exports.beforeGetDescendantTraceBettingsRequest = require("./get-descendant-trace-bettings-request").before;
+exports.beforeGetDescendantTracesRequest = require("./get-descendant-traces-request").before;
+exports.beforeGetDescendantTraceRequest = require("./get-descendant-trace-request").before;

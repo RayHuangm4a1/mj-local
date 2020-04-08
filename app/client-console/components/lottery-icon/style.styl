@@ -1,0 +1,29 @@
+$icon-x-small-size = 16px
+$icon-small-size = 20px
+$icon-middle-size = 39px
+$icon-large-size = 44px
+$icon-x-large-size = 60px
+
+setIconSize(iconSize)
+	width iconSize
+	height iconSize
+	> img
+		width iconSize
+		height iconSize
+
+.ljit-lottery-icon
+
+	&--x-small
+		setIconSize($icon-x-small-size)
+
+	&--small
+		setIconSize($icon-small-size)
+
+	&--middle
+		setIconSize($icon-middle-size)
+
+	&--large
+		setIconSize($icon-large-size)
+
+	&--x-large
+		setIconSize($icon-x-large-size)

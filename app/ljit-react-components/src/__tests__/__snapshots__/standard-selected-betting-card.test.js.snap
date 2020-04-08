@@ -1,0 +1,1386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandardSelectedBettingCard should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StandardSelectedBettingCard
+    betting={
+      Object {
+        "amount": 30,
+        "amountPerBet": 30,
+        "betcontent": "7,7,7,7,7",
+        "count": 1,
+        "lotteryName": "mock-lottery",
+        "multiple": 1,
+        "name": "直选复式 12,12,12,12,12",
+        "weizhi": "-",
+      }
+    }
+    className="mock-class"
+    onClickClose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="standard-selected-betting-card__header"
+        >
+          <div
+            className="standard-selected-betting-card__lottery"
+          >
+            mock-lottery
+          </div>
+          <div
+            className="standard-selected-betting-card__close"
+            onClick={[Function]}
+          >
+            <Icon
+              color="default"
+              isTranslucent={false}
+              size="middle"
+              spin={false}
+              style={Object {}}
+              type="close"
+            />
+          </div>
+        </div>,
+        <div
+          className="standard-selected-betting-card__info"
+        >
+          <div
+            className="standard-selected-betting-card__info-left"
+          >
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="玩法："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--grey-text"
+              >
+                直选复式 12,12,12,12,12
+              </span>
+            </LabelContent>
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="位置："
+              noMargin={false}
+            >
+              -
+            </LabelContent>
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="注数："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--count-number"
+              >
+                1
+              </span>
+            </LabelContent>
+          </div>
+          <div
+            className="standard-selected-betting-card__info-right"
+          >
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="倍数："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--grey-text"
+              >
+                1
+                倍
+              </span>
+            </LabelContent>
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="单注金额："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--grey-text"
+              >
+                30
+              </span>
+            </LabelContent>
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="金额："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--amount-number"
+              >
+                30
+              </span>
+            </LabelContent>
+          </div>
+          <div
+            className="standard-selected-betting-card__footer"
+          >
+            <LabelContent
+              className="standard-selected-betting-card__label-text"
+              columnType=""
+              hasFeedback={false}
+              label="投注号码："
+              noMargin={false}
+            >
+              <span
+                className="standard-selected-betting-card--grey-text"
+              >
+                7,7,7,7,7
+              </span>
+            </LabelContent>
+          </div>
+        </div>,
+      ],
+      "className": "standard-selected-betting-card mock-class",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="standard-selected-betting-card__lottery"
+            >
+              mock-lottery
+            </div>,
+            <div
+              className="standard-selected-betting-card__close"
+              onClick={[Function]}
+            >
+              <Icon
+                color="default"
+                isTranslucent={false}
+                size="middle"
+                spin={false}
+                style={Object {}}
+                type="close"
+              />
+            </div>,
+          ],
+          "className": "standard-selected-betting-card__header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "mock-lottery",
+              "className": "standard-selected-betting-card__lottery",
+            },
+            "ref": null,
+            "rendered": "mock-lottery",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Icon
+                color="default"
+                isTranslucent={false}
+                size="middle"
+                spin={false}
+                style={Object {}}
+                type="close"
+              />,
+              "className": "standard-selected-betting-card__close",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "color": "default",
+                "isTranslucent": false,
+                "size": "middle",
+                "spin": false,
+                "style": Object {},
+                "type": "close",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="standard-selected-betting-card__info-left"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="玩法："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  直选复式 12,12,12,12,12
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="位置："
+                noMargin={false}
+              >
+                -
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="注数："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--count-number"
+                >
+                  1
+                </span>
+              </LabelContent>
+            </div>,
+            <div
+              className="standard-selected-betting-card__info-right"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="倍数："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  1
+                  倍
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="单注金额："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  30
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="金额："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--amount-number"
+                >
+                  30
+                </span>
+              </LabelContent>
+            </div>,
+            <div
+              className="standard-selected-betting-card__footer"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="投注号码："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  7,7,7,7,7
+                </span>
+              </LabelContent>
+            </div>,
+          ],
+          "className": "standard-selected-betting-card__info",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="玩法："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    直选复式 12,12,12,12,12
+                  </span>
+                </LabelContent>,
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="位置："
+                  noMargin={false}
+                >
+                  -
+                </LabelContent>,
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="注数："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--count-number"
+                  >
+                    1
+                  </span>
+                </LabelContent>,
+              ],
+              "className": "standard-selected-betting-card__info-left",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    直选复式 12,12,12,12,12
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "玩法：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "直选复式 12,12,12,12,12",
+                    "className": "standard-selected-betting-card--grey-text",
+                  },
+                  "ref": null,
+                  "rendered": "直选复式 12,12,12,12,12",
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "-",
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "位置：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": "-",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--count-number"
+                  >
+                    1
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "注数：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1,
+                    "className": "standard-selected-betting-card--count-number",
+                  },
+                  "ref": null,
+                  "rendered": 1,
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="倍数："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    1
+                    倍
+                  </span>
+                </LabelContent>,
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="单注金额："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    30
+                  </span>
+                </LabelContent>,
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="金额："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--amount-number"
+                  >
+                    30
+                  </span>
+                </LabelContent>,
+              ],
+              "className": "standard-selected-betting-card__info-right",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    1
+                    倍
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "倍数：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      1,
+                      "倍",
+                    ],
+                    "className": "standard-selected-betting-card--grey-text",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    1,
+                    "倍",
+                  ],
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    30
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "单注金额：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 30,
+                    "className": "standard-selected-betting-card--grey-text",
+                  },
+                  "ref": null,
+                  "rendered": 30,
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--amount-number"
+                  >
+                    30
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "金额：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 30,
+                    "className": "standard-selected-betting-card--amount-number",
+                  },
+                  "ref": null,
+                  "rendered": 30,
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="投注号码："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  7,7,7,7,7
+                </span>
+              </LabelContent>,
+              "className": "standard-selected-betting-card__footer",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  7,7,7,7,7
+                </span>,
+                "className": "standard-selected-betting-card__label-text",
+                "columnType": "",
+                "hasFeedback": false,
+                "label": "投注号码：",
+                "noMargin": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "7,7,7,7,7",
+                  "className": "standard-selected-betting-card--grey-text",
+                },
+                "ref": null,
+                "rendered": "7,7,7,7,7",
+                "type": "span",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="standard-selected-betting-card__header"
+          >
+            <div
+              className="standard-selected-betting-card__lottery"
+            >
+              mock-lottery
+            </div>
+            <div
+              className="standard-selected-betting-card__close"
+              onClick={[Function]}
+            >
+              <Icon
+                color="default"
+                isTranslucent={false}
+                size="middle"
+                spin={false}
+                style={Object {}}
+                type="close"
+              />
+            </div>
+          </div>,
+          <div
+            className="standard-selected-betting-card__info"
+          >
+            <div
+              className="standard-selected-betting-card__info-left"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="玩法："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  直选复式 12,12,12,12,12
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="位置："
+                noMargin={false}
+              >
+                -
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="注数："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--count-number"
+                >
+                  1
+                </span>
+              </LabelContent>
+            </div>
+            <div
+              className="standard-selected-betting-card__info-right"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="倍数："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  1
+                  倍
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="单注金额："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  30
+                </span>
+              </LabelContent>
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="金额："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--amount-number"
+                >
+                  30
+                </span>
+              </LabelContent>
+            </div>
+            <div
+              className="standard-selected-betting-card__footer"
+            >
+              <LabelContent
+                className="standard-selected-betting-card__label-text"
+                columnType=""
+                hasFeedback={false}
+                label="投注号码："
+                noMargin={false}
+              >
+                <span
+                  className="standard-selected-betting-card--grey-text"
+                >
+                  7,7,7,7,7
+                </span>
+              </LabelContent>
+            </div>
+          </div>,
+        ],
+        "className": "standard-selected-betting-card mock-class",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="standard-selected-betting-card__lottery"
+              >
+                mock-lottery
+              </div>,
+              <div
+                className="standard-selected-betting-card__close"
+                onClick={[Function]}
+              >
+                <Icon
+                  color="default"
+                  isTranslucent={false}
+                  size="middle"
+                  spin={false}
+                  style={Object {}}
+                  type="close"
+                />
+              </div>,
+            ],
+            "className": "standard-selected-betting-card__header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "mock-lottery",
+                "className": "standard-selected-betting-card__lottery",
+              },
+              "ref": null,
+              "rendered": "mock-lottery",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Icon
+                  color="default"
+                  isTranslucent={false}
+                  size="middle"
+                  spin={false}
+                  style={Object {}}
+                  type="close"
+                />,
+                "className": "standard-selected-betting-card__close",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "default",
+                  "isTranslucent": false,
+                  "size": "middle",
+                  "spin": false,
+                  "style": Object {},
+                  "type": "close",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="standard-selected-betting-card__info-left"
+              >
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="玩法："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    直选复式 12,12,12,12,12
+                  </span>
+                </LabelContent>
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="位置："
+                  noMargin={false}
+                >
+                  -
+                </LabelContent>
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="注数："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--count-number"
+                  >
+                    1
+                  </span>
+                </LabelContent>
+              </div>,
+              <div
+                className="standard-selected-betting-card__info-right"
+              >
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="倍数："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    1
+                    倍
+                  </span>
+                </LabelContent>
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="单注金额："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    30
+                  </span>
+                </LabelContent>
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="金额："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--amount-number"
+                  >
+                    30
+                  </span>
+                </LabelContent>
+              </div>,
+              <div
+                className="standard-selected-betting-card__footer"
+              >
+                <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="投注号码："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    7,7,7,7,7
+                  </span>
+                </LabelContent>
+              </div>,
+            ],
+            "className": "standard-selected-betting-card__info",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="玩法："
+                    noMargin={false}
+                  >
+                    <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      直选复式 12,12,12,12,12
+                    </span>
+                  </LabelContent>,
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="位置："
+                    noMargin={false}
+                  >
+                    -
+                  </LabelContent>,
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="注数："
+                    noMargin={false}
+                  >
+                    <span
+                      className="standard-selected-betting-card--count-number"
+                    >
+                      1
+                    </span>
+                  </LabelContent>,
+                ],
+                "className": "standard-selected-betting-card__info-left",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      直选复式 12,12,12,12,12
+                    </span>,
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "玩法：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "直选复式 12,12,12,12,12",
+                      "className": "standard-selected-betting-card--grey-text",
+                    },
+                    "ref": null,
+                    "rendered": "直选复式 12,12,12,12,12",
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "-",
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "位置：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": "-",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span
+                      className="standard-selected-betting-card--count-number"
+                    >
+                      1
+                    </span>,
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "注数：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 1,
+                      "className": "standard-selected-betting-card--count-number",
+                    },
+                    "ref": null,
+                    "rendered": 1,
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="倍数："
+                    noMargin={false}
+                  >
+                    <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      1
+                      倍
+                    </span>
+                  </LabelContent>,
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="单注金额："
+                    noMargin={false}
+                  >
+                    <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      30
+                    </span>
+                  </LabelContent>,
+                  <LabelContent
+                    className="standard-selected-betting-card__label-text"
+                    columnType=""
+                    hasFeedback={false}
+                    label="金额："
+                    noMargin={false}
+                  >
+                    <span
+                      className="standard-selected-betting-card--amount-number"
+                    >
+                      30
+                    </span>
+                  </LabelContent>,
+                ],
+                "className": "standard-selected-betting-card__info-right",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      1
+                      倍
+                    </span>,
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "倍数：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        1,
+                        "倍",
+                      ],
+                      "className": "standard-selected-betting-card--grey-text",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      1,
+                      "倍",
+                    ],
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span
+                      className="standard-selected-betting-card--grey-text"
+                    >
+                      30
+                    </span>,
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "单注金额：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 30,
+                      "className": "standard-selected-betting-card--grey-text",
+                    },
+                    "ref": null,
+                    "rendered": 30,
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <span
+                      className="standard-selected-betting-card--amount-number"
+                    >
+                      30
+                    </span>,
+                    "className": "standard-selected-betting-card__label-text",
+                    "columnType": "",
+                    "hasFeedback": false,
+                    "label": "金额：",
+                    "noMargin": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 30,
+                      "className": "standard-selected-betting-card--amount-number",
+                    },
+                    "ref": null,
+                    "rendered": 30,
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <LabelContent
+                  className="standard-selected-betting-card__label-text"
+                  columnType=""
+                  hasFeedback={false}
+                  label="投注号码："
+                  noMargin={false}
+                >
+                  <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    7,7,7,7,7
+                  </span>
+                </LabelContent>,
+                "className": "standard-selected-betting-card__footer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <span
+                    className="standard-selected-betting-card--grey-text"
+                  >
+                    7,7,7,7,7
+                  </span>,
+                  "className": "standard-selected-betting-card__label-text",
+                  "columnType": "",
+                  "hasFeedback": false,
+                  "label": "投注号码：",
+                  "noMargin": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "7,7,7,7,7",
+                    "className": "standard-selected-betting-card--grey-text",
+                  },
+                  "ref": null,
+                  "rendered": "7,7,7,7,7",
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

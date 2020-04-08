@@ -1,0 +1,84 @@
+$betting-block-aside-padding = 16px
+
+.ljit-betting-block
+	background-color #fff
+	width: 900px
+	padding: 13px $betting-block-aside-padding 6px;
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+	+ .ljit-betting-block
+		position: relative
+		&::before
+			content: ""
+			border-top: 1px solid #eee
+			top: 0
+			left: $betting-block-aside-padding
+			width: 'calc(100% - %s)' % ($betting-block-aside-padding * 2)
+			position: absolute
+
+	&__select-block
+		display: flex
+	&__select-block-options
+		padding-left: 16px
+		.ant-tag
+			cursor: pointer
+		> .ljit-code-ball--primary
+			.ljit-tag
+				color: #555555
+				background-color: #FFFFFF
+
+.ljit-bet-block
+	display: flex
+	align-items: center
+
+	&__number__of__digits
+		width: 50px
+		display: inline-block
+		text-align: center
+		line-height: 36px
+		font-size: 12px
+		flex: none
+
+	&__sub
+		width: 100%
+		display: flex
+		justify-content: space-between
+		&__style
+			width: 50%
+			display: inline-block
+			text-align: center
+			cursor: pointer
+			line-height: 15px
+		&--left
+			color: #16a5ae
+
+		&--right
+			color: #ff8113
+
+.ljit-bet-ball
+	width: 32px
+	display: inline-block
+	margin: 0 8px
+	&__ball
+		cursor: pointer
+		.ljit-code-ball--primary
+			.ljit-tag
+				font-weight: 400
+	&__sub
+		width: 100%
+		margin-top: 2px
+
+		&__style
+			font-size: 12px
+			width: 50%
+			display: inline-block
+			text-align: center
+			cursor: pointer
+
+		&--left
+			color: #16a5ae
+
+		&--right
+			color: #ff8113

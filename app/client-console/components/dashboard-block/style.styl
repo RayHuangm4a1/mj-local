@@ -1,0 +1,40 @@
+.dashboard-block
+	&__header
+		display flex
+		align-items center
+		padding-bottom 10px
+		min-height 45px
+		> span
+			margin-left 10px
+			font-size 24px
+			font-weight 500
+			color #222222
+		> .ljit-label-selector
+			margin-left 2px
+			.ljit-label-selector__item
+				.ant-tag
+					color rgba(34,34,34,.5)
+					font-size 18px
+			.ljit-label-selector__item--active
+				.ant-tag
+					position relative
+					color rgba(34,34,34,1)
+					font-size 24px
+					font-weight 500
+				.ant-tag::after
+					content ''
+					width 44px
+					position absolute
+					left 50%
+					transform: translateX(-50%)
+					bottom -10px
+					border-bottom 3px solid #ff9022
+		.ant-form-item-control
+			line-height 0
+	&__content
+		margin-top 8px
+		background-color #FFF
+		&--small
+			width 290px
+		&--large
+			width 910px

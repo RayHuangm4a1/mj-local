@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DatePicker
+    className=""
+    format="YYYY/MM/DD"
+    isDisabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="mock-placeholder"
+    style={Object {}}
+    value={2019-01-31T16:00:00.000Z}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "className": "ljit-date-picker",
+      "defaultValue": undefined,
+      "disabled": false,
+      "dropdownClassName": "ljit-date-picker-popup",
+      "format": "YYYY/MM/DD",
+      "locale": Object {
+        "lang": Object {
+          "backToToday": "返回今天",
+          "clear": "清除",
+          "dateFormat": "YYYY年M月D日",
+          "dateSelect": "选择日期",
+          "dateTimeFormat": "YYYY年M月D日 HH时mm分ss秒",
+          "dayFormat": "D日",
+          "decadeSelect": "选择年代",
+          "month": "月",
+          "monthSelect": "选择月份",
+          "nextCentury": "下一世纪",
+          "nextDecade": "下一年代",
+          "nextMonth": "下个月 (翻页下键)",
+          "nextYear": "下一年 (Control键加右方向键)",
+          "now": "此刻",
+          "ok": "确 定",
+          "placeholder": "请选择日期",
+          "previousCentury": "上一世纪",
+          "previousDecade": "上一年代",
+          "previousMonth": "上个月 (翻页上键)",
+          "previousYear": "上一年 (Control键加左方向键)",
+          "rangePlaceholder": Array [
+            "开始日期",
+            "结束日期",
+          ],
+          "timeSelect": "选择时间",
+          "today": "今天",
+          "weekSelect": "选择周",
+          "year": "年",
+          "yearFormat": "YYYY年",
+          "yearSelect": "选择年份",
+        },
+        "timePickerLocale": Object {
+          "placeholder": "请选择时间",
+        },
+      },
+      "onBlur": [Function],
+      "onChange": [Function],
+      "onFocus": [Function],
+      "onOk": [MockFunction],
+      "onOpenChange": [MockFunction],
+      "placeholder": "mock-placeholder",
+      "popupStyle": Object {},
+      "showTime": undefined,
+      "style": Object {},
+      "transitionName": "slide-up",
+      "value": 2019-01-31T16:00:00.000Z,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "className": "ljit-date-picker",
+        "defaultValue": undefined,
+        "disabled": false,
+        "dropdownClassName": "ljit-date-picker-popup",
+        "format": "YYYY/MM/DD",
+        "locale": Object {
+          "lang": Object {
+            "backToToday": "返回今天",
+            "clear": "清除",
+            "dateFormat": "YYYY年M月D日",
+            "dateSelect": "选择日期",
+            "dateTimeFormat": "YYYY年M月D日 HH时mm分ss秒",
+            "dayFormat": "D日",
+            "decadeSelect": "选择年代",
+            "month": "月",
+            "monthSelect": "选择月份",
+            "nextCentury": "下一世纪",
+            "nextDecade": "下一年代",
+            "nextMonth": "下个月 (翻页下键)",
+            "nextYear": "下一年 (Control键加右方向键)",
+            "now": "此刻",
+            "ok": "确 定",
+            "placeholder": "请选择日期",
+            "previousCentury": "上一世纪",
+            "previousDecade": "上一年代",
+            "previousMonth": "上个月 (翻页上键)",
+            "previousYear": "上一年 (Control键加左方向键)",
+            "rangePlaceholder": Array [
+              "开始日期",
+              "结束日期",
+            ],
+            "timeSelect": "选择时间",
+            "today": "今天",
+            "weekSelect": "选择周",
+            "year": "年",
+            "yearFormat": "YYYY年",
+            "yearSelect": "选择年份",
+          },
+          "timePickerLocale": Object {
+            "placeholder": "请选择时间",
+          },
+        },
+        "onBlur": [Function],
+        "onChange": [Function],
+        "onFocus": [Function],
+        "onOk": [MockFunction],
+        "onOpenChange": [MockFunction],
+        "placeholder": "mock-placeholder",
+        "popupStyle": Object {},
+        "showTime": undefined,
+        "style": Object {},
+        "transitionName": "slide-up",
+        "value": 2019-01-31T16:00:00.000Z,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

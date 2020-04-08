@@ -1,0 +1,66 @@
+$DANGER = #f5222d
+$PRIMARY = #5cb0ff
+$SUCCESS = #52c41a
+$WHITE = #ffffff
+$GREY = #bfbfbf
+$ORANGE = #ff8113
+$icon-x-small-size = 12px
+$icon-small-size = 16px
+$icon-middle-size = 18px
+$icon-large-size = 20px
+$icon-x-large-size = 24px
+$icon-xx-large-size = 36px
+$icon-opaticy = .65
+
+setIconColor(iconColor)
+	color iconColor
+	> svg
+		fill iconColor
+
+setIconSize(iconSize)
+	width iconSize
+	height iconSize
+	> svg
+		width iconSize
+		height iconSize
+
+.ljit-icon
+
+	&--white
+		setIconColor($WHITE)
+
+	&--grey
+		setIconColor($GREY)
+
+	&--orange
+		setIconColor($ORANGE)
+
+	&--danger
+		setIconColor($DANGER)
+
+	&--primary
+		setIconColor($PRIMARY)
+
+	&--success
+		setIconColor($SUCCESS)
+
+	&--x-small
+		setIconSize($icon-x-small-size)
+
+	&--small
+		setIconSize($icon-small-size)
+
+	&--middle
+		setIconSize($icon-middle-size)
+
+	&--large
+		setIconSize($icon-large-size)
+
+	&--x-large
+		setIconSize($icon-x-large-size)
+
+	&--xx-large
+		setIconSize($icon-xx-large-size)
+
+	&--translucent
+		opacity: $icon-opaticy

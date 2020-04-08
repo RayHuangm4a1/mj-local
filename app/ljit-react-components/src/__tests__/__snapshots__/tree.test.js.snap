@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tree should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tree
+    isAutoExpandParent={true}
+    isCheckable={true}
+    isDefaultExpandAll={true}
+    isDefaultExpandParent={true}
+    isDisabled={false}
+    isSelectable={false}
+    onCheck={[Function]}
+    onExpand={[Function]}
+    onRenderTreeNodes={[Function]}
+    onSelect={[Function]}
+    treeNodes={
+      Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "isDisabled": true,
+                  "key": "0-0-0-0",
+                  "title": "leaf",
+                },
+                Object {
+                  "key": "0-0-0-1",
+                  "title": "leaf",
+                },
+              ],
+              "key": "0-0-0",
+              "title": "parent 1-0",
+            },
+          ],
+          "key": "0-0",
+          "title": "parent 1",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "key": "0-0-1-0",
+              "title": <span
+                style={
+                  Object {
+                    "color": "#1890ff",
+                  }
+                }
+              >
+                sss
+              </span>,
+            },
+          ],
+          "key": "0-0-1",
+          "title": "parent 1-1",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "autoExpandParent": true,
+      "blockNode": false,
+      "checkable": true,
+      "checkedKeys": undefined,
+      "children": Array [
+        <TreeNode
+          title="parent 1"
+        >
+          <TreeNode
+            title="parent 1-0"
+          >
+            <TreeNode
+              disabled={true}
+              title="leaf"
+            />
+            <TreeNode
+              title="leaf"
+            />
+          </TreeNode>
+        </TreeNode>,
+        <TreeNode
+          title="parent 1-1"
+        >
+          <TreeNode
+            title={
+              <span
+                style={
+                  Object {
+                    "color": "#1890ff",
+                  }
+                }
+              >
+                sss
+              </span>
+            }
+          />
+        </TreeNode>,
+      ],
+      "className": "ljit-tree",
+      "defaultCheckedKeys": undefined,
+      "defaultExpandAll": true,
+      "defaultExpandParent": true,
+      "defaultExpandedKeys": undefined,
+      "disabled": false,
+      "onCheck": [Function],
+      "onExpand": [Function],
+      "onSelect": [Function],
+      "openAnimation": Object {
+        "appear": null,
+        "enter": [MockFunction],
+        "leave": [MockFunction],
+      },
+      "selectable": false,
+      "showIcon": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0-0",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <TreeNode
+              title="parent 1-0"
+            >
+              <TreeNode
+                disabled={true}
+                title="leaf"
+              />
+              <TreeNode
+                title="leaf"
+              />
+            </TreeNode>,
+          ],
+          "disabled": undefined,
+          "title": "parent 1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0-0-0",
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <TreeNode
+                  disabled={true}
+                  title="leaf"
+                />,
+                <TreeNode
+                  title="leaf"
+                />,
+              ],
+              "disabled": undefined,
+              "title": "parent 1-0",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0-0-0-0",
+                "nodeType": "function",
+                "props": Object {
+                  "disabled": true,
+                  "title": "leaf",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "0-0-0-1",
+                "nodeType": "function",
+                "props": Object {
+                  "disabled": undefined,
+                  "title": "leaf",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0-0-1",
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <TreeNode
+              title={
+                <span
+                  style={
+                    Object {
+                      "color": "#1890ff",
+                    }
+                  }
+                >
+                  sss
+                </span>
+              }
+            />,
+          ],
+          "disabled": undefined,
+          "title": "parent 1-1",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0-0-1-0",
+            "nodeType": "function",
+            "props": Object {
+              "disabled": undefined,
+              "title": <span
+                style={
+                  Object {
+                    "color": "#1890ff",
+                  }
+                }
+              >
+                sss
+              </span>,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoExpandParent": true,
+        "blockNode": false,
+        "checkable": true,
+        "checkedKeys": undefined,
+        "children": Array [
+          <TreeNode
+            title="parent 1"
+          >
+            <TreeNode
+              title="parent 1-0"
+            >
+              <TreeNode
+                disabled={true}
+                title="leaf"
+              />
+              <TreeNode
+                title="leaf"
+              />
+            </TreeNode>
+          </TreeNode>,
+          <TreeNode
+            title="parent 1-1"
+          >
+            <TreeNode
+              title={
+                <span
+                  style={
+                    Object {
+                      "color": "#1890ff",
+                    }
+                  }
+                >
+                  sss
+                </span>
+              }
+            />
+          </TreeNode>,
+        ],
+        "className": "ljit-tree",
+        "defaultCheckedKeys": undefined,
+        "defaultExpandAll": true,
+        "defaultExpandParent": true,
+        "defaultExpandedKeys": undefined,
+        "disabled": false,
+        "onCheck": [Function],
+        "onExpand": [Function],
+        "onSelect": [Function],
+        "openAnimation": Object {
+          "appear": null,
+          "enter": [MockFunction],
+          "leave": [MockFunction],
+        },
+        "selectable": false,
+        "showIcon": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0-0",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <TreeNode
+                title="parent 1-0"
+              >
+                <TreeNode
+                  disabled={true}
+                  title="leaf"
+                />
+                <TreeNode
+                  title="leaf"
+                />
+              </TreeNode>,
+            ],
+            "disabled": undefined,
+            "title": "parent 1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0-0-0",
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <TreeNode
+                    disabled={true}
+                    title="leaf"
+                  />,
+                  <TreeNode
+                    title="leaf"
+                  />,
+                ],
+                "disabled": undefined,
+                "title": "parent 1-0",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0-0-0-0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "disabled": true,
+                    "title": "leaf",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0-0-0-1",
+                  "nodeType": "function",
+                  "props": Object {
+                    "disabled": undefined,
+                    "title": "leaf",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0-0-1",
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <TreeNode
+                title={
+                  <span
+                    style={
+                      Object {
+                        "color": "#1890ff",
+                      }
+                    }
+                  >
+                    sss
+                  </span>
+                }
+              />,
+            ],
+            "disabled": undefined,
+            "title": "parent 1-1",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0-0-1-0",
+              "nodeType": "function",
+              "props": Object {
+                "disabled": undefined,
+                "title": <span
+                  style={
+                    Object {
+                      "color": "#1890ff",
+                    }
+                  }
+                >
+                  sss
+                </span>,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

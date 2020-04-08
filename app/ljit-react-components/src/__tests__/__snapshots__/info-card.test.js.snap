@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InfoCard
+    bottom="mock-bottom"
+    className="mock-class"
+    isShowingCloseButton={true}
+    left="mock-left"
+    onClose={[Function]}
+    right="mock-right"
+    topLeft="mock-top-left"
+    topRight="mock-top-right"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HeaderButtonBar
+          left="mock-top-left"
+          right="mock-top-right"
+        />,
+        <Row
+          gutter={6}
+        >
+          <Col
+            span={12}
+          >
+            mock-left
+          </Col>
+          <Col
+            span={12}
+          >
+            mock-right
+          </Col>
+        </Row>,
+        "mock-bottom",
+        <span
+          className="ljit-info-card__close-button"
+          onClick={[Function]}
+        >
+          <Icon
+            color="default"
+            isTranslucent={false}
+            size="middle"
+            spin={false}
+            style={Object {}}
+            type="close"
+          />
+        </span>,
+      ],
+      "className": "ljit-info-card mock-class",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "left": "mock-top-left",
+          "right": "mock-top-right",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Col
+              span={12}
+            >
+              mock-left
+            </Col>,
+            <Col
+              span={12}
+            >
+              mock-right
+            </Col>,
+          ],
+          "gutter": 6,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "mock-left",
+              "span": 12,
+            },
+            "ref": null,
+            "rendered": "mock-left",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "mock-right",
+              "span": 12,
+            },
+            "ref": null,
+            "rendered": "mock-right",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "mock-bottom",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Icon
+            color="default"
+            isTranslucent={false}
+            size="middle"
+            spin={false}
+            style={Object {}}
+            type="close"
+          />,
+          "className": "ljit-info-card__close-button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "color": "default",
+            "isTranslucent": false,
+            "size": "middle",
+            "spin": false,
+            "style": Object {},
+            "type": "close",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HeaderButtonBar
+            left="mock-top-left"
+            right="mock-top-right"
+          />,
+          <Row
+            gutter={6}
+          >
+            <Col
+              span={12}
+            >
+              mock-left
+            </Col>
+            <Col
+              span={12}
+            >
+              mock-right
+            </Col>
+          </Row>,
+          "mock-bottom",
+          <span
+            className="ljit-info-card__close-button"
+            onClick={[Function]}
+          >
+            <Icon
+              color="default"
+              isTranslucent={false}
+              size="middle"
+              spin={false}
+              style={Object {}}
+              type="close"
+            />
+          </span>,
+        ],
+        "className": "ljit-info-card mock-class",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "left": "mock-top-left",
+            "right": "mock-top-right",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Col
+                span={12}
+              >
+                mock-left
+              </Col>,
+              <Col
+                span={12}
+              >
+                mock-right
+              </Col>,
+            ],
+            "gutter": 6,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "mock-left",
+                "span": 12,
+              },
+              "ref": null,
+              "rendered": "mock-left",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "mock-right",
+                "span": 12,
+              },
+              "ref": null,
+              "rendered": "mock-right",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "mock-bottom",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Icon
+              color="default"
+              isTranslucent={false}
+              size="middle"
+              spin={false}
+              style={Object {}}
+              type="close"
+            />,
+            "className": "ljit-info-card__close-button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "color": "default",
+              "isTranslucent": false,
+              "size": "middle",
+              "spin": false,
+              "style": Object {},
+              "type": "close",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,272 @@
+:root {
+  --brightBlue500: #1890ff;
+  --brightBlue300: #5cb0ff;
+  --grassGreen900: #448224;
+  --grassGreen700: #559036;
+  --grassGreen500: #52c41a;
+  --lightRed500: #f5222d;
+  --warmOrange900: #d48806;
+  --warmOrange700: #fc9327;
+  --warmOrange500: #faad14;
+  --lightPurple500: #cc77ee;
+  --tiffanyGreen500: #3de2ca;
+  --salmonRed500: #ff8667;
+  --white: #ffffff;
+  --grey65: #595959;
+  --orange: #ff8113;
+  --pinkish: #e4567d;
+  --coral: #f66656;
+  --bloodOrange: #ff4700;
+  --butterscotch: #f8c241;
+  --topaz: #1cceb7;
+  --grey30: #c0c0c0;
+  --grey20: #cdcdcd;
+  --grey12: #e2e2e2;
+  --grey9: #e4e4e4;
+  --grey5: #f2f2f2;
+  --greyishBrown: #555352;
+  --pale: #fff3ca;
+  --paleTwo: #ffebdb;
+  --blue100: #5ca9f8;
+  --blue50: #d0e2f8;
+}
+
+disabled-setting()
+	color: var(--white)
+	border-color: var(--grey9)
+	background-color: var(--grey9)
+	&:hover, &:focus, &:active {
+		color: var(--white)
+		border-color: var(--grey9)
+		background-color: var(--grey9)
+	}
+
+solid-dash-setting(arg)
+	color: var(--white)
+	border-color: var(arg)
+	background-color: var(arg)
+	&[disabled]
+		disabled-setting()
+
+hollow-text-setting(arg)
+	color: var(arg)
+	border-color: var(arg)
+	&:hover, &:focus, &:active {
+		background-color: transparent
+	}
+	&[disabled]
+		disabled-setting()
+
+.ljit-btn {
+	padding-top: 5px
+	padding-bottom: 5px
+	padding-left: 10px
+	padding-right: 10px
+}
+
+.ljit-button
+	&--solid {
+		background-color: var(--brightBlue500)
+		color:var(--white)
+	}
+	&--hollow {
+		background-color: transparent
+		color: var(--grey65)
+	}
+	&--text {
+		border: none
+		background-color: transparent
+		color: var(--grey65)
+	}
+	&--dashed {
+		color: var(--grey65)
+		border-radius: 6px
+  		border: dashed 1px #d4d4d4
+		background-color: transparent
+	}
+
+
+.ljit-button--solid.ljit-button-color,.ljit-button--dashed.ljit-button-color
+		&--brightBlue500 {
+			background-color: var(--brightBlue500)
+			color:var(--white)
+		}
+		&--brightBlue300 {
+			background-color: var(--brightBlue300)
+			color:var(--white)
+		}
+		&--grassGreen900 {
+			background-color: var(--grassGreen900)
+			color:var(--white)
+		}
+		&--grassGreen700 {
+			background-color: var(--grassGreen700)
+			color:var(--white)
+		}
+		&--grassGreen500 {
+			background-color: var(--grassGreen500)
+			color:var(--white)
+		}
+		&--lightRed500 {
+			background-color: var(--lightRed500)
+			color:var(--white)
+		}
+		&--warmOrange900 {
+			background-color: var(--warmOrange900)
+			color:var(--white)
+		}
+		&--warmOrange700 {
+			background-color: var(--warmOrange700)
+			color:var(--white)
+		}
+		&--warmOrange500 {
+			background-color: var(--warmOrange500)
+			color:var(--white)
+		}
+		&--lightPurple500 {
+			background-color: var(--lightPurple500)
+			color:var(--white)
+		}
+		&--tiffanyGreen500 {
+			background-color: var(--tiffanyGreen500)
+			color:var(--white)
+		}
+		&--salmonRed500 {
+			background-color: var(--salmonRed500)
+			color:var(--white)
+		}
+		&--orange {
+			solid-dash-setting(--orange)
+		}
+		&--pinkish {
+			solid-dash-setting(--pinkish)
+		}
+		&--coral {
+			solid-dash-setting(--coral)
+		}
+		&--bloodOrange {
+			solid-dash-setting(--bloodOrange)
+		}
+		&--butterscotch {
+			solid-dash-setting(--butterscotch)
+		}
+		&--topaz {
+			solid-dash-setting(--topaz)
+		}
+		&--grey30 {
+			solid-dash-setting(--grey30)
+		}
+		&--grey20 {
+			solid-dash-setting(--grey20)
+		}
+		&--grey12 {
+			solid-dash-setting(--grey12)
+		}
+		&--grey9 {
+			solid-dash-setting(--grey9)
+		}
+		&--greyishBrown {
+			solid-dash-setting(--greyishBrown)
+		}
+		&--grey5 {
+			solid-dash-setting(--grey5)
+		}
+		&--pale {
+			solid-dash-setting(--pale)
+		}
+		&--paleTwo {
+			solid-dash-setting(--paleTwo)
+		}
+		&--blue100 {
+			solid-dash-setting(--blue100)
+		}
+		&--blue50 {
+			solid-dash-setting(--blue50)
+		}
+
+.ljit-button--text.ljit-button-color,.ljit-button--hollow.ljit-button-color
+	&--brightBlue500 {
+		color: var(--brightBlue500)
+	}
+	&--brightBlue300 {
+		color: var(--brightBlue300)
+	}
+	&--grassGreen900 {
+		color: var(--grassGreen900)
+	}
+	&--grassGreen700 {
+		color: var(--grassGreen700)
+	}
+	&--grassGreen500 {
+		color: var(--grassGreen500)
+	}
+	&--lightRed500 {
+		color: var(--lightRed500)
+	}
+	&--warmOrange900 {
+		color: var(--warmOrange900)
+	}
+	&--warmOrange700 {
+		color: var(--warmOrange700)
+	}
+	&--warmOrange500 {
+		color: var(--warmOrange500)
+	}
+	&--lightPurple500 {
+		color: var(--lightPurple500)
+	}
+	&--tiffanyGreen500 {
+		color: var(--tiffanyGreen500)
+	}
+	&--salmonRed500 {
+		color: var(--salmonRed500)
+	}
+	&--orange {
+		hollow-text-setting(--orange)
+	}
+	&--pinkish {
+		hollow-text-setting(--pinkish)
+	}
+	&--coral {
+		hollow-text-setting(--coral)
+	}
+	&--bloodOrange {
+		hollow-text-setting(--bloodOrange)
+	}
+	&--butterscotch {
+		hollow-text-setting(--butterscotch)
+	}
+	&--topaz {
+		hollow-text-setting(--topaz)
+	}
+	&--grey30 {
+		hollow-text-setting(--grey30)
+	}
+	&--grey20 {
+		hollow-text-setting(--grey20)
+	}
+	&--grey12 {
+		hollow-text-setting(--grey12)
+	}
+	&--grey9 {
+		hollow-text-setting(--grey9)
+		color: #646464
+	}
+	&--greyishBrown {
+		hollow-text-setting(--greyishBrown)
+	}
+	&--grey5 {
+		hollow-text-setting(--grey5)
+	}
+	&--pale {
+		hollow-text-setting(--pale)
+	}
+	&--paleTwo {
+		hollow-text-setting(--paleTwo)
+	}
+	&--blue100 {
+		hollow-text-setting(--blue100)
+	}
+	&--blue50 {
+		hollow-text-setting(--blue50)
+	}

@@ -1,0 +1,30 @@
+$default-container-height = 280px
+$default-container-width = 450px
+$button-text-color = #1890ff
+
+.ljit-scroll-container
+    max-width: $default-container-width
+    width: 100%
+
+    &__body
+        width: 100%
+        height: $default-container-height
+        overflow: auto
+
+    &__button
+        color: $button-text-color
+        display: flex
+        box-shadow: none
+        justify-content: center
+
+        &,
+        &:hover,
+        &:active,
+        &:focus
+            background-color: transparent
+
+        i
+            order: 1
+            margin-left: 8px
+            margin-top: 4px
+

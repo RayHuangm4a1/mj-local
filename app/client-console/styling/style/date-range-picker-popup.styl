@@ -1,0 +1,65 @@
+.ant-calendar-range-quick-selector
+	.ant-tag
+		color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+		background: $THEME-DATE-RANGE-PICKER-SUBBACKGROUND-COLOR
+		border-color: $THEME-DATE-RANGE-PICKER-TAG-COLOR
+		cursor: pointer
+.ant-calendar-range
+	.ant-calendar-in-range-cell::before
+		background: $THEME-DATE-RANGE-PICKER-SUBBACKGROUND-COLOR
+.ant-calendar-today
+	.ant-calendar-date
+		color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+		border-color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+.ant-calendar-date
+	&:hover
+		background: $THEME-DATE-RANGE-PICKER-SUBBACKGROUND-COLOR
+.ant-calendar-selected-date .ant-calendar-date,
+.ant-calendar-selected-start-date .ant-calendar-date,
+.ant-calendar-selected-end-date .ant-calendar-date
+	color: $THEME-HEADER-TEXT-COLOR
+	background: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+.ant-calendar-time-picker-btn
+	color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+	font-size: 12px
+.ant-calendar-footer-btn
+	.ant-calendar-ok-btn-disabled
+		color: rgba(0, 0, 0, 0.25)
+		background-color: $THEME-DATE-RANGE-PICKER-BUTTON-DISABLED-BACKGROUND
+		border-color: $THEME-DATE-RANGE-PICKER-BUTTON-DISABLED-BORDER
+.ant-calendar-ok-btn
+	color: $THEME-HEADER-TEXT-COLOR
+	background-color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+	border-color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+	&:focus,
+	&:hover
+		color: $THEME-HEADER-TEXT-COLOR
+		background-color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+		border-color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+.ant-calendar-header
+	a
+		&:hover
+			color: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+
+.ant-calendar-time-picker-select 
+	li
+		&:hover
+			background: $THEME-DATE-RANGE-PICKER-SUBBACKGROUND-COLOR
+
+.ant-calendar-year-panel-selected-cell 
+	.ant-calendar-year-panel-year
+		background: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+
+.ant-calendar-decade-panel-selected-cell
+	.ant-calendar-decade-panel-decade
+		background: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+
+.ant-calendar-month-panel-selected-cell 
+	.ant-calendar-month-panel-month
+		background: $THEME-DATE-RANGE-PICKER-MAIN-COLOR
+
+.ant-calendar-year-panel-year,
+.ant-calendar-decade-panel-decade,
+.ant-calendar-month-panel-month
+	&:hover
+		background: $THEME-DATE-RANGE-PICKER-SUBBACKGROUND-COLOR

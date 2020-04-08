@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DividendInputRangeTable should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DividendInputRangeTable
+    className="mock-class"
+    maxAmount={10000}
+    maxRow={15}
+    onChange={[Function]}
+    rowKey="key"
+    tableData={
+      Array [
+        Object {
+          "amount": 1,
+          "key": "1",
+          "ratio": 1,
+        },
+        Object {
+          "amount": 2,
+          "key": "2",
+          "ratio": 2,
+        },
+        Object {
+          "amount": 100,
+          "key": "3",
+          "ratio": 3,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "addingRowButtonText": "新增",
+      "alignType": "center",
+      "className": "ljit-dividend-table-form mock-class",
+      "columns": Array [
+        Object {
+          "dataIndex": "id",
+          "renderField": [Function],
+          "title": "序号",
+          "width": "30%",
+        },
+        Object {
+          "dataIndex": "amount",
+          "renderField": [Function],
+          "title": "周期总量(万)",
+          "width": "30%",
+        },
+        Object {
+          "dataIndex": "ratio",
+          "renderField": [Function],
+          "title": "分红比率(％)",
+        },
+      ],
+      "hasRemoveButton": true,
+      "isAddingRowButtonDisabled": false,
+      "isRemovingButtonDisabled": false,
+      "isShowOnlyLastRemovingButton": true,
+      "onChange": [Function],
+      "removingButtonText": "删除",
+      "removingColumnTitle": "操作",
+      "rowKey": "key",
+      "tableClassName": "",
+      "tableName": "dividend-table",
+      "value": Array [
+        Object {
+          "amount": 1,
+          "key": "1",
+          "ratio": 1,
+        },
+        Object {
+          "amount": 2,
+          "key": "2",
+          "ratio": 2,
+        },
+        Object {
+          "amount": 100,
+          "key": "3",
+          "ratio": 3,
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "addingRowButtonText": "新增",
+        "alignType": "center",
+        "className": "ljit-dividend-table-form mock-class",
+        "columns": Array [
+          Object {
+            "dataIndex": "id",
+            "renderField": [Function],
+            "title": "序号",
+            "width": "30%",
+          },
+          Object {
+            "dataIndex": "amount",
+            "renderField": [Function],
+            "title": "周期总量(万)",
+            "width": "30%",
+          },
+          Object {
+            "dataIndex": "ratio",
+            "renderField": [Function],
+            "title": "分红比率(％)",
+          },
+        ],
+        "hasRemoveButton": true,
+        "isAddingRowButtonDisabled": false,
+        "isRemovingButtonDisabled": false,
+        "isShowOnlyLastRemovingButton": true,
+        "onChange": [Function],
+        "removingButtonText": "删除",
+        "removingColumnTitle": "操作",
+        "rowKey": "key",
+        "tableClassName": "",
+        "tableName": "dividend-table",
+        "value": Array [
+          Object {
+            "amount": 1,
+            "key": "1",
+            "ratio": 1,
+          },
+          Object {
+            "amount": 2,
+            "key": "2",
+            "ratio": 2,
+          },
+          Object {
+            "amount": 100,
+            "key": "3",
+            "ratio": 3,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

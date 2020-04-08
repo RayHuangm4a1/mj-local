@@ -1,0 +1,112 @@
+$color-white = #ffffff
+$color-grey-1 = #e4e4e4
+$color-grey-2 = #e0e0e0
+$color-grey-3 = #646464
+$color-pink = #e4567d
+
+$font-size-small = 10px
+$font-size-medium = 12px
+$font-size-large = 20px
+$tag-height = 24px
+
+.lottery-drawing-info-card
+	font-size: 0
+	font-weight: 500
+	color: $color-grey-3
+	display: flex
+
+	&__column
+		display: flex
+		align-items: center
+		font-size: $font-size-medium
+		height: 30px
+
+		&:not(:last-child)
+			padding-right: 24px
+			border-right: 1px solid $color-grey-1
+
+	&__column + &__column
+		margin-left: 10px
+		&:not(:first-child)
+			margin-left: 24px
+
+	&__extra
+		max-width: 60px
+		margin-right: 11px
+
+	&__favorite
+		height: $tag-height
+		line-height: $tag-height
+		width: 100%
+		font-size: $font-size-medium
+		font-weight: 500
+
+		&.ljit-button--hollow.ljit-button-color--pinkish
+			background-color: $color-white
+			&:hover
+			&:focus
+			&:active
+				background-color: $color-white
+
+		&-icon
+			color: $color-pink
+			font-size: $font-size-small
+
+		&--active
+			svg
+				fill: $color-white
+			.lottery-card__favorite-icon
+				color: $color-white
+
+	&__favorite.ljit-btn
+		padding: 0 10px
+		span
+			margin-left: 4px
+	&__tag
+		display: inline-block
+		width: 100%
+		height: $tag-height
+		line-height: $tag-height
+		padding: 0 6px
+		border-radius: 4px
+		font-size: $font-size-small
+		text-align: center
+		background-color: $color-grey-1
+
+	&__title
+		font-size: $font-size-large
+		+ div
+			font-weight: normal
+	&__code-ball + &__code-ball
+		margin-left: 8px
+		font-weight: 600
+
+	&__card
+		.ljit-drawing-counting-down-card
+			.ant-statistic-content-value
+				font-size: 26px
+
+	&__drawing-text
+		margin-right: 16px
+		> div
+			display: flex
+			align-items: center
+			justify-content: center
+			line-height: 19px
+			> i
+				margin-left: 4px
+	&__closing-countdown
+		min-width: 120px
+		text-align: center
+	&__drawing-countdown
+		min-width: 24px
+		text-align: center
+		.ljit-statistic
+			.ant-statistic-content
+				line-height: 16px
+			.ant-statistic-content-prefix
+				margin-right: 0
+			.ant-statistic-content-value
+				font-size: 16px
+				vertical-align: middle
+				line-height: 18px

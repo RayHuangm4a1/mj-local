@@ -1,0 +1,54 @@
+.verify-betting-password-modal
+	.ant-modal-body
+		padding: 24px 80px 32px 56px
+
+	&__cancel-button.ljit-button--hollow
+		width: 84px
+		color: #c0c0c0
+
+		&, &:active, &:focus, &:hover
+			border-color: #c0c0c0
+			color: #c0c0c0
+
+	&__bet-button.ljit-button--solid
+		width: 84px
+		color: #fff
+		background-color: #ff8113
+
+		&, &:active, &:focus, &:hover
+			border-color: #ff8113
+			color: #fff
+
+	.has-error
+		.ant-input:not([disabled]):focus,
+		.ant-input-number:not([disabled]):focus,
+		.ant-input:not([disabled]):hover,
+		.ant-input-number:not([disabled]):hover
+			border-color: #ff4d4f
+			outline: 0
+			-webkit-box-shadow: 0 0 0 2px rgba(245,34,45,0.2)
+			box-shadow: 0 0 0 2px rgba(245,34,45,0.2)
+
+	&__verify-password
+		margin-bottom: 20px
+		.ant-form-item-label > label
+			font-size: 14px
+			font-weight: 500
+			font-stretch: normal
+			font-style: normal
+			line-height: normal
+			letter-spacing: normal
+			color: #a9a9a9
+
+			&:before
+				display: none
+
+		.ant-form-item-label, .ant-form-item-control
+			height: 32px
+			line-height: 32px
+
+		.ant-form-explain
+			display: none
+
+	&__password-input > input
+		height: 28px

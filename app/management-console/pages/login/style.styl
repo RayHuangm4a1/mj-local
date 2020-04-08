@@ -1,0 +1,96 @@
+$login-font-size = 14px
+$login-font-color = #FFFFFF
+$login-field-height = 40px
+$login-field-bg-color = rgba(255,255,255,.1)
+$login-field-suffix-gutter = 6px
+$captcha-image-width = 94px
+
+.login-page-wrapper
+	position: relative
+
+.login-page
+	// TODO after implement check auth api. replace position to absolute, and take off z-index
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 10
+	width: 100%
+	height: 100%
+	background: url(./images/bg.jpg) no-repeat
+	background-attachment: fixed
+	background-size: cover
+	background-position: center
+
+	&__content
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		width 100%
+		max-width 552px
+		padding: 60px 0 124px
+		border-radius: 8px
+		box-shadow: 0 8px 28px 0 rgba(32,35,39,0.12)
+		background-color: #002142
+		color: $login-font-color
+
+	&__logo
+		text-align: center
+		margin-bottom: 69px
+
+	&__form
+		width: 100%
+		max-width 344px
+		padding: 0 20px
+		margin: 0 auto
+
+	&__bottom
+		position: absolute
+		left: 0
+		right: 0
+		bottom: 0
+		width 100%
+		max-width 630px
+		margin: 0 auto 32px
+		font-size: $login-font-size
+		color: #384f69
+		text-align: center
+
+.confirmed-form
+	.ljit-form-label
+		margin-bottom: 28px
+
+	.ljit-form-search-btn
+		width: 100%
+		height: $login-field-height
+		margin: 0
+
+	.ljit-form-button-row
+		> .ljit-form-col
+			width: 100%
+			margin-left: 0
+
+			> .ant-form-item
+				margin-bottom: 0
+
+	&__input
+		&:read-only
+			background-color: transparent
+
+		> .ant-input
+			height: $login-field-height
+			border: 1px solid $login-field-bg-color
+			background-color: $login-field-bg-color
+			color: $login-font-color
+
+		&--captcha
+			&.ant-input-affix-wrapper
+				> .ant-input
+					padding-right: $captcha-image-width + $login-field-suffix-gutter * 2
+
+				> .ant-input-suffix
+					right: $login-field-suffix-gutter
+
+	&__captcha
+		width: $captcha-image-width
+		height: 28px

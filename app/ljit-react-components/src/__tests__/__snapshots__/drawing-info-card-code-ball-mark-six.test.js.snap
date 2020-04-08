@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawingInfoCardCodeBallMarkSix should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CodeBallMarkSix
+    fontSize="middle"
+    size="middle"
+    splitOpencodes={
+      Array [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <Circle
+            className="code-ball-mark-six--red"
+            fontSize="middle"
+            size="middle"
+            text="01"
+            type="primary"
+          />,
+          <Circle
+            className="code-ball-mark-six--red"
+            fontSize="middle"
+            size="middle"
+            text="02"
+            type="primary"
+          />,
+          <Circle
+            className="code-ball-mark-six--blue"
+            fontSize="middle"
+            size="middle"
+            text="03"
+            type="primary"
+          />,
+          <Circle
+            className="code-ball-mark-six--blue"
+            fontSize="middle"
+            size="middle"
+            text="04"
+            type="primary"
+          />,
+        ],
+        <div>
+          +
+        </div>,
+        <Circle
+          className="code-ball-mark-six--green"
+          fontSize="middle"
+          size="middle"
+          text="05"
+          type="primary"
+        />,
+      ],
+      "className": "drawing-info-card-code-ball-mark-six",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "01",
+        "nodeType": "function",
+        "props": Object {
+          "className": "code-ball-mark-six--red",
+          "fontSize": "middle",
+          "size": "middle",
+          "text": "01",
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "02",
+        "nodeType": "function",
+        "props": Object {
+          "className": "code-ball-mark-six--red",
+          "fontSize": "middle",
+          "size": "middle",
+          "text": "02",
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "03",
+        "nodeType": "function",
+        "props": Object {
+          "className": "code-ball-mark-six--blue",
+          "fontSize": "middle",
+          "size": "middle",
+          "text": "03",
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "04",
+        "nodeType": "function",
+        "props": Object {
+          "className": "code-ball-mark-six--blue",
+          "fontSize": "middle",
+          "size": "middle",
+          "text": "04",
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "+",
+        },
+        "ref": null,
+        "rendered": "+",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": "code-ball-mark-six--green",
+          "fontSize": "middle",
+          "size": "middle",
+          "text": "05",
+          "type": "primary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <Circle
+              className="code-ball-mark-six--red"
+              fontSize="middle"
+              size="middle"
+              text="01"
+              type="primary"
+            />,
+            <Circle
+              className="code-ball-mark-six--red"
+              fontSize="middle"
+              size="middle"
+              text="02"
+              type="primary"
+            />,
+            <Circle
+              className="code-ball-mark-six--blue"
+              fontSize="middle"
+              size="middle"
+              text="03"
+              type="primary"
+            />,
+            <Circle
+              className="code-ball-mark-six--blue"
+              fontSize="middle"
+              size="middle"
+              text="04"
+              type="primary"
+            />,
+          ],
+          <div>
+            +
+          </div>,
+          <Circle
+            className="code-ball-mark-six--green"
+            fontSize="middle"
+            size="middle"
+            text="05"
+            type="primary"
+          />,
+        ],
+        "className": "drawing-info-card-code-ball-mark-six",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "01",
+          "nodeType": "function",
+          "props": Object {
+            "className": "code-ball-mark-six--red",
+            "fontSize": "middle",
+            "size": "middle",
+            "text": "01",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "02",
+          "nodeType": "function",
+          "props": Object {
+            "className": "code-ball-mark-six--red",
+            "fontSize": "middle",
+            "size": "middle",
+            "text": "02",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "03",
+          "nodeType": "function",
+          "props": Object {
+            "className": "code-ball-mark-six--blue",
+            "fontSize": "middle",
+            "size": "middle",
+            "text": "03",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "04",
+          "nodeType": "function",
+          "props": Object {
+            "className": "code-ball-mark-six--blue",
+            "fontSize": "middle",
+            "size": "middle",
+            "text": "04",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "+",
+          },
+          "ref": null,
+          "rendered": "+",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "code-ball-mark-six--green",
+            "fontSize": "middle",
+            "size": "middle",
+            "text": "05",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

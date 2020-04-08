@@ -1,0 +1,26 @@
+// TODO move to shared colors
+$color-orange-1 = #ff8113
+$color-white = #ffffff
+$color-grey-4 = #646464
+
+$tab-font-color = $color-grey-4
+$tab-hovered-font-color = $color-orange-1
+$tab-actived-font-color = $color-orange-1
+
+.plain-tabs
+	&.ljit-tabs
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									color: $color-grey-4
+
+									&:active,
+									&:hover
+										color: $tab-hovered-font-color
+
+								> .ant-tabs-tab-active
+									color: $tab-actived-font-color

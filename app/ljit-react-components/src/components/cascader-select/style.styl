@@ -1,0 +1,21 @@
+.ljit-cascader-select
+	&__pop-up
+		background: transparent
+		box-shadow: none
+
+		.ant-cascader-menu
+			height: auto
+			max-height: 280px
+			background: #fff
+			box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.23)
+
+		.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+		.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover,
+		.ant-cascader-menu-item:hover
+			font-weight: normal
+
+.ljit-cascader-select__pop-up.ant-cascader-menus-placement-topLeft
+	>div
+		display: flex
+		ul
+			align-self: flex-end

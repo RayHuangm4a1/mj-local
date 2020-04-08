@@ -1,0 +1,74 @@
+$color = #ff8113
+
+.ljit-wechat-promotion
+	padding: 20px 12px 24px 12px
+	&__header
+		display: flex
+		justify-content: space-between
+		align-items: center
+		margin-bottom: 20px
+		div
+			margin-left: 10px
+			display: flex
+			align-items: center
+			color: $color
+			font-size: 14px
+		svg
+			fill: $color
+		.ljit-wechat-promotion__header-button
+			border-color: $color
+			padding: 0 10px
+			height: 28px
+			span
+				height: 28px
+				line-height: 28px
+				color: $color
+				font-weight: 600
+			&:hover,
+			&:active,
+			&:focus
+				border-color: $color
+	&-table
+		&__link
+			overflow : hidden
+			text-overflow : ellipsis
+			white-space : nowrap
+			width : 200px
+			text-align: left
+
+	&__delete-modal
+		.ant-modal-body
+			padding: 30px 32px
+
+.ljit-promotion-link-generation-modal
+	&__content
+		padding: 22px 68px 40px 68px
+		&-member-type,
+		&-platform-type
+			margin-bottom: 20px
+			p
+				margin-bottom: 16px
+				color: #9f9f9f
+				font-weight: 500
+		&-lottery-rebate,
+		&-third-party-rebate
+			margin-bottom: 20px
+			p
+				margin-bottom: 4px
+				color: #9f9f9f
+				font-weight: 500
+	.ljit-radio-group__option--radio+.ljit-radio-group__option--radio
+		margin-left: 44px
+
+.ljit-qr-code-modal
+	.ant-modal-body
+		padding: 30px 32px
+	.ant-btn
+		&:first-child
+			display: none
+	&__content
+		text-align: center
+		p
+			&:last-child
+				color: #646464
+				opacity: 0.5

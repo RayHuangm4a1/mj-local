@@ -1,0 +1,60 @@
+$theme-color = #ff8113
+
+.agent-fixed-wage
+	padding: 20px 12px 24px 12px
+	&__header
+		display: flex
+		line-height: 40px
+		margin: 0 0 20px 8px
+
+		.ant-form-item-control,
+			.ant-form-item-label,
+			.ant-input,
+			.ant-btn
+				line-height: 28px
+				height: 28px
+				padding-top: 0
+				padding-bottom: 0
+
+		> .ljit-label
+			display: flex
+			align-items: center
+			margin: 0px 15px 0px 0px
+			margin-bottom: 0px
+
+		.ljit-form
+			display: flex
+			align-items: center
+
+			.ljit-btn
+				width: 68px
+				border: none
+				background-color: $theme-color
+				font-size: 16px
+				font-weight: 600
+				&:focus,
+				&:hover
+					color: #fff
+					border-color: $theme-color
+					background-color: $theme-color
+
+			.ljit-form-label
+				display: flex
+				margin-bottom: 0
+				margin-right: 15px
+
+				.ljit-input
+					width: 104px
+
+	&__body
+		> .ljit-label
+			display: flex
+			align-items: center
+			margin-bottom: 0
+			.ant-form-item-label
+				> label
+					color: #646464
+					opacity: 0.5
+
+	&-theme-color
+		color: $theme-color

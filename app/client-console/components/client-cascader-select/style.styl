@@ -1,0 +1,28 @@
+$orange-color = #ff8113
+
+.ljit-client-cascader-select
+
+	&:focus
+		.ant-cascader-input
+			border-color: $orange-color
+			box-shadow: 0 0 0 2px rgba(255, 129, 19, 0.2);
+
+	.ant-input
+		&:hover,
+		&:focus,
+		&:active
+			border-color: $orange-color
+			box-shadow: 0 0 0 2px rgba(255, 129, 19, 0.2);
+
+	&__pop-up
+		font-size: 12px
+
+		.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+		.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover,
+		.ant-cascader-menu-item:hover
+			background: $orange-color
+			color: #fff
+
+			.ant-cascader-menu-item-expand-icon
+				color: #fff
+

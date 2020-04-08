@@ -1,0 +1,39 @@
+$default-color = #646464
+$changed-color = #ff8113
+$table-header-and-border-background-color = #eeeded
+
+.member-reward-detail
+	padding: 15px
+
+	.ljit-table
+		.ant-table-thead
+			> tr
+				> th
+					background-color: $table-header-and-border-background-color
+
+		.ant-table-bordered
+			.ant-table-thead,
+			.ant-table-tbody
+				> tr
+					> th
+						border-color: $table-header-and-border-background-color
+
+		.ant-table-small
+			> .ant-table-content
+				border-right: 0
+				> .ant-table-body
+					> table
+						> .ant-table-tbody
+							> tr
+								> td
+									padding: 0
+
+	&__table-item-wrapper
+		display: flex
+		flex-direction: column
+
+	&__table-item
+		padding: 12px
+
+		&:not(:first-child)
+			border-top: 1px solid #eeeded

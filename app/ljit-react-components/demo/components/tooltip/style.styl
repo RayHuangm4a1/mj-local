@@ -1,0 +1,37 @@
+$tooltip-overlay-background-color = #fff;
+$tooltip-overlay-text-color = #646464;
+
+.ljit-tooltip
+	&:hover
+		cursor: pointer
+.ljit-tooltip-overlay
+	&--white
+		.ant-tooltip-inner
+			padding: 20px 12px
+			background-color: $tooltip-overlay-background-color
+			color: $tooltip-overlay-text-color
+			font-size: 12px
+
+		&.ant-tooltip-placement-top,
+		&.ant-tooltip-placement-topLeft,
+		&.ant-tooltip-placement-topRight
+			.ant-tooltip-arrow
+				border-top-color: $tooltip-overlay-background-color
+
+		&.ant-tooltip-placement-left,
+		&.ant-tooltip-placement-leftTop,
+		&.ant-tooltip-placement-leftBottom
+			.ant-tooltip-arrow
+				border-left-color: $tooltip-overlay-background-color
+
+		&.ant-tooltip-placement-right,
+		&.ant-tooltip-placement-rightTop,
+		&.ant-tooltip-placement-rightBottom
+			.ant-tooltip-arrow
+				border-right-color: $tooltip-overlay-background-color
+
+		&.ant-tooltip-placement-bottom,
+		&.ant-tooltip-placement-bottomLeft,
+		&.ant-tooltip-placement-Bottomright
+			.ant-tooltip-arrow
+				border-bottom-color: $tooltip-overlay-background-color

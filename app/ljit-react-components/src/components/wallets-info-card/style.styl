@@ -1,0 +1,113 @@
+$font-color = #646464
+
+$yellow-icon-color = #f8c241
+$green-party-icon-color = #1cceb7
+$disabled-icon-color = #bfbfbf
+
+$basic-background-color = #f8f8f8
+
+$incoming-border-color = #549fb8
+$incoming-background-color = #f0fbff
+$incoming-tag-background-color = #549fb8
+
+$outgoing-border-color = #ff8113
+$outgoing-background-color = #fdf5ee
+$outgoing-tag-background-color = #ff8113
+
+setColor(borderColor, backgroundColor, tagBackgroundColor)
+	border: solid 1px borderColor
+	background-color: backgroundColor
+	.ljit-wallets-info-card__tag
+		background-color: tagBackgroundColor
+
+.ljit-wallets-info-card
+	width: 124px
+	box-sizing: border-box
+	position: relative
+	display: inline-block
+	border-radius: 3px
+	cursor: pointer
+
+	&__title
+		display: flex
+		align-items: center
+
+	&__wallet-name
+		margin-left: 6px
+		font-size: 14px
+		line-height: 1.57
+		letter-spacing: normal
+		color: $font-color
+
+	&__value
+		margin-left: 22px
+		font-size: 16px
+		line-height: 22px
+		letter-spacing: normal
+		color: $font-color
+		font-weight: 500
+
+	&__tag
+		transform: scale(0.83)
+		text-align: center
+		position: absolute
+		padding: 0px 4px
+		border-radius: 5px 0 0 5px
+		top: 6px
+		right: 0px
+		transform-origin: top right
+		color: #fff
+		font-size: 10px
+		height: 21px
+		line-height: 21px
+
+	&__medium
+		padding: 9px 11px
+		.ljit-wallets-info-card__value
+			margin-top: 8px
+
+	&__small
+		padding: 4px 11px
+		.ljit-wallets-info-card__value
+			margin-top: 4px
+
+	&--yellow
+		.ljit-wallets-info-card__title
+			svg
+				fill: $yellow-icon-color
+
+	&--green
+		.ljit-wallets-info-card__title
+			svg
+				fill: $green-party-icon-color
+
+	&--basic
+		background-color: $basic-background-color
+
+	&--incoming
+		setColor(
+			$incoming-border-color,
+			$incoming-background-color,
+			$incoming-tag-background-color,
+		)
+		.ljit-wallets-info-card__tag
+			&::before
+				content: "转入"
+
+	&--outgoing
+		setColor(
+			$outgoing-border-color,
+			$outgoing-background-color,
+			$outgoing-tag-background-color,
+		)
+		.ljit-wallets-info-card__tag
+			&::before
+				content: "转出"
+
+	&--disabled
+		background-color: $basic-background-color
+		cursor: not-allowed
+		opacity: 0.4
+		.ljit-wallets-info-card__title
+			svg
+				fill: $disabled-icon-color

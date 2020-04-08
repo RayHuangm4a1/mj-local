@@ -1,0 +1,180 @@
+.lottery-general-drawing-issue
+	.lottery-drawing-record
+		&__back-button
+			margin: 0px 0px 24px 0px
+
+		&__record-tab-page
+			& .betting-expandrow
+				margin: 12px 8px 12px -30px
+			& .betting-records__search-form,
+			& .trace-records__search-form
+				position: relative;
+				& .remind-text
+					position: absolute;
+					bottom: 4px;
+					font-size: 14px;
+					color: #8c8c8c
+					font-size: 14px
+					opacity: 1
+
+			& .page-block__content
+				min-height: 200px
+
+			& .ant-col.ant-col-8:nth-child(3n+1)
+				& .ant-form-item-label
+					text-align: left
+
+			& .ljit-collapsable-form-button-row
+				margin-bottom: 20px
+
+	.negative-balance-correction
+		&__onback-button
+			margin-bottom: 20px
+
+		&__input-search
+			margin-bottom: 21px
+			display: flex
+			flex-direction: row-reverse
+			div
+				width: 272px
+
+		& .ljit-form-label
+			display: flex
+
+	.lottery-drawing-modify
+		& .page-block__content
+			min-height: 216px
+			padding: 20px 55px 40px 80px
+
+		&__onback-button
+			margin-bottom: 24px
+
+		&__block-container
+			text-align: center
+			&__title
+				text-align: right
+				font-size: 20px
+				font-weight: 500
+				margin-bottom: 20px
+				> div:first-child
+					text-align: left
+				& button
+					padding: 0 30px
+
+			& .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr
+				border-bottom: 0
+				> th
+					padding: 16px 8px
+					border-bottom: 0
+
+			& .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td
+				padding: 16px 8px
+				border-bottom: 1px solid #e8e8e8
+
+		&__remind-text
+			margin: 0 0 10px
+			font-size: 14px
+
+	.lottery-drawing-modify-opencode
+		&__onback-button
+			margin-bottom: 20px
+
+		&__body
+			border-bottom: 1px solid #e8e8e8
+			.page-block__content
+				padding: 76px 36px 100px 36px
+
+			.ljit-row
+				display: flex
+				justify-content: center
+
+			&__title
+				font-size: 20px
+				font-weight: 500
+				color: rgba(0, 0, 0, 0.85)
+				margin-bottom: 49px
+				div
+					position: relative
+					right: 11px
+
+			&__opencode-info
+				margin-bottom: 23px
+				display: flex
+				> div
+					&:first-child
+						text-align: right
+						margin-right: 12px
+						width: 84px
+						font-weight: 500
+						color: rgba(0, 0, 0, 0.85)
+
+					> div
+						text-align: center
+						width: 62px
+						color: rgba(0, 0, 0, 0.85)
+						&:first-child
+							color: rgba(0, 0, 0, 0.65)
+
+			&__form
+				.ljit-form
+					display: flex
+					> div
+						text-align: center
+						margin-right: 16px
+						&:first-child
+							text-align: right
+							font-weight: 500
+							color: rgba(0, 0, 0, 0.85)
+
+				& .ant-form-item-label
+					position: relative
+					top: 35px
+
+				& .ant-form-item-control-wrapper
+					position: relative
+					top: -46px
+
+					& .ant-input-number.ljit-input-number
+						width: 48px
+						left: -5px
+
+						.ant-input-number-handler-wrap
+							width: 15px
+						& .ant-input-number-input
+							padding: 0 11px 0 17px
+
+		&__body-block
+			max-width: 900px
+			margin: auto
+
+		&__body__opencode-info,
+		&__body__form form
+			> div:first-child
+				flex: none
+
+		&__body__opencode-info-block
+			display: flex
+			flex-wrap: wrap
+
+			> div
+				margin-right: 16px
+
+				&,
+				div:first-child:not(.ant-form-item-label)
+					margin-bottom: 19px
+
+			.ljit-form-label,
+			.ant-form-item-control
+				margin-bottom: 0
+				width: 62px
+				height: 80px
+
+		&__footer
+			text-align: right
+			button
+				padding: 0 20px
+			& .page-block__content
+				min-height: 80px
+
+		& .page-block + .page-block
+			margin-top: 0

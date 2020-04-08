@@ -1,0 +1,109 @@
+$orange = #ff8113;
+
+.withdraw-page
+	padding: 30px 70px 0 70px
+
+	&__form-block
+		.ljit-form
+			border-bottom: 1px solid #e6e2e2
+			> div
+				display: flex
+
+			.ljit-input,
+			.ant-input-number
+				width: 104px
+
+			.bank-card
+				width: 160px
+
+			.ant-input,
+			.ant-input-number,
+			.ant-select-selection--single
+				height: 28px
+				input
+					height: 26px
+
+		.input-amount > div
+			margin-right: 22px
+			.quick-input-block__radio-group.ant-radio-group
+				margin-left: 10px
+				.ant-radio-button-wrapper
+					height: 28px
+					line-height: 27px;
+
+		.ant-form-item
+			margin-bottom: 9px
+			label.ant-form-item-required:before
+				content: ''
+
+			.fin-password
+				left: 23px
+				margin-bottom: 10px
+
+			.bank-card
+				left: 9px
+				margin-bottom: 14px
+
+		.ljit-col
+			display: flex
+			> .ant-form-item
+				display: flex
+		.ljit-button-color--grey30
+			margin-right: 16px
+			width: 88px
+			height: 28px
+			padding: 0 10px
+		.ant-col-19
+			top: 4.5px
+			left: 7px
+
+	.user-info-block
+		padding-bottom: 12px
+		margin-bottom: 16px
+		border-bottom: 1px solid #e6e2e2
+		align-items: center
+
+		.header-button-bar
+			width: 100%
+
+			.ljit-user-avatar
+				width: 500px
+
+			.ljit-btn
+				width: 110px
+				font-size: 16px
+				font-weight: 600
+				padding: 0
+
+	.message-block
+		margin-top: 14.5px
+		padding: 0 0 15px 3px
+		display: flex
+		opacity: 1
+		font-size: 14px
+		border-bottom: 1px solid #e6e2e2
+		max-width: 100%
+		> div
+			color: #646464
+			& span
+				color: #ff5c00
+			&:first-child
+				margin-right: 24px
+				font-size: 14px
+				color: rgba(0, 0, 0, 0.85)
+		&.remind-text--error
+			font-size: 18px
+			border-bottom: 0
+
+	&__submit-button
+		margin-top: 18px
+		text-align: center
+		> button
+			width: 110px
+			padding: 0px 19px
+			> span
+				font-size: 16px
+			&.ljit-button-color--grey30
+				margin-right: 17px
+				height: 32px
+				width: 110px

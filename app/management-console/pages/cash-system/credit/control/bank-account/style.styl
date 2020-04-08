@@ -1,0 +1,84 @@
+.credit-bank-account-page
+	.ljit-collapsable-form-col > *
+		margin-left: 25px
+	.recharge-button-bar
+		margin-top: 42px
+		margin-bottom: 16px
+
+		button:last-child
+			margin-left: 20px
+
+	&__table-expand-item
+		margin-bottom: 14px;
+	
+	& .ljit-input-group-compact
+		.ljit-input
+			.ant-input
+				border-left: 0
+
+.recharge-account-modal
+	.client-account-input
+		width: 315px
+
+		input
+			background-color: #efefef
+
+			&::placeholder
+				color: rgba(0, 0, 0, .65)
+	.client-account
+		.ant-form-item-label
+			overflow: visible
+
+			label
+				left: -10px
+	.ant-form-extra
+		display: inline-block
+		margin-left: 14px
+
+		a:last-child
+			margin-left: 10px
+			padding-left: 10px
+			border-left: 1px solid #ccc
+	.ant-modal-body
+		padding: 24px 5px 24px 15px;
+	.ant-form
+		padding-left: 10px
+	.ljit-checkbox-group
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		margin-right: -10px
+
+		> label
+			margin-left: 0
+			margin-bottom: 16px
+			min-width: 102px
+	.ant-form-item-control-wrapper
+		padding-left: 8px
+
+	label[for='fixedCollections']
+		&::after
+			display: none
+
+		div > div:last-child
+			position: relative
+			right: 10px
+
+	input[readonly],
+	.ant-select-disabled .ant-select-selection
+		background-color: #efefef
+
+	.ant-select-disabled
+		color: rgba(0, 0, 0, .65)
+
+.customize-columns-modal
+	.ljit-checkbox-group
+		display: flex
+		flex-wrap: wrap
+
+		label
+			margin-left: 0
+			margin-bottom: 10px
+			width: 33%
+	.ant-modal-body
+		min-height: 250px

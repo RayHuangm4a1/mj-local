@@ -1,0 +1,36 @@
+$error-color = #f5222d
+$error-bg-color = #fff1f0
+
+.ant-message-notice-content
+	padding: 0
+
+.ljit-notify
+	display: flex
+	align-items: center
+	min-width: 320px
+	min-height: 40px
+	padding: 9px 10px 9px 16px
+	border-width: 0
+	border-style: solid
+	border-color: transparent
+	border-radius: 4px
+
+	&__icon
+		margin-right: 8px
+
+	&__content
+		min-width: 246px
+		font-size: 14px
+		text-align: left
+
+	&__close.anticon
+		margin-left: 8px
+		margin-right: 0
+		font-size: 12px
+	&--error
+		border-width: 1
+		border-color: $error-color
+		background-color: $error-bg-color
+	.ljit-icon-button
+		svg
+			fill: #595959

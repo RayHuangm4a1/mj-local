@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateRangePicker should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TimePicker
+    disabledMinutes={[Function]}
+    disabledSeconds={[Function]}
+    format="HH:mm:ss"
+    hourStep={1}
+    isDisabled={false}
+    minuteStep={1}
+    onChange={[Function]}
+    secondStep={1}
+    value={2019-05-01T16:00:00.000Z}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "addon": [Function],
+      "align": Object {
+        "offset": Array [],
+      },
+      "className": "ljit-time-picker",
+      "disabled": false,
+      "disabledHours": [Function],
+      "disabledMinutes": undefined,
+      "disabledSeconds": undefined,
+      "focusOnOpen": true,
+      "format": "HH:mm:ss",
+      "hideDisabledOptions": false,
+      "hourStep": 1,
+      "minuteStep": 1,
+      "onChange": [Function],
+      "placeholder": undefined,
+      "placement": "bottomLeft",
+      "secondStep": 1,
+      "style": undefined,
+      "transitionName": "slide-up",
+      "use12Hours": false,
+      "value": "2019-05-01T16:00:00.000Z",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "addon": [Function],
+        "align": Object {
+          "offset": Array [],
+        },
+        "className": "ljit-time-picker",
+        "disabled": false,
+        "disabledHours": [Function],
+        "disabledMinutes": undefined,
+        "disabledSeconds": undefined,
+        "focusOnOpen": true,
+        "format": "HH:mm:ss",
+        "hideDisabledOptions": false,
+        "hourStep": 1,
+        "minuteStep": 1,
+        "onChange": [Function],
+        "placeholder": undefined,
+        "placement": "bottomLeft",
+        "secondStep": 1,
+        "style": undefined,
+        "transitionName": "slide-up",
+        "use12Hours": false,
+        "value": "2019-05-01T16:00:00.000Z",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

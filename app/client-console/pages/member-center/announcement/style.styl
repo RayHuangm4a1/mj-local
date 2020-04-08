@@ -1,0 +1,65 @@
+.announcement-page
+	height: 100%
+	display: flex
+	overflow: hidden
+	&__list-bar
+		min-width: 352px
+		border-right: 1px solid #e6e2e2
+
+.announcement-page-content
+	height 100%
+	&__header
+		padding: 24px 0
+		font-size: 18px
+		font-weight: 600
+		color: #222222
+		text-align: center
+		> span
+			display: block
+			text-align: center
+			font-size: 14px
+			font-weight: 400
+			color: rgba(100,100,100,.5)
+			padding-top: 5px
+	.ljit-divider
+		width: 90%
+		min-width: 90%
+		margin: 0 auto
+	&__body
+		padding: 19.5px 0 0 86px
+		width: 784px
+		white-space: pre-wrap
+		height 100%
+		overflow-y: scroll
+
+.announcement-page__list-bar
+	overflow-y: scroll
+	.data-inline-list__list-item
+		> .ljit-list-item
+			border-bottom none
+			max-height 64px
+			padding 12px 0
+			> .ljit-list-item__wrapper
+				width: 100%
+				> div
+					width: 100%
+					.ljit-list-item__title
+						padding-left: 20px
+						color: #222222
+						font-weight: inherit
+						font-size: 16px
+						display: block
+						width: 100%
+						white-space: nowrap
+						overflow: hidden
+						text-overflow: ellipsis
+					.ljit-list-item__description
+						padding-left: 20px
+						color: #9f9f9f
+						font-weight: inherit
+						font-size: 12px
+		.announcement-page-list__active,
+		&:hover
+			background-color: #eeeded
+			cursor: pointer
+

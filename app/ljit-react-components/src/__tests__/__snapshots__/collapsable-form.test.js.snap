@@ -1,0 +1,694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapsable Form should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CollapsableForm
+    cancelButtonDisabled={false}
+    cancelText="snapshot-cancelText"
+    collapseType="default"
+    columnSize="small"
+    expand={true}
+    footer="snapshot-footer"
+    isButtonDisabled={true}
+    onCancel={[Function]}
+    onChange={[Function]}
+    onSubmit={[Function]}
+    submitButtonDisabled={false}
+    submitText="snapshot-submitText"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "cancelButtonDisabled": true,
+      "children": Array [
+        <Row
+          align="top"
+          className="ljit-collapsable-form-row"
+          gutter={0}
+          justify="start"
+          type="flex"
+        />,
+        <Row
+          align="top"
+          className="ljit-collapsable-form-button-row"
+          gutter={0}
+          justify="start"
+          type="flex"
+        >
+          <Col
+            className="ljit-collapsable-form-col"
+            offset={16}
+            span={8}
+            style={
+              Object {
+                "textAlign": "right",
+              }
+            }
+          >
+            <React.Fragment>
+              snapshot-footer
+              <Button
+                block={false}
+                className="ljit-collapsable-form-search-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="submit"
+                loading={false}
+                onClick={[Function]}
+                type="primary"
+              >
+                snapshot-submitText
+              </Button>
+              <Button
+                block={false}
+                className="ljit-collapsable-form-reset-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+              >
+                snapshot-cancelText
+              </Button>
+              <a
+                className="ljit-collapsable-form-collapse"
+                onClick={[Function]}
+              >
+                收起
+                <Icon
+                  type="up"
+                />
+              </a>
+            </React.Fragment>
+          </Col>
+        </Row>,
+      ],
+      "className": "ljit-collapsable-form",
+      "onCancel": [Function],
+      "onChange": [Function],
+      "onSubmit": [Function],
+      "submitButtonDisabled": true,
+    },
+    "ref": [Function],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "align": "top",
+          "children": Array [],
+          "className": "ljit-collapsable-form-row",
+          "gutter": 0,
+          "justify": "start",
+          "type": "flex",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "align": "top",
+          "children": <Col
+            className="ljit-collapsable-form-col"
+            offset={16}
+            span={8}
+            style={
+              Object {
+                "textAlign": "right",
+              }
+            }
+          >
+            <React.Fragment>
+              snapshot-footer
+              <Button
+                block={false}
+                className="ljit-collapsable-form-search-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="submit"
+                loading={false}
+                onClick={[Function]}
+                type="primary"
+              >
+                snapshot-submitText
+              </Button>
+              <Button
+                block={false}
+                className="ljit-collapsable-form-reset-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+              >
+                snapshot-cancelText
+              </Button>
+              <a
+                className="ljit-collapsable-form-collapse"
+                onClick={[Function]}
+              >
+                收起
+                <Icon
+                  type="up"
+                />
+              </a>
+            </React.Fragment>
+          </Col>,
+          "className": "ljit-collapsable-form-button-row",
+          "gutter": 0,
+          "justify": "start",
+          "type": "flex",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "buttons",
+          "nodeType": "class",
+          "props": Object {
+            "children": <React.Fragment>
+              snapshot-footer
+              <Button
+                block={false}
+                className="ljit-collapsable-form-search-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="submit"
+                loading={false}
+                onClick={[Function]}
+                type="primary"
+              >
+                snapshot-submitText
+              </Button>
+              <Button
+                block={false}
+                className="ljit-collapsable-form-reset-btn"
+                disabled={true}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+              >
+                snapshot-cancelText
+              </Button>
+              <a
+                className="ljit-collapsable-form-collapse"
+                onClick={[Function]}
+              >
+                收起
+                <Icon
+                  type="up"
+                />
+              </a>
+            </React.Fragment>,
+            "className": "ljit-collapsable-form-col",
+            "offset": 16,
+            "span": 8,
+            "style": Object {
+              "textAlign": "right",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                "snapshot-footer",
+                Array [
+                  <Button
+                    block={false}
+                    className="ljit-collapsable-form-search-btn"
+                    disabled={true}
+                    ghost={false}
+                    htmlType="submit"
+                    loading={false}
+                    onClick={[Function]}
+                    type="primary"
+                  >
+                    snapshot-submitText
+                  </Button>,
+                  <Button
+                    block={false}
+                    className="ljit-collapsable-form-reset-btn"
+                    disabled={true}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                  >
+                    snapshot-cancelText
+                  </Button>,
+                ],
+                <a
+                  className="ljit-collapsable-form-collapse"
+                  onClick={[Function]}
+                >
+                  收起
+                  <Icon
+                    type="up"
+                  />
+                </a>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "snapshot-footer",
+              Object {
+                "instance": null,
+                "key": "search-btn",
+                "nodeType": "class",
+                "props": Object {
+                  "block": false,
+                  "children": "snapshot-submitText",
+                  "className": "ljit-collapsable-form-search-btn",
+                  "disabled": true,
+                  "ghost": false,
+                  "htmlType": "submit",
+                  "loading": false,
+                  "onClick": [Function],
+                  "type": "primary",
+                },
+                "ref": null,
+                "rendered": "snapshot-submitText",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "reset-btn",
+                "nodeType": "class",
+                "props": Object {
+                  "block": false,
+                  "children": "snapshot-cancelText",
+                  "className": "ljit-collapsable-form-reset-btn",
+                  "disabled": true,
+                  "ghost": false,
+                  "htmlType": "button",
+                  "loading": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "snapshot-cancelText",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "收起",
+                    <Icon
+                      type="up"
+                    />,
+                  ],
+                  "className": "ljit-collapsable-form-collapse",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "收起",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "type": "up",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "a",
+              },
+            ],
+            "type": Symbol(react.fragment),
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "cancelButtonDisabled": true,
+        "children": Array [
+          <Row
+            align="top"
+            className="ljit-collapsable-form-row"
+            gutter={0}
+            justify="start"
+            type="flex"
+          />,
+          <Row
+            align="top"
+            className="ljit-collapsable-form-button-row"
+            gutter={0}
+            justify="start"
+            type="flex"
+          >
+            <Col
+              className="ljit-collapsable-form-col"
+              offset={16}
+              span={8}
+              style={
+                Object {
+                  "textAlign": "right",
+                }
+              }
+            >
+              <React.Fragment>
+                snapshot-footer
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-search-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="submit"
+                  loading={false}
+                  onClick={[Function]}
+                  type="primary"
+                >
+                  snapshot-submitText
+                </Button>
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-reset-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                >
+                  snapshot-cancelText
+                </Button>
+                <a
+                  className="ljit-collapsable-form-collapse"
+                  onClick={[Function]}
+                >
+                  收起
+                  <Icon
+                    type="up"
+                  />
+                </a>
+              </React.Fragment>
+            </Col>
+          </Row>,
+        ],
+        "className": "ljit-collapsable-form",
+        "onCancel": [Function],
+        "onChange": [Function],
+        "onSubmit": [Function],
+        "submitButtonDisabled": true,
+      },
+      "ref": [Function],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "align": "top",
+            "children": Array [],
+            "className": "ljit-collapsable-form-row",
+            "gutter": 0,
+            "justify": "start",
+            "type": "flex",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "align": "top",
+            "children": <Col
+              className="ljit-collapsable-form-col"
+              offset={16}
+              span={8}
+              style={
+                Object {
+                  "textAlign": "right",
+                }
+              }
+            >
+              <React.Fragment>
+                snapshot-footer
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-search-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="submit"
+                  loading={false}
+                  onClick={[Function]}
+                  type="primary"
+                >
+                  snapshot-submitText
+                </Button>
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-reset-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                >
+                  snapshot-cancelText
+                </Button>
+                <a
+                  className="ljit-collapsable-form-collapse"
+                  onClick={[Function]}
+                >
+                  收起
+                  <Icon
+                    type="up"
+                  />
+                </a>
+              </React.Fragment>
+            </Col>,
+            "className": "ljit-collapsable-form-button-row",
+            "gutter": 0,
+            "justify": "start",
+            "type": "flex",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": "buttons",
+            "nodeType": "class",
+            "props": Object {
+              "children": <React.Fragment>
+                snapshot-footer
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-search-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="submit"
+                  loading={false}
+                  onClick={[Function]}
+                  type="primary"
+                >
+                  snapshot-submitText
+                </Button>
+                <Button
+                  block={false}
+                  className="ljit-collapsable-form-reset-btn"
+                  disabled={true}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                >
+                  snapshot-cancelText
+                </Button>
+                <a
+                  className="ljit-collapsable-form-collapse"
+                  onClick={[Function]}
+                >
+                  收起
+                  <Icon
+                    type="up"
+                  />
+                </a>
+              </React.Fragment>,
+              "className": "ljit-collapsable-form-col",
+              "offset": 16,
+              "span": 8,
+              "style": Object {
+                "textAlign": "right",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  "snapshot-footer",
+                  Array [
+                    <Button
+                      block={false}
+                      className="ljit-collapsable-form-search-btn"
+                      disabled={true}
+                      ghost={false}
+                      htmlType="submit"
+                      loading={false}
+                      onClick={[Function]}
+                      type="primary"
+                    >
+                      snapshot-submitText
+                    </Button>,
+                    <Button
+                      block={false}
+                      className="ljit-collapsable-form-reset-btn"
+                      disabled={true}
+                      ghost={false}
+                      htmlType="button"
+                      loading={false}
+                      onClick={[Function]}
+                    >
+                      snapshot-cancelText
+                    </Button>,
+                  ],
+                  <a
+                    className="ljit-collapsable-form-collapse"
+                    onClick={[Function]}
+                  >
+                    收起
+                    <Icon
+                      type="up"
+                    />
+                  </a>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "snapshot-footer",
+                Object {
+                  "instance": null,
+                  "key": "search-btn",
+                  "nodeType": "class",
+                  "props": Object {
+                    "block": false,
+                    "children": "snapshot-submitText",
+                    "className": "ljit-collapsable-form-search-btn",
+                    "disabled": true,
+                    "ghost": false,
+                    "htmlType": "submit",
+                    "loading": false,
+                    "onClick": [Function],
+                    "type": "primary",
+                  },
+                  "ref": null,
+                  "rendered": "snapshot-submitText",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "reset-btn",
+                  "nodeType": "class",
+                  "props": Object {
+                    "block": false,
+                    "children": "snapshot-cancelText",
+                    "className": "ljit-collapsable-form-reset-btn",
+                    "disabled": true,
+                    "ghost": false,
+                    "htmlType": "button",
+                    "loading": false,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "snapshot-cancelText",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "收起",
+                      <Icon
+                        type="up"
+                      />,
+                    ],
+                    "className": "ljit-collapsable-form-collapse",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "收起",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "type": "up",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "a",
+                },
+              ],
+              "type": Symbol(react.fragment),
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

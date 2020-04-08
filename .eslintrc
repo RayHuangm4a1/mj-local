@@ -1,0 +1,22 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "jquery": true,
+        "browser": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": 'module'
+    },
+    "plugins": [
+        "async-await"
+    ],
+    "rules": {
+        "no-console": 2,
+        "async-await/space-after-async": 2,
+        "async-await/space-after-await": 2
+    }
+}

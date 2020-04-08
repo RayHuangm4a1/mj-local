@@ -1,0 +1,70 @@
+$close-button-color = #c0c0c0
+$submit-button-color = #ff8113
+
+.my-collection-modal
+	.ant-modal-close
+		display: none
+
+	.ant-modal-body
+		padding: 12px 38px 24px 38px
+
+	.ant-modal-footer
+		> div
+			> button
+				width: 84px
+
+				&:nth-child(1)
+					border-color: $close-button-color
+					color: $close-button-color
+
+					&:hover,
+					&:active,
+					&:focus
+						border-color: $close-button-color
+						color: $close-button-color
+
+				&:nth-child(2)
+					border-color: $submit-button-color
+					background-color: $submit-button-color
+
+					&:hover,
+					&:active,
+					&:focus
+						border-color: $submit-button-color
+						background-color: #ffffff
+						color: $submit-button-color
+
+	.remind-text
+		margin-top: 0
+		margin-bottom: 24px
+
+	&__title
+		font-size: 18px
+		font-weight: 600
+		color: #222222
+
+	&__my-collection
+		margin: 24px 0px
+
+	&__draggable-table
+
+		.ant-table-thead
+			display: none
+
+		.ant-table-tbody
+			border-top: 1px solid #e3e3e3
+
+			> tr
+				> td
+					padding: 8px
+
+					&:first-child
+						padding-left: 24px
+
+					&:last-child
+						padding-right: 14px
+
+			.ljit-icon-button
+				height: 22px
+
+

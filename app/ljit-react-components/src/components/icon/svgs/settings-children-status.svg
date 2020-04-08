@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-30-/-settings-user-state" transform="translate(-4.000000, -2.000000)">
+            <g id="Group" transform="translate(5.000000, 3.000000)">
+                <path d="M2,-0.5 L17.0429732,-0.5 C18.4236851,-0.5 19.5429732,0.619288125 19.5429732,2 L19.5429732,16.7577498 L14.7749739,23.6738282 L2,23.6738282 C0.619288125,23.6738282 -0.5,22.5545401 -0.5,21.1738282 L-0.5,2 C-0.5,0.619288125 0.619288125,-0.5 2,-0.5 Z" id="Rectangle-6" stroke="#5F5F5F" fill="#FFFFFF"></path>
+                <path d="M4.85534744,18.5128859 L14.6563802,18.5128859 C14.3022732,16.1098066 12.2361664,14.276924 9.75586381,14.276924 C7.27556118,14.276924 5.20945442,16.1098066 4.85534744,18.5128859 Z" id="Combined-Shape" stroke="#5F5F5F" fill="#FFFFFF"></path>
+                <ellipse id="Oval-3" stroke="#5F5F5F" fill="#FFFFFF" stroke-linecap="square" cx="9.82333238" cy="9.36921808" rx="6.43697163" ry="6.30355111"></ellipse>
+                <path d="M16.7898943,17.0851429 L18.7153514,21.1376559 L11.5353434,21.211395 L14.1569344,16.9437349 C14.5905515,16.2378541 15.5142971,16.0171408 16.2201779,16.450758 C16.4674517,16.6026564 16.6653538,16.8230224 16.7898943,17.0851429 Z" id="Triangle" stroke="#5F5F5F" fill="#FFFFFF" fill-rule="nonzero" transform="translate(15.181518, 18.715428) rotate(-54.000000) translate(-15.181518, -18.715428) "></path>
+                <circle id="Oval-2" fill="#5F5F5F" cx="7" cy="9" r="1"></circle>
+                <circle id="Oval-2" fill="#5F5F5F" cx="13" cy="9" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

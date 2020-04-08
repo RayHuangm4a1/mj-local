@@ -1,0 +1,149 @@
+@import '../../../styling/client.styl'
+
+$color-white = #ffffff
+$menu-background-color = #484847
+$trigger-border-radius = 100px
+$trigger-height = 106px
+$collapsed-menu-width = 52px
+
+.ant-menu-submenu-popup.client-sidebar-menu__submenu
+	display: none
+
+.lottery-sider-menu
+	.ant-layout-sider-children:hover
+		overflow-y: auto
+
+	&.ant-layout-sider
+		background-color: $menu-background-color
+
+	&__trigger
+		position: absolute
+		top: 276px
+		left: calc(100% - 2px)
+		z-index: 1
+		width: 12px
+		height: $trigger-height
+		line-height: $trigger-height
+		text-align: center
+		color: $color-white
+		border-top-right-radius: $trigger-border-radius
+		border-bottom-right-radius: $trigger-border-radius
+		box-shadow: 0 3px 4px 0 rgba(0,0,0,.18)
+		background-color: $menu-background-color
+		cursor: pointer
+
+	&__menu-wrapper
+		overflow-y: auto
+		min-height: $content-height
+		max-height: $content-height
+
+	.client-sidebar-menu
+		padding-left: 0
+		margin-bottom: 0
+		background-color: $menu-background-color
+		color: $color-white
+		margin-top: 13px
+
+		&.ant-menu-inline,
+		&.ant-menu-vertical,
+		&.ant-menu-vertical-left
+			border-right-width: 0
+
+		li
+			list-style: none
+
+		&--collapsed
+			width: 100%
+
+			> .ant-menu-submenu > .ant-menu-submenu-title
+				padding: 0 18px !important
+				margin: 16px 0
+				top: -5px
+
+				.anticon + div
+					position: relative
+					top: -26px
+					left: -4px
+					font-size: 10px
+					color: #fff
+				> div
+					opacity: 0.65
+					> i.ljit-icon
+						position: relative
+						top: -5px
+						left: -2px
+
+		&__submenu
+			&--favorite
+				> .ant-menu-submenu-title
+					padding-left: 24px
+					cursor: default
+
+			&--collapsed
+				> .ant-menu-submenu-title
+					cursor: pointer
+
+					> .ant-menu-submenu-arrow
+						display: none
+
+			> .ant-menu
+				background-color: $menu-background-color
+
+				> .ant-menu-item
+					background-color: inherit
+
+			> .ant-menu-submenu-title
+				width: 100%
+				&:active
+					width: 100%
+					background: $menu-background-color
+
+				> .ant-menu-submenu-arrow
+					&:before
+					&:after
+						background-image: none
+						background-color: $color-white
+
+				> div > i.ljit-icon
+					position: relative
+					top: 3px
+
+		&__setting
+			position: absolute
+			top: 0
+			right: 0
+			// reset
+			min-width: 34px
+			padding: 0
+			border: none
+			margin: 0
+			outline: 0
+			background-color: transparent
+			cursor: pointer
+
+		.ant-menu-sub.ant-menu-inline
+			padding-left: 12px
+			padding-right: 12px
+
+		.ant-menu-item-selected
+			.ljit-tag
+				background-color #787878
+			&::after
+				display: none
+
+		.ant-menu-item
+			display: inline-block
+			vertical-align: top
+			width: 50%
+			height auto
+			padding: 0 4px !important
+			line-height: normal
+			text-align: center
+			color: $color-white
+
+			> .ljit-clickable-tag
+				width: 100%
+				> .ljit-tag
+					line-height: 24px
+					&:hover
+						background-color #787878

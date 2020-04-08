@@ -1,0 +1,1 @@
+exports.handleGetPlatformRequest = require('./handle-get-platform-request');

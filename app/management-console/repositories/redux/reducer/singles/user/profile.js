@@ -1,0 +1,236 @@
+import { Map } from 'immutable';
+import { actionTypes, } from '../../../../../controller';
+import { LoadingStatusEnum } from '../../../../../lib/enums';
+
+// Map ({
+// 	isNormal: true,
+// 	id: 12,
+// 	username: "test01",
+// 	accountId: "5d4aea86e48b697af60c1211",
+// 	type: 2,
+// 	deltaBonus: -2,
+// 	fixedWage: 1.8,
+// 	nickname: "test01",
+// 	greeting: null,
+// 	createdBy: "admin",
+// 	ip: null,
+// 	geo: null,
+// 	loginAt: null,
+// 	payer: "測試者",
+// 	levelId: 1,
+// 	levelExpiredAt: "9999-12-31",
+// 	statuses: {
+// 		isBetable: true,
+// 		isBlocked: false,
+// 		isFundsable: true,
+// 		hasWithdrawn: false,
+// 		isDepositable: true,
+// 		isTeamBetable: true,
+// 		isTeamBlocked: false,
+// 		isDividendable: true,
+// 		isTransferable: true,
+// 		isWithdrawable: true,
+// 		isTeamFundsable: true,
+// 		isEverInRiskLevel: false,
+// 		isTeamDepositable: true,
+// 		isTeamWithdrawable: true,
+// 		isChildrenCreatable: true,
+// 		isEnableDepositZhuandian: true,
+// 		isEnableIncentiveZhuandian: true
+// 	},
+// 	createdAt: "2020-02-15T05:25:43.000Z",
+// 	updatedAt: "2020-02-15T06:20:00.000Z"
+// });
+
+const initialProfileData = {
+	isNormal: null,
+	id: 1,
+	username: "",
+	accountId: "",
+	type: null,
+	deltaBonus: 0,
+	fixedWage: 0,
+	nickname: "",
+	greeting: "",
+	createdBy: "",
+	ip: null,
+	geo: null,
+	loginAt: null,
+	payer: "",
+	levelId: 1,
+	levelExpiredAt: "",
+	statuses: {},
+	createdAt: "",
+	updatedAt: ""
+};
+
+const {
+	NONE,
+	LOADING,
+	SUCCESS,
+	FAILED,
+} = LoadingStatusEnum;
+
+const {
+	START_FETCH_USER_PROFILE,
+	FETCH_USER_PROFILE_SUCCESS,
+	FETCH_USER_PROFILE_FAILED,
+	START_DISABLE_USER,
+	DISABLE_USER_SUCCESS,
+	DISABLE_USER_FAILED,
+	START_ENABLE_USER,
+	ENABLE_USER_SUCCESS,
+	ENABLE_USER_FAILED,
+	START_UPDATE_USER_NICKNAME,
+	UPDATE_USER_NICKNAME_SUCCESS,
+	UPDATE_USER_NICKNAME_FAILED,
+	START_UPDATE_USER_PAYER,
+	UPDATE_USER_PAYER_SUCCESS,
+	UPDATE_USER_PAYER_FAILED,
+	START_UPDATE_USER_ZHUANDIAN,
+	UPDATE_USER_ZHUANDIAN_SUCCESS,
+	UPDATE_USER_ZHUANDIAN_FAILED,
+	START_UPDATE_USER_TYPE,
+	UPDATE_USER_TYPE_SUCCESS,
+	UPDATE_USER_TYPE_FAILED,
+	START_UPDATE_USER_GREETING,
+	UPDATE_USER_GREETING_SUCCESS,
+	UPDATE_USER_GREETING_FAILED,
+	START_ENABLE_USER_FUNDS,
+	ENABLE_USER_FUNDS_SUCCESS,
+	ENABLE_USER_FUNDS_FAILED,
+	START_DISABLE_USER_FUNDS,
+	DISABLE_USER_FUNDS_SUCCESS,
+	DISABLE_USER_FUNDS_FAILED,
+	START_ENABLE_USER_BETTING,
+	ENABLE_USER_BETTING_SUCCESS,
+	ENABLE_USER_BETTING_FAILED,
+	START_DISABLE_USER_BETTING,
+	DISABLE_USER_BETTING_SUCCESS,
+	DISABLE_USER_BETTING_FAILED,
+	START_ENABLE_USER_DIVIDEND,
+	ENABLE_USER_DIVIDEND_SUCCESS,
+	ENABLE_USER_DIVIDEND_FAILED,
+	START_DISABLE_USER_DIVIDEND,
+	DISABLE_USER_DIVIDEND_SUCCESS,
+	DISABLE_USER_DIVIDEND_FAILED,
+	START_DISABLE_USER_TRANSFER,
+	DISABLE_USER_TRANSFER_SUCCESS,
+	DISABLE_USER_TRANSFER_FAILED,
+	START_ENABLE_USER_TRANSFER,
+	ENABLE_USER_TRANSFER_SUCCESS,
+	ENABLE_USER_TRANSFER_FAILED,
+	START_ENABLE_USER_WITHDRAWABLE,
+	ENABLE_USER_WITHDRAWABLE_SUCCESS,
+	ENABLE_USER_WITHDRAWABLE_FAILED,
+	START_DISABLE_USER_WITHDRAWABLE,
+	DISABLE_USER_WITHDRAWABLE_SUCCESS,
+	DISABLE_USER_WITHDRAWABLE_FAILED,
+	START_ENABLE_USER_DEPOSIT,
+	ENABLE_USER_DEPOSIT_SUCCESS,
+	ENABLE_USER_DEPOSIT_FAILED,
+	START_DISABLE_USER_DEPOSIT,
+	DISABLE_USER_DEPOSIT_SUCCESS,
+	DISABLE_USER_DEPOSIT_FAILED,
+	START_UPDATE_USER_BONUS,
+	UPDATE_USER_BONUS_SUCCESS,
+	UPDATE_USER_BONUS_FAILED,
+	START_UPDATE_USER_FIXED_WAGE,
+	UPDATE_USER_FIXED_WAGE_SUCCESS,
+	UPDATE_USER_FIXED_WAGE_FAILED,
+} = actionTypes;
+
+const initialState = Map({
+	data: Map(initialProfileData),
+
+	loadingStatus: NONE,
+	loadingStatusMessage: '',
+	updateLoadingStatus: NONE,
+	updateLoadingStatusMessage: '',
+});
+
+export default function profile(state = initialState, action) {
+	switch (action.type) {
+		case START_FETCH_USER_PROFILE:
+			return state.set('loadingStatus', LOADING);
+		case FETCH_USER_PROFILE_SUCCESS:
+			return state
+				.set('data', Map(action.profile))
+				.set('loadingStatus', SUCCESS);
+		case FETCH_USER_PROFILE_FAILED:
+			return state
+				.set('loadingStatus', FAILED)
+				.set('loadingStatusMessage', action.errorMessage);
+		case START_UPDATE_USER_NICKNAME:
+		case START_UPDATE_USER_PAYER:
+		case START_UPDATE_USER_ZHUANDIAN:
+		case START_UPDATE_USER_TYPE:
+		case START_UPDATE_USER_GREETING:
+		case START_ENABLE_USER_BETTING:
+		case START_DISABLE_USER_BETTING:
+		case START_ENABLE_USER_WITHDRAWABLE:
+		case START_DISABLE_USER_WITHDRAWABLE:
+		case START_ENABLE_USER_DEPOSIT:
+		case START_DISABLE_USER_DEPOSIT:
+		case START_DISABLE_USER:
+		case START_ENABLE_USER:
+		case START_ENABLE_USER_FUNDS:
+		case START_DISABLE_USER_FUNDS:
+		case START_ENABLE_USER_DIVIDEND:
+		case START_DISABLE_USER_DIVIDEND:
+		case START_ENABLE_USER_TRANSFER:
+		case START_DISABLE_USER_TRANSFER:
+		case START_UPDATE_USER_BONUS:
+		case START_UPDATE_USER_FIXED_WAGE:
+			return state.set('updateLoadingStatus', LOADING);
+		case UPDATE_USER_NICKNAME_SUCCESS:
+		case UPDATE_USER_PAYER_SUCCESS:
+		case UPDATE_USER_ZHUANDIAN_SUCCESS:
+		case UPDATE_USER_TYPE_SUCCESS:
+		case UPDATE_USER_GREETING_SUCCESS:
+		case ENABLE_USER_BETTING_SUCCESS:
+		case DISABLE_USER_BETTING_SUCCESS:
+		case ENABLE_USER_WITHDRAWABLE_SUCCESS:
+		case DISABLE_USER_WITHDRAWABLE_SUCCESS:
+		case ENABLE_USER_DEPOSIT_SUCCESS:
+		case DISABLE_USER_DEPOSIT_SUCCESS:
+		case DISABLE_USER_SUCCESS:
+		case ENABLE_USER_SUCCESS:
+		case ENABLE_USER_FUNDS_SUCCESS:
+		case DISABLE_USER_FUNDS_SUCCESS:
+		case ENABLE_USER_DIVIDEND_SUCCESS:
+		case DISABLE_USER_DIVIDEND_SUCCESS:
+		case ENABLE_USER_TRANSFER_SUCCESS:
+		case DISABLE_USER_TRANSFER_SUCCESS:
+		case UPDATE_USER_BONUS_SUCCESS:
+		case UPDATE_USER_FIXED_WAGE_SUCCESS:
+			return state.set('updateLoadingStatus', SUCCESS);
+		case UPDATE_USER_NICKNAME_FAILED:
+		case UPDATE_USER_PAYER_FAILED:
+		case UPDATE_USER_ZHUANDIAN_FAILED:
+		case UPDATE_USER_TYPE_FAILED:
+		case UPDATE_USER_GREETING_FAILED:
+		case ENABLE_USER_BETTING_FAILED:
+		case DISABLE_USER_BETTING_FAILED:
+		case ENABLE_USER_WITHDRAWABLE_FAILED:
+		case DISABLE_USER_WITHDRAWABLE_FAILED:
+		case ENABLE_USER_DEPOSIT_FAILED:
+		case DISABLE_USER_DEPOSIT_FAILED:
+		case DISABLE_USER_FAILED:
+		case ENABLE_USER_FAILED:
+		case ENABLE_USER_FUNDS_FAILED:
+		case DISABLE_USER_FUNDS_FAILED:
+		case ENABLE_USER_DIVIDEND_FAILED:
+		case DISABLE_USER_DIVIDEND_FAILED:
+		case ENABLE_USER_TRANSFER_FAILED:
+		case DISABLE_USER_TRANSFER_FAILED:
+		case UPDATE_USER_BONUS_FAILED:
+		case UPDATE_USER_FIXED_WAGE_FAILED:
+			return state
+				.set('updateLoadingStatus', FAILED)
+				.set('updateLoadingStatusMessage', action.errorMessage);
+
+		default:
+			return state;
+	}
+}

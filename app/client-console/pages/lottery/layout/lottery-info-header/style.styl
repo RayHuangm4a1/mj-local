@@ -1,0 +1,50 @@
+$client-page-header-height = 60px
+
+.client-page-header
+	display: flex
+	align-items: stretch
+	height: $client-page-header-height
+	background-color: #FFFFFF
+	box-shadow: -17px -3px 5px 5px rgba(0, 0, 0, 0.11)
+	&__header
+		position : relative
+		min-width: 1200px
+		margin: 0 auto
+	&.content-column
+		position: static
+
+	&__content
+		display: flex
+		position: relative
+		height: 100%
+		align-items: center
+		justify-content: space-between
+
+	&__lottery-info
+		display: flex
+		.ljit-drawing-counting-down-card
+			.ant-statistic-title
+				color: #646464
+
+.lottery-info
+	margin-right: 10px
+	&__closing
+		min-width: 110px
+	&__next
+		min-width: 80px
+		margin-left: 25px
+	&__trend,
+	&__sound
+		min-width: 50px
+		font-size: 12px
+		font-weight: 500
+		display: grid
+		text-align: center
+		span
+			font-weight: 400
+			color: #646464
+		.ant-switch-checked
+			background-color: #ff8113
+		.ant-click-animating-node
+			box-shadow: 0 0 0 0 #ff8113
+

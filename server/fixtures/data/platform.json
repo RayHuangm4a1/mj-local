@@ -1,0 +1,57 @@
+{
+	"id": 1,
+	"_id": "5cd151312dfa1d244dd54517",
+	"name": "麥傑",
+	"code": "mj",
+	"status": "online",
+	"bonus": [
+		1960,
+		1958,1956,1954,1952,1950,
+		1948,1946,1944,1942,1940,
+		1930,1920,1910,1900,
+		1890,1880,1870,1860,1850,1840,1830,1820,1810,1800,
+		1790,1780,1770,1760,1750,1740,1730,1720,1710,1700
+	],
+	"fixedWages": [1.60,1.50,1.40,1.30,1.20,1.10,1.00,0.90,0.80,0.70,0.60,0.50,0.40,0.30,0.20,0.10],
+	"couldEqualToPlatformMaxBonus": true,
+	"couldEqualToParentBonus": false,
+	"bettingPolicy": {
+		"rewardMode": "奖金模式",
+		"nonPKMaxProfit": 500000,
+		"pkMaxProfit": 10000,
+		"maxOrdersPerRequest": 200,
+		"maxAmountOfTotalTracesPerRequest": 200000,
+		"maxIssuesPerTrace": 100,
+		"isZhaoShangBetable": false
+	},
+	"maxDividendRatio": 100,
+	"effectiveBettingAmountPerDay": 1000,
+	"withdrawalPolicy": {
+		"maxWithdrawalAmountPerDay": 100000,
+		"minAmountPerWithdrawal": 100,
+		"maxAmountPerWithdrawal": 30000,
+		"numOfWithdrawalsPerDay": 8,
+		"withdrawalFees": [
+			{ "zeroDamaAmountPercentage": 0, "nonZeroDamaAmountPercentage": 0 },
+			{ "zeroDamaAmountPercentage": 2, "nonZeroDamaAmountPercentage": 4 },
+			{ "zeroDamaAmountPercentage": 3, "nonZeroDamaAmountPercentage": 6 }
+		]
+	},
+	"dividendSettings": [
+		{ "amount": 300000, "ratio": 0 },
+		{ "amount": 450000, "ratio": 8 },
+		{ "amount": 600000, "ratio": 9 },
+		{ "amount": 750000, "ratio": 10 },
+		{ "amount": 900000, "ratio": 11 },
+		{ "amount": 1050000, "ratio": 12 },
+		{ "amount": 1200000, "ratio": 13 },
+		{ "amount": 1500000, "ratio": 14 },
+		{ "amount": 1800000, "ratio": 15 },
+		{ "amount": 2100000, "ratio": 16 },
+		{ "amount": 2400000, "ratio": 17 },
+		{ "amount": 2700000, "ratio": 18 },
+		{ "amount": 3000000, "ratio": 19 },
+		{ "amount": 100000000, "ratio": 20 }
+	],
+	"fixedWage": 2.0
+}

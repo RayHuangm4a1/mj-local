@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Toggle
+    activeBackgroundColor="#ff8113"
+    activeColor="#fff"
+    className="mock-class"
+    inActiveBackgroundColor="#dddbdb"
+    inActiveColor="#646464"
+    isLeftActive={true}
+    left="mock-left"
+    onClickLeft={[Function]}
+    onClickRight={[Function]}
+    right="mock-right"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-toggle__item ljit-toggle__item--left-active"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+              "color": "#fff",
+            }
+          }
+        >
+          mock-left
+        </div>,
+        <div
+          className="ljit-toggle__item"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+              "color": "#646464",
+            }
+          }
+        >
+          mock-right
+        </div>,
+      ],
+      "className": "ljit-toggle mock-class ljit-toggle--left-active",
+      "style": Object {
+        "backgroundImage": "linear-gradient(to left, #dddbdb 50%, #ff8113 50%)",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "mock-left",
+          "className": "ljit-toggle__item ljit-toggle__item--left-active",
+          "onClick": [Function],
+          "style": Object {
+            "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+            "color": "#fff",
+          },
+        },
+        "ref": null,
+        "rendered": "mock-left",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "mock-right",
+          "className": "ljit-toggle__item",
+          "onClick": [Function],
+          "style": Object {
+            "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+            "color": "#646464",
+          },
+        },
+        "ref": null,
+        "rendered": "mock-right",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-toggle__item ljit-toggle__item--left-active"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+                "color": "#fff",
+              }
+            }
+          >
+            mock-left
+          </div>,
+          <div
+            className="ljit-toggle__item"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+                "color": "#646464",
+              }
+            }
+          >
+            mock-right
+          </div>,
+        ],
+        "className": "ljit-toggle mock-class ljit-toggle--left-active",
+        "style": Object {
+          "backgroundImage": "linear-gradient(to left, #dddbdb 50%, #ff8113 50%)",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "mock-left",
+            "className": "ljit-toggle__item ljit-toggle__item--left-active",
+            "onClick": [Function],
+            "style": Object {
+              "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+              "color": "#fff",
+            },
+          },
+          "ref": null,
+          "rendered": "mock-left",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "mock-right",
+            "className": "ljit-toggle__item",
+            "onClick": [Function],
+            "style": Object {
+              "backgroundImage": "linear-gradient(to right, #dddbdb 50%, #ff8113 50%)",
+              "color": "#646464",
+            },
+          },
+          "ref": null,
+          "rendered": "mock-right",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

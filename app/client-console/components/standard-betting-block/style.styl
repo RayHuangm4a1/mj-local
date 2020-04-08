@@ -1,0 +1,85 @@
+.standard-betting-block
+	background-color: #fff
+	padding: 20px 17px 20px 20px
+	color: #222
+	&__top,
+	&__bottom
+		display: flex
+		align-items: center
+	&__top
+		border-bottom: 1px solid #eee
+		padding-bottom: 24px
+		margin-bottom: 16px
+		font-weight: 500
+		justify-content: flex-start
+		> div
+			flex: none
+	&__bottom
+		justify-content: space-between
+	&__bottom-left
+		font-weight: 500
+		.betting-input
+			width: 132px
+	&__bottom-right 
+		> span
+			font-family: 'PingFangTC'
+			margin-right: 20px
+	&__multiple,
+	&__amount
+		.betting-input
+			text-align: center
+			.ant-input-number
+				&-input
+					text-align: center
+				&-handler-wrap
+					display: none
+	&__amount-per-bet
+		.betting-input
+			width: 88px
+	&__multiple
+		margin-left: 20px
+		.betting-input
+			width: 60px
+	&__amount
+		margin-left: 30px
+		padding-left: 17px
+		border-left: 1px solid rgba(#979797, .3)
+		.betting-input
+			width: 112px
+	button,
+	.digits,
+	.ljit-decimal-number
+		font-size: 16px
+		font-weight: 600
+	button
+		width: 115px
+		padding: 1px 10px 0px 10px
+		+ button
+			margin-left: 16px
+	.betting-input
+		display: inline-block
+		margin-left: 8px
+		> div
+			width: 100%
+	.ljit-code-ball-button
+		font-family: 'PingFangTC'
+		display: inline-block
+		margin-left: 10px
+		.ant-tag
+			background-color: transparent
+			color: #646464
+			font-size: 16px
+	.ljit-slider-bar
+		width: 87px
+		margin-left: 7px
+		.ljit-slider-bar__number,
+		.ljit-slider-bar__suffix
+			display: none
+		.ant-slider-handle
+			border-color: #ff8113
+			background-color: #ff8113
+		&:hover .ant-slider-handle:not(.ant-tooltip-open),
+		.ant-slider-track
+			background-color: #ff8113
+	.ant-select-selection-selected-value
+		padding-right: 0

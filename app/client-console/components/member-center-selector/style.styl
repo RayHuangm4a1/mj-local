@@ -1,0 +1,22 @@
+$color-white = #ffffff
+$color-hover = #fc9327
+
+user-select()
+	-moz-user-select: arguments
+	-webkit-user-select: arguments
+	-ms-user-select: arguments
+	user-select: arguments
+
+.ljit-member-center-selector
+	text-align: center
+	background-color: $color-white
+	user-select(none)
+
+	& .ljit-icon-selector__item
+		width: 56px
+		padding-top: 5px
+		cursor: pointer
+
+		&--active
+		&:hover
+			color: $color-hover

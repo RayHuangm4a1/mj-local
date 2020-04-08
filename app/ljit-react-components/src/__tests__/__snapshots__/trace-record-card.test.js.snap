@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trace Info Card should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TraceRecordCard
+    className="mock-class"
+    onClick={[Function]}
+    traceRecord={
+      Object {
+        "amountPerBet": 10,
+        "createdAt": 2019-04-13T02:38:43.000Z,
+        "id": 201901240027,
+        "issue": "20190701-0001",
+        "lotteryName": "mock-lottery",
+        "name": "mock-name",
+        "opencode": "",
+        "reward": 0,
+        "status": 1,
+        "totalIssues": 2,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <InfoCard
+        className="ljit-trace-info-card__info"
+        isShowingCloseButton={false}
+        left={
+          <React.Fragment>
+            <LabelText
+              fontSize="small"
+              label="方案号"
+              labelColType="medium"
+              labelStyle={Object {}}
+              text={201901240027}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="玩法"
+              labelColType="medium"
+              labelStyle={Object {}}
+              text="mock-name"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="单注金额"
+              labelColType="large"
+              labelStyle={Object {}}
+              text={10}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="中奖金额"
+              labelColType="large"
+              labelStyle={Object {}}
+              text="-"
+              textStyle={Object {}}
+            />
+          </React.Fragment>
+        }
+        onClose={[Function]}
+        right={
+          <React.Fragment>
+            <LabelText
+              fontSize="small"
+              label="期号"
+              labelColType="small"
+              labelStyle={Object {}}
+              text="20190701-0001"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="时间"
+              labelColType="small"
+              labelStyle={Object {}}
+              text="4/13 10:38:43"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="追号期数"
+              labelColType="large"
+              labelStyle={Object {}}
+              text={2}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="中奖号码"
+              labelColType="large"
+              labelStyle={Object {}}
+              text="-"
+              textStyle={Object {}}
+            />
+          </React.Fragment>
+        }
+        topLeft={
+          <div
+            className="ljit-trace-info-card__header"
+          >
+            <span
+              className="ljit-trace-info-card__title"
+            >
+              mock-lottery
+            </span>
+            <StatusTag
+              backgroundColor=""
+              status="traceIncomplete"
+              tagType="default"
+              text="未完成"
+              textColor=""
+            />
+          </div>
+        }
+      />,
+      "className": "ljit-trace-info-card mock-class",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "className": "ljit-trace-info-card__info",
+        "isShowingCloseButton": false,
+        "left": <React.Fragment>
+          <LabelText
+            fontSize="small"
+            label="方案号"
+            labelColType="medium"
+            labelStyle={Object {}}
+            text={201901240027}
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="玩法"
+            labelColType="medium"
+            labelStyle={Object {}}
+            text="mock-name"
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="单注金额"
+            labelColType="large"
+            labelStyle={Object {}}
+            text={10}
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="中奖金额"
+            labelColType="large"
+            labelStyle={Object {}}
+            text="-"
+            textStyle={Object {}}
+          />
+        </React.Fragment>,
+        "onClose": [Function],
+        "right": <React.Fragment>
+          <LabelText
+            fontSize="small"
+            label="期号"
+            labelColType="small"
+            labelStyle={Object {}}
+            text="20190701-0001"
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="时间"
+            labelColType="small"
+            labelStyle={Object {}}
+            text="4/13 10:38:43"
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="追号期数"
+            labelColType="large"
+            labelStyle={Object {}}
+            text={2}
+            textStyle={Object {}}
+          />
+          <LabelText
+            fontSize="small"
+            label="中奖号码"
+            labelColType="large"
+            labelStyle={Object {}}
+            text="-"
+            textStyle={Object {}}
+          />
+        </React.Fragment>,
+        "topLeft": <div
+          className="ljit-trace-info-card__header"
+        >
+          <span
+            className="ljit-trace-info-card__title"
+          >
+            mock-lottery
+          </span>
+          <StatusTag
+            backgroundColor=""
+            status="traceIncomplete"
+            tagType="default"
+            text="未完成"
+            textColor=""
+          />
+        </div>,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <InfoCard
+          className="ljit-trace-info-card__info"
+          isShowingCloseButton={false}
+          left={
+            <React.Fragment>
+              <LabelText
+                fontSize="small"
+                label="方案号"
+                labelColType="medium"
+                labelStyle={Object {}}
+                text={201901240027}
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="玩法"
+                labelColType="medium"
+                labelStyle={Object {}}
+                text="mock-name"
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="单注金额"
+                labelColType="large"
+                labelStyle={Object {}}
+                text={10}
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="中奖金额"
+                labelColType="large"
+                labelStyle={Object {}}
+                text="-"
+                textStyle={Object {}}
+              />
+            </React.Fragment>
+          }
+          onClose={[Function]}
+          right={
+            <React.Fragment>
+              <LabelText
+                fontSize="small"
+                label="期号"
+                labelColType="small"
+                labelStyle={Object {}}
+                text="20190701-0001"
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="时间"
+                labelColType="small"
+                labelStyle={Object {}}
+                text="4/13 10:38:43"
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="追号期数"
+                labelColType="large"
+                labelStyle={Object {}}
+                text={2}
+                textStyle={Object {}}
+              />
+              <LabelText
+                fontSize="small"
+                label="中奖号码"
+                labelColType="large"
+                labelStyle={Object {}}
+                text="-"
+                textStyle={Object {}}
+              />
+            </React.Fragment>
+          }
+          topLeft={
+            <div
+              className="ljit-trace-info-card__header"
+            >
+              <span
+                className="ljit-trace-info-card__title"
+              >
+                mock-lottery
+              </span>
+              <StatusTag
+                backgroundColor=""
+                status="traceIncomplete"
+                tagType="default"
+                text="未完成"
+                textColor=""
+              />
+            </div>
+          }
+        />,
+        "className": "ljit-trace-info-card mock-class",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "ljit-trace-info-card__info",
+          "isShowingCloseButton": false,
+          "left": <React.Fragment>
+            <LabelText
+              fontSize="small"
+              label="方案号"
+              labelColType="medium"
+              labelStyle={Object {}}
+              text={201901240027}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="玩法"
+              labelColType="medium"
+              labelStyle={Object {}}
+              text="mock-name"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="单注金额"
+              labelColType="large"
+              labelStyle={Object {}}
+              text={10}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="中奖金额"
+              labelColType="large"
+              labelStyle={Object {}}
+              text="-"
+              textStyle={Object {}}
+            />
+          </React.Fragment>,
+          "onClose": [Function],
+          "right": <React.Fragment>
+            <LabelText
+              fontSize="small"
+              label="期号"
+              labelColType="small"
+              labelStyle={Object {}}
+              text="20190701-0001"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="时间"
+              labelColType="small"
+              labelStyle={Object {}}
+              text="4/13 10:38:43"
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="追号期数"
+              labelColType="large"
+              labelStyle={Object {}}
+              text={2}
+              textStyle={Object {}}
+            />
+            <LabelText
+              fontSize="small"
+              label="中奖号码"
+              labelColType="large"
+              labelStyle={Object {}}
+              text="-"
+              textStyle={Object {}}
+            />
+          </React.Fragment>,
+          "topLeft": <div
+            className="ljit-trace-info-card__header"
+          >
+            <span
+              className="ljit-trace-info-card__title"
+            >
+              mock-lottery
+            </span>
+            <StatusTag
+              backgroundColor=""
+              status="traceIncomplete"
+              tagType="default"
+              text="未完成"
+              textColor=""
+            />
+          </div>,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

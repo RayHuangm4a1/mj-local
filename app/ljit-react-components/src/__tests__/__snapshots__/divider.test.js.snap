@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Divider
+    className="snapshot-class"
+    isDashed={false}
+    orientation="center"
+    style={Object {}}
+    type="horizontal"
+  >
+    snapshot-title
+  </Divider>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "snapshot-title",
+      "className": "ljit-divider snapshot-class",
+      "dashed": false,
+      "orientation": "center",
+      "style": Object {},
+      "type": "horizontal",
+    },
+    "ref": null,
+    "rendered": "snapshot-title",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "snapshot-title",
+        "className": "ljit-divider snapshot-class",
+        "dashed": false,
+        "orientation": "center",
+        "style": Object {},
+        "type": "horizontal",
+      },
+      "ref": null,
+      "rendered": "snapshot-title",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

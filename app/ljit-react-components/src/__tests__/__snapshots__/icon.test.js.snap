@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Icon
+    color="default"
+    isTranslucent={false}
+    size="middle"
+    spin={false}
+    style={Object {}}
+    type="close-circle"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <IconReact
+        style={Object {}}
+        type={
+          Object {
+            "icon": Object {
+              "attrs": Object {
+                "viewBox": "64 64 896 896",
+              },
+              "children": Array [
+                Object {
+                  "attrs": Object {
+                    "d": "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z",
+                  },
+                  "tag": "path",
+                },
+              ],
+              "tag": "svg",
+            },
+            "name": "close-circle",
+            "theme": "fill",
+          }
+        }
+      />,
+      "className": "anticon ljit-icon anticon-close-circle ljit-icon--default ljit-icon--middle",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "style": Object {},
+        "type": Object {
+          "icon": Object {
+            "attrs": Object {
+              "viewBox": "64 64 896 896",
+            },
+            "children": Array [
+              Object {
+                "attrs": Object {
+                  "d": "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z",
+                },
+                "tag": "path",
+              },
+            ],
+            "tag": "svg",
+          },
+          "name": "close-circle",
+          "theme": "fill",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [MockFunction],
+    },
+    "type": "i",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <IconReact
+          style={Object {}}
+          type={
+            Object {
+              "icon": Object {
+                "attrs": Object {
+                  "viewBox": "64 64 896 896",
+                },
+                "children": Array [
+                  Object {
+                    "attrs": Object {
+                      "d": "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z",
+                    },
+                    "tag": "path",
+                  },
+                ],
+                "tag": "svg",
+              },
+              "name": "close-circle",
+              "theme": "fill",
+            }
+          }
+        />,
+        "className": "anticon ljit-icon anticon-close-circle ljit-icon--default ljit-icon--middle",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "style": Object {},
+          "type": Object {
+            "icon": Object {
+              "attrs": Object {
+                "viewBox": "64 64 896 896",
+              },
+              "children": Array [
+                Object {
+                  "attrs": Object {
+                    "d": "M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm165.4 618.2l-66-.3L512 563.4l-99.3 118.4-66.1.3c-4.4 0-8-3.5-8-8 0-1.9.7-3.7 1.9-5.2l130.1-155L340.5 359a8.32 8.32 0 0 1-1.9-5.2c0-4.4 3.6-8 8-8l66.1.3L512 464.6l99.3-118.4 66-.3c4.4 0 8 3.5 8 8 0 1.9-.7 3.7-1.9 5.2L553.5 514l130 155c1.2 1.5 1.9 3.3 1.9 5.2 0 4.4-3.6 8-8 8z",
+                  },
+                  "tag": "path",
+                },
+              ],
+              "tag": "svg",
+            },
+            "name": "close-circle",
+            "theme": "fill",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [MockFunction],
+      },
+      "type": "i",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,273 @@
+// layout
+.create-div
+	margin-top 24px
+	padding 24px 36px
+	background-color #ffffff
+
+.submit-div
+	margin-top 1px
+	padding 16px 20px
+	background-color #ffffff
+
+.ant-table-expanded-row
+
+	p
+		text-align left
+
+// search-form
+.member-form-item
+	display flex
+
+// title
+.create-form-title, .tab-content-title
+	margin-bottom 40px
+
+// table
+.member-table
+	margin-top: 25px
+// create form
+.create-form-item-wrapper
+	display: inline-block
+	& + &
+		margin-left: 60px
+.create-form-item
+	display: flex
+	.ant-form-item-control-wrapper
+		flex: 1
+
+.rebate-form-item
+	display flex
+
+//adjust form-explain-hilder
+.create-form-item, .setting-form-item, .info-form-item, .rebate-form-item, .cardbind-form-item
+
+	.ant-form-explain-holder
+		height 16px
+
+.cardbind-form-item
+	margin-bottom: 20px
+
+.rebate-form-item,
+.setting-form-item
+	margin-bottom: 12px
+
+// red text
+.chat-checkbox
+	font-weight normal
+	font-style normal
+	font-stretch normal
+	line-height 1.67
+	letter-spacing normal
+	color #f5222d
+
+	span
+		font-size 12px
+
+.management-remind
+	font-size: 14px
+
+// create form button
+.member-create-button-row
+
+	.create-back-btn, .create-apply-btn
+		margin-left 16px
+
+// edit form
+.info-form-item
+	margin-bottom: 17px
+
+	label
+		margin-right 38px
+
+	&__field,
+	&__field.ant-select
+		width: 281px
+	&__remind
+		margin-top: 0
+		margin-left: 16px
+		cursor: default
+
+	&--with-remind
+		.ant-form-item-children
+			display: flex
+			align-items: center
+
+		.info-form-item__remind
+			flex: 1
+
+// Slider Unit
+.unit-text
+	margin-left 37px
+
+.rebate-slider
+	width 397px
+	display flex
+	align-items: center
+
+	&__slider
+		width 222px
+
+	&__number
+		margin-left 16px
+
+.rebate-slider-unit
+	margin-bottom: 32px
+
+//menu
+.menu-wrapper
+	margin-top 24px
+
+	&__content
+		padding: 24px
+		padding 24px 0px
+
+.member-menu-content
+	padding 0px 40px
+	background #FFF
+
+.statistic-quota-list
+	margin-bottom: 40px
+
+	.ljit-list-item
+		padding: 20px 0 8px
+
+		&:first-child
+			padding-top: 0
+
+		&__wrapper
+			width: 50%
+			> div
+				width: 100%
+				display: flex
+
+		&__title
+			font-weight 500
+			color rgba(0, 0, 0, .85)
+			margin-right: auto
+
+// statistics
+.stat-tab
+	margin-right 16px
+
+// member-avatar
+.member-avatar
+	display flex
+	margin-bottom 48px
+
+	.ant-avatar
+		border: 1px solid #e8e8e8
+
+	.member-avatar-text
+		margin-left 24px
+
+		&::before
+			content ''
+			display inline-block
+			vertical-align middle
+
+		.member-account
+			vertical-align middle
+			font-size 16px
+			font-weight 500
+			font-style normal
+			font-stretch normal
+			line-height 1.5
+			letter-spacing normal
+			color: rgba(0,0,0,.85)
+
+		.member-type
+			vertical-align middle
+			font-size 14px
+			font-weight normal
+			font-style normal
+			font-stretch normal
+			line-height 1.57
+			letter-spacing normal
+			color: rgba(0,0,0,.65)
+
+// shadow border
+.card-stat
+	box-shadow 0 2px 6px 0 rgba(0, 0, 0, 0.15)
+	margin-bottom: 44px
+	&__statistic
+		.ant-statistic-title
+			color: #8c8c8c
+			font-size: 14px
+		.ant-statistic-content
+			color: #262626
+			font-size: 32px
+
+// icon
+.ant-statistic-content-prefix
+	margin-right 10px
+
+// info page
+.management-account-members
+	margin-top 24px
+	.page-block__header
+		padding: 9px 16px
+	.page-block__title
+		font-size: 14px
+// detail page
+.detail-information
+	.ljit-layout
+		min-height: 100%
+	.page-block
+		margin-top: 24px
+		&__content
+			padding: 0
+	.setting-block
+		padding: 24px 0 74px 0
+		.ljit-menu
+			height: 100%
+// basic setting page
+.basic-setting
+	.page-block__title
+		margin-bottom: 24px
+	.ljit-row
+		margin-bottom: 16px
+	.comment
+		.ljit-list-item__wrapper
+			width: 90%
+			word-break: break-all
+//account info page
+.account-info
+	.tab-content-title
+		margin-bottom: 24px
+
+
+// account/member/:username/details/dividend-wage-rule
+.member-dividend-rule
+	.header-button-bar__item
+		margin-bottom: 15px
+	.page-block__title
+		float: left
+		margin-right: 12px
+		+ button
+			width: 98px
+	.ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr > td
+		padding: 16px
+
+	&__fixed-wage-rule
+		padding-top: 40px
+		margin-top: 40px
+		border-top: 1px solid #e8e8e8
+
+	&__item-label
+		font-size: 16px
+		font-weight: 600
+
+	&__modal-form
+		.ant-form-item-control-wrapper
+			width: 224px
+			display: inline-block
+
+// Security Questions Edit Element
+$remove-all-items-button-color = #e02020
+.ljit-modal.page-modal.security-questions-edit-element
+	.ant-modal-body
+		.header-button-bar
+			.ljit-button--hollow.ljit-button-color--lightRed500
+				border: 1px solid $remove-all-items-button-color
+				color: $remove-all-items-button-color
+				margin-bottom: 7px

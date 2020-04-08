@@ -1,0 +1,37 @@
+$key-diameter = 6px
+
+.chartjs-tooltip
+	opacity: 1
+	position: fixed
+	-webkit-transition: all .1s ease
+	transition: all .1s ease
+	pointer-events: none
+	font-size: 12px
+	border-radius: 4px;
+	color: rgba(0,0,0,.65)
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,.3)
+	background-color: rgba(255,255,255,0.9)
+
+	&__wrapper
+		padding: 10px 10px 18px
+
+	&__title
+		font-size: 14px
+		font-weight: 500
+		color: rgba(0,0,0,.85)
+
+	&__content > tbody > tr > td
+		// label
+		&:nth-child(1)
+			text-align: left
+		// value
+		&:nth-child(2)
+			text-align: right
+
+	&__key
+		display: inline-block
+		vertical-align: middle
+		width: $key-diameter
+		height: $key-diameter
+		margin-right: 8px
+		border-radius: $key-diameter

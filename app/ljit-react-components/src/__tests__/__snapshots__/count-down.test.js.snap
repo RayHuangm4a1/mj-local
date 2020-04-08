@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countdown should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Countdown
+    className="mock-class"
+    color="#fd3e3e"
+    endDate={2019-07-17T04:00:00.000Z}
+    format="HH:mm:ss"
+    offset={0}
+    onFinish={[Function]}
+    prefix="mock-prefix"
+    size="small"
+    suffix="mock-suffix"
+    title="mock-title"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "className": "ljit-countdown ljit-countdown--size--small mock-class",
+      "format": "HH:mm:ss",
+      "onFinish": [Function],
+      "prefix": "mock-prefix",
+      "suffix": "mock-suffix",
+      "title": "mock-title",
+      "value": 1563336000000,
+      "valueStyle": Object {
+        "color": "#fd3e3e",
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "className": "ljit-countdown ljit-countdown--size--small mock-class",
+        "format": "HH:mm:ss",
+        "onFinish": [Function],
+        "prefix": "mock-prefix",
+        "suffix": "mock-suffix",
+        "title": "mock-title",
+        "value": 1563336000000,
+        "valueStyle": Object {
+          "color": "#fd3e3e",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

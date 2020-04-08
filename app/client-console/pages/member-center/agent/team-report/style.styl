@@ -1,0 +1,67 @@
+.agent-team-report
+	padding: 20px 12px 5px 12px
+
+	&__header
+		display: flex
+		line-height: 40px
+
+		.ljit-form
+			display: flex
+			align-items: center
+
+			.ljit-btn
+				width: 68px
+
+		.ljit-form-label
+			margin-bottom: 0
+			margin-right: 15px
+			display: flex
+
+			.ljit-form-select,
+			.ljit-input
+				width: 104px
+				&:hover
+					border-color: #ff8113
+
+		.ant-form-item-control,
+			.ant-form-item-label,
+			.ant-input,
+			.ant-input-number-input,
+			.ljit-form-select,
+			.ant-btn,
+			.ant-select-selection--single
+				line-height: 28px
+				height: 28px
+				padding-top: 0
+				padding-bottom: 0
+			.ant-select-selection__rendered
+				line-height: 26px
+	&__body
+		.ant-form-item
+			margin-bottom: 0px
+		.ant-form-item-label
+			width: 7%
+			text-align: left
+			label
+				color: rgba(100, 100, 100, .5)
+
+		.ant-form-item-control
+			.ljit-user-breadcrumb
+				line-height: 39px
+				&__crumb
+					color: #ff8113
+					&--active
+						cursor: pointer
+						&:hover,
+						&:active
+							color: #ff8113
+
+	&__username-text.ljit-text-button--default
+		color: #ff8113
+
+	.ljit-daterange-picker,
+	.ant-input,
+	.ant-calendar-picker-input:not(.ant-input-disabled)
+		&:hover,
+		&:focus
+			border-color: #ff8113

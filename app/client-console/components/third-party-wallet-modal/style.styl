@@ -1,0 +1,43 @@
+.ljit-third-party-wallet-modal
+	.ljit-form
+		padding: 9px 80px 12px 56px
+
+		.ljit-form-label
+			margin-bottom: 20px
+			&:nth-child(3)
+				margin-bottom: 0px
+
+		.ant-form-item-label
+			line-height: 1
+			>label
+				color: #a9a9a9
+				font-size: 14px
+				&::before
+					display: none
+		.ant-input-disabled
+			color: #222222
+			&:hover,
+			&:focus
+				border-color: rgb(217, 217, 217)
+				box-shadow: 0 0 0 2px rgba(217, 217, 217, 0.2)
+
+		.ljit-third-party-wallet-modal__button-group
+			margin-bottom: 20px
+			margin-top: 3px
+			display: grid
+			grid-template-columns: repeat(5, 1fr)
+			grid-column-gap: 9px
+			button
+				width: 100%
+				height: 28px
+				padding: 0
+			.ljit-button--hollow.ljit-button-color--grey30
+				&:hover,
+				&:focus
+					color: #ff8113
+					border-color: #ff8113
+
+		.ant-input-number
+			width: 100%
+			.ant-input-number-handler-wrap
+				display: none

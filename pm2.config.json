@@ -1,0 +1,46 @@
+{
+	"apps" : [
+		{
+			"name": "client",
+			"script": "./bin/client-root.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "management",
+			"script": "./bin/management-root.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "fetch-drawing-scheduler",
+			"script": "./bin/fetch-drawing-scheduler.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "open-betting-scheduler",
+			"script": "./bin/open-betting-scheduler.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "dividend-stats-scheduler",
+			"script": "./bin/dividend-stats-scheduler.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "dividend-transfer-scheduler",
+			"script": "./bin/dividend-transfer-scheduler.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		},
+		{
+			"name": "team-stats-scheduler",
+			"script": "./bin/team-stats-scheduler.js",
+			"instances": 1,
+			"exec_mode": "fork"
+		}
+	]
+}

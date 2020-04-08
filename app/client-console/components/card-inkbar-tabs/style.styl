@@ -1,0 +1,32 @@
+// TODO move to shared colors
+$color-orange-1 = #ff8113
+$color-grey-4 = #646464
+
+$tab-font-color = $color-grey-4
+$tab-actived-font-color = $color-orange-1
+$tab-actived-ink-bar-color = $color-orange-1
+$tab-font-weight = 500
+
+.card-inkbar-tabs
+	&.ljit-tabs
+		> .ant-tabs-bar
+			> .ant-tabs-nav-container
+				> .ant-tabs-nav-wrap
+					> .ant-tabs-nav-scroll
+						> .ant-tabs-nav
+							> div
+								> .ant-tabs-tab
+									color: $tab-font-color
+									font-weight: $tab-font-weight
+
+									&:hover
+									&:active
+										color: $tab-actived-font-color
+
+								> .ant-tabs-tab-active
+									font-weight: $tab-font-weight
+									color: $tab-actived-font-color
+
+							> .ant-tabs-ink-bar
+								height: 3px
+								background-color: $tab-actived-ink-bar-color

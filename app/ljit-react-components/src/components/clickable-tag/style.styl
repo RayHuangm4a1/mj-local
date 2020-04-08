@@ -1,0 +1,23 @@
+.ljit-clickable-tag
+	display: inline-block
+	.ljit-tag
+		margin: 0
+		cursor: pointer
+		border-radius: 12px
+	&--with-badge
+		.ljit-icon
+			position: absolute
+	&--with-left-badge
+		.ant-badge-count,
+		.ljit-icon
+			right: auto
+			left: 0
+		.ant-badge-count
+			transform: translate(-15px, -10px)
+		.ljit-icon
+			transform: translate(-8px, -10px) scale(.85)
+	&--with-right-badge
+		.ljit-icon
+			left: auto
+			right: 0
+			transform: translate(10px, -10px) scale(.8)

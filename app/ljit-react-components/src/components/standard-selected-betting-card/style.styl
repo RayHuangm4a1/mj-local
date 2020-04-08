@@ -1,0 +1,88 @@
+$label-text-height = 18px
+
+.standard-selected-betting-card
+	height: 117px
+	font-size: 12px
+	color: #222222
+
+	> .ant-card-body
+		width: 100%
+		height: 100%
+		padding: 8px 12px
+
+	&__header
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+
+	&__close
+		height: 18px
+		padding: 0px
+		cursor: pointer
+
+		> i
+			vertical-align: middle
+			> svg
+				width: 9px
+				height: 9px
+				color: #c0c0c0
+
+	&__info
+		width: 100%
+
+	&__info-left
+		width: 50%
+		float: left
+
+	&__info-right
+		width: 50%
+		float: right
+		> div
+			padding-left: 12px
+
+	&__footer
+		clear: both
+		display: flex
+		justify-content: flex-start
+		align-items: center
+
+	&__label-text
+		display: flex
+		flex-wrap: nowrap
+		height: $label-text-height
+		margin: 2px 0px
+		line-height: $label-text-height
+		font-size: 12px
+
+		.ant-form-item-label,
+		.ant-form-item-control
+			height: $label-text-height
+			line-height: $label-text-height
+
+		&--ellipsis
+			width: 100%
+			> .ant-form-item-label
+				flex-grow: 0
+				flex-shrink: 0
+				flex-basis: auto
+			> .ant-form-item-control-wrapper
+				flex-grow: 1
+				flex-shrink: 0
+				flex-basis: auto
+				max-width: 70%
+
+				> .ant-form-item-control
+					> .ant-form-item-children
+						display: block
+						overflow: hidden
+						white-space: nowrap
+						text-overflow: ellipsis
+
+	&--grey-text
+		color: #646464
+
+	&--count-number
+		color: #16a5ae
+
+	&--amount-number
+		color: #b570ac

@@ -1,0 +1,29 @@
+const LotteryStore = require("../stores/lottery");
+const DrawingStore = require("../stores/drawing");
+
+module.exports = {
+	upsertDrawing: DrawingStore.upsertDrawing,
+
+	getPrimaryLotteries: LotteryStore.getPrimaryLotteries,
+
+	getPrimaryOpenedDrawingsByLotteryId: DrawingStore.getPrimaryOpenedDrawingsByLotteryId,
+	getLatestFetchedDrawingByLotteryId: DrawingStore.getLatestFetchedDrawingByLotteryId,
+	getEarliestRewardGrantingDrawing: DrawingStore.getEarliestRewardGrantingDrawing,
+	getEarliestRewardGrantedDrawing: DrawingStore.getEarliestRewardGrantedDrawing,
+	getEarlyOpenedDrawing: DrawingStore.getEarlyOpenedDrawing,
+	getEarliestCancelingDrawing: DrawingStore.getEarliestCancelingDrawing,
+	getEarliestModifyingDrawing: DrawingStore.getEarliestModifyingDrawing,
+	getDrawingsByLotteryId: DrawingStore.getDrawingsByLotteryId,
+
+	setPrimaryLotteryMaintenanceById: LotteryStore._setPrimaryLotteryMaintenanceById,
+	setDrawingFromRewardGrantingToRewardGrantedByLotteryIdAndIssue: DrawingStore.setDrawingFromRewardGrantingToRewardGrantedByLotteryIdAndIssue,
+	setDrawingFromRewardGrantedToTeamCommissionGrantedByLotteryIdAndIssue: DrawingStore.setDrawingFromRewardGrantedToTeamCommissionGrantedByLotteryIdAndIssue,
+	setDrawingFromEarlyOpenedToClosedByLotteryIdAndIssue: DrawingStore.setDrawingFromEarlyOpenedToClosedByLotteryIdAndIssue,
+	setDrawingFromCancelingToCanceledByLotteryIdAndIssue: DrawingStore.setDrawingFromCancelingToCanceledByLotteryIdAndIssue,
+	setDrawingFromModifyingToRewardGrantingByLotteryIdAndIssue: DrawingStore.setDrawingFromModifyingToRewardGrantingByLotteryIdAndIssue,
+
+	DRAWING_PROJECTIONS: {
+		EARLY_OPENED: DrawingStore.EARLY_OPENED_DRAWING_REQUIRED_PROJECTIONS,
+		OPENCODE: DrawingStore.OPENCODE_ONLY_PROJECTIONS,
+	}
+};

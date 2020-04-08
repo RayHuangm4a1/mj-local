@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Search should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputSearch
+    disabled={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onPressEnter={[Function]}
+    onSearch={[Function]}
+    placeholder="mock-placeholder"
+    readOnly={false}
+    value="mock-value"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "className": "ljit-input-search form-field",
+      "disabled": false,
+      "enterButton": false,
+      "id": undefined,
+      "onBlur": [Function],
+      "onChange": [Function],
+      "onFocus": [Function],
+      "onPressEnter": [Function],
+      "onSearch": [Function],
+      "placeholder": "mock-placeholder",
+      "readOnly": false,
+      "style": undefined,
+      "type": "text",
+      "value": "mock-value",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "className": "ljit-input-search form-field",
+        "disabled": false,
+        "enterButton": false,
+        "id": undefined,
+        "onBlur": [Function],
+        "onChange": [Function],
+        "onFocus": [Function],
+        "onPressEnter": [Function],
+        "onSearch": [Function],
+        "placeholder": "mock-placeholder",
+        "readOnly": false,
+        "style": undefined,
+        "type": "text",
+        "value": "mock-value",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

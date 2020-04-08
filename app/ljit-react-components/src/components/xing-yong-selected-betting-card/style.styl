@@ -1,0 +1,26 @@
+$border-color = #e9e9e9
+.selected-betting-card
+	width: 253px
+	border: none
+	padding: 2px 24px
+
+	& + &
+		border-top: 1px solid $border-color
+	
+	&:last-child
+		border-bottom: 1px solid $border-color
+
+	.ljit-label-text
+		margin: 0
+	.ljit-label-text__label
+		font-weight: normal
+		white-space: nowrap
+		color: #222222
+	.ljit-label-text__text
+		color: #646464
+	&__number
+		.ljit-label-text__text
+			color: #16a5ae
+	&__amount
+		.ljit-label-text__text
+			color: #b570ac

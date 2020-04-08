@@ -1,0 +1,112 @@
+font-setting()
+	font-weight: normal
+	font-style: normal
+	font-stretch: normal
+	letter-spacing: normal
+	font-size: 14px
+
+notice-setting(x)
+	opacity: 0.45
+	color: #000000
+	margin-left: x
+	font-setting()
+
+.management-member-bonus-rules
+	&__content
+		div
+			margin-top: 24px
+			font-size: 16px
+			height: 24px
+			opacity: 0.85
+			font-weight: 500
+			color: #000000
+			span
+				opacity: 0.65
+				height: 22px
+				font-setting()
+
+				&.ant-radio,
+				&.ant-radio-inner
+					opacity: 1
+
+	&__button
+		padding: 0px 32px
+
+	&__button__bar
+		margin-bottom: 24px
+
+	&__input
+		width: 96px
+		margin-left: 16px
+
+	&__input__textarea
+		width: 540px
+		margin-left: 16px
+
+	&__input__notice
+		notice-setting(116px)
+
+	&__input-prefix
+		position: relative
+		top: -31px
+		left: 121px
+
+	&__input-profit
+		width: 300px
+		margin-left: 16px
+
+	&-effective-member
+		& .management-member-bonus-rules__input
+			left: 85px
+			width: 146px
+
+	& .management-member-wage-rules__input__notice
+		notice-setting(176px)
+
+	.ant-form-item
+		display: flex
+		margin-top: 12px
+		font-size: 16px
+		opacity: 0.85
+		font-weight: 500
+
+	.page-block__content
+		padding: 37px 36px
+
+		& .ant-form-item
+			margin-bottom: 0px
+
+		& .ant-form-item-required::before
+			content: ''
+
+		& .ant-form label
+			font-size: 16px
+
+		& .ljit-radio
+			span
+				font-size: 14px
+
+		& .ant-form-item-control
+			line-height: 34px
+
+			& .ant-form-item-children
+				line-height: 38px
+
+				span
+					opacity: 0.65
+					color: #000000
+					font-setting()
+
+					&.ant-radio,
+					&.ant-radio-inner
+						opacity: 1
+
+	& .header-button-bar__pool
+		.ljit-btn
+			padding: 5px 20px
+
+	.separate-line
+		margin: 42px 0px 43px 0px
+		height: 1px
+		width: 927px
+		background-color: #e8e8e8

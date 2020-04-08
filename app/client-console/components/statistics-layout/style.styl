@@ -1,0 +1,81 @@
+.statistics-layout
+	padding: 14px 12px 10px 12px
+
+	&__container
+		padding-bottom: 28px
+
+	&__title
+		display: flex
+		align-items: center
+		justify-content: space-between
+		font-size: 14px
+		color: #222222
+		margin-bottom: 22px
+		height: 32px
+		> div
+			display: flex
+			align-items: center
+			> span
+				color: #ff7901
+			&::before
+				content: ''
+				display: inline-block
+				width: 3px
+				background-color: #ff7901
+				height: 16px
+				margin: 0 9px 0 8px
+		.remind-text
+			margin-top: 0
+			margin-left: 16px
+
+	&__button
+		width: 112px
+		font-size: 16px
+		font-weight: 600
+		margin-right: 16px
+
+	&__team-detail
+		display: grid
+		grid-template-columns: repeat(5, 192px)
+		.ant-statistic
+			padding-left: 45px
+			border-right: solid 1px #e6e2e2
+			&:last-child
+				border-right: 0
+			&__title
+				margin-bottom: 0
+
+	&__team-bonus
+		display: grid
+		grid-template-columns: repeat(8, 124px)
+		margin-top: 24px
+		div
+			&:nth-child(even)
+				.statistics-layout__team-bonus-thead
+					background-color: rgba(237, 237, 237, 0.4)
+
+		&-thead
+			padding: 10px 0
+			border-radius: 3px
+			text-align: center
+			background-color: #eeeded
+			font-size: 14px
+			color: rgba(0, 0, 0, 0.85)
+
+		&-tbody
+			padding: 12px 0
+			text-align: center
+			border-bottom: 1px solid #eeeded
+			font-size: 14px
+			color: #646464
+
+	.ljit-table
+		border-bottom: 1px solid #eeeded
+		.ant-table-thead > tr > th
+			background-color: #eeeded
+			&:first-child
+				border-right: 1px solid #ffffff
+
+		.ant-table-tbody > tr > td
+			&:first-child
+				border-right: 1px solid #eeeded

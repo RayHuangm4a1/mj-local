@@ -1,0 +1,41 @@
+.ljit-select-dropdown-form-item
+	display: flex
+	align-items: center
+
+	.ljit-select-dropdown-form-item
+		&__container
+			display: flex
+			height: 30px
+			width: fit-content
+			border-radius: 4px
+			border: solid 1px #d2d2d2
+
+		&__select-dropdown
+			display: flex
+			align-items: center
+			width: 103px
+			border-right: 1px solid #d2d2d2
+			.ant-select-selection
+				height: 28px
+				width: 100%
+				border-color: rgba(210,210,210,0)
+				&:hover, &:focus
+					border: 1px solid #ff8113
+					box-shadow: 0 0 0 2px rgba(255,129,19,0.2)
+
+		&__form-item
+			margin: 0px
+			display: flex
+			align-items: center
+			.ant-form-item-control
+				height: 28px
+				line-height: 28px
+
+		&__input
+			width: 130px
+			input
+				height: 28px
+				border-color: rgba(210,210,210,0)
+				&:hover, &:focus
+					border: 1px solid #ff8113
+					box-shadow: 0 0 0 2px rgba(255,129,19,0.2)

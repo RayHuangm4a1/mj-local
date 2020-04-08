@@ -1,0 +1,141 @@
+circle($width, $background-color) 
+	width: $width
+	height: $width
+	border-radius: 50%
+	background-color: $background-color
+
+.mobile-home-page
+	height: calc(100% - 1px)
+	box-sizing: border-box
+	background-color: #fff
+
+	&__tab
+		display: flex
+		border-bottom: 1px solid rgb(240, 240, 240)
+		> div
+			&:first-child
+				width: 20%
+				border-right: 1px solid rgb(240, 240, 240)
+			&:last-child
+				display: flex
+				max-width: 100%
+				width: 100%
+				overflow: scroll
+				.icon-tag
+					min-width: 25%
+
+		.icon-tag
+			padding: 6px 0 8px
+
+	&__content
+		height: calc(100% - 78px)
+
+	&__lottery-options
+		display: grid
+		grid-template-columns: repeat(4, 1fr)
+		.icon-tag
+			padding: 10px 0 8px
+
+	&__lottery-title
+		background-color: rgb(243, 243, 243)
+		padding: 10px 22px
+		position: relative
+		color: rgb(74, 74, 74)
+		font-weight: 900
+		font-size: 16px
+		&:before
+			position: absolute
+			content: ''
+			circle(6px, rgb(255, 130, 21))
+			top: 18px
+			left: 12px
+	&__lottery-content
+		height: calc(100% - 208px)
+
+.mobile-home-page__collection
+	height: 100%
+	background-color: #fff
+
+	.mobile-home-page__add-collection
+		display: flex
+		align-items: center
+		padding: 7px 16px
+		border-bottom: 1px solid rgb(240, 240, 240)
+		color: rgb(33, 150, 243)
+		font-size: 16px
+
+		&-icon
+			margin-right: 12px
+			circle(32px, rgb(239, 233, 255))
+			position: relative
+			text-align: center
+			line-height: 28px
+			font-size: 20px
+			color: rgb(33, 150, 243)
+
+			&:before
+				position: absolute
+				content: ''
+				circle(20px, transparent)
+				box-sizing: border-box
+				border: 2px solid rgb(33, 150, 243)
+				top: 0
+				bottom: 0
+				left: 0
+				right: 0
+				margin: auto
+	ul
+		max-height: calc(100% - 47px)
+		list-style: none
+		border-top: 1px solid rgb(240, 240, 240)
+		margin: 0
+		padding: 0
+		overflow: scroll
+		li
+			display: flex
+			align-items: center
+			justify-content: space-between
+			padding: 19px 16px 19px 6px
+			border-bottom: 1px solid rgb(240, 240, 240)
+			position: relative
+
+	&-move-icon
+		width: 24px
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		> div
+			circle(4px, rgb(191, 191, 191))
+			margin-bottom: 4px
+
+	&-name
+		width: 80px
+		font-size: 16px
+		text-align: center
+		span
+			font-size: 12px
+			color: rgb(148, 148, 153)
+
+	&-ball
+		margin-right: 5px
+
+	&-drawing
+		width: 160px
+		.ant-statistic-title
+			display: flex
+			justify-content: space-between
+		.ant-statistic-content
+			font-size: 12px
+			transform: scale(0.83)
+
+	&-arrow
+		color: rgb(191, 191, 191)
+
+@media screen and (max-width: 320px)
+	.mobile-home-page__collection
+		ul
+			li
+				padding: 10px 0
+	.mobile-home-page__collection-name
+		font-size: 14px

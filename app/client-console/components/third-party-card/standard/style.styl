@@ -1,0 +1,83 @@
+.ljit-third-party-redirect-card 
+	padding: 0 14px 0 15px
+	height: 279px
+	border-radius: 4px
+	background-color: #ffffff
+	box-sizing: border-box
+	display: inline-block
+	position: relative
+	cursor: pointer
+	&:hover
+		.ljit-third-party-redirect-card--hover
+			display: flex
+
+	&__content
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		height: 100%
+
+	&__icon
+		width: 88px
+		height: 88px
+		background-color: #f4f4f4
+		border-radius: 50%
+		display: flex
+		justify-content: center
+		align-items: center
+		.anticon
+			width: 55px
+			height: 55px
+			&>svg
+				width: 100%
+				height: 100%
+	&__title
+		margin-top: 19px
+		font-size: 24px
+		color: #222222
+
+	&__slogan
+		margin-top: 10px
+		font-size: 14px
+		color: #7f7f7f
+
+	&--hover
+		display: none
+		flex-direction: column
+		width: 100%
+		height: 100%
+		border-radius: 4px
+		background-color: rgba(74, 68, 63, .85)
+		position: absolute
+		top: 0
+		left: 0
+		padding: 22px 20px
+		box-sizing: border-box
+		text-align: center
+		p
+			color: #fff
+			font-size: 14px
+			font-weight: 500
+
+	&__button-list
+		width: 100%
+		display: flex
+		min-height: 215px
+		justify-content: flex-end
+		flex-direction: column
+		overflow: hidden
+
+	&__third-party-game-button.ljit-btn
+		margin-bottom: 10px
+		width: 100%
+		border-radius: 16px
+		border-color: #ffffff
+		span
+			color: #fff
+		&:last-child 
+			margin-bottom: 15px
+
+	.ljit-button--hollow.ljit-btn
+		&:hover
+			background-color: rgba(255, 255, 255, 0.2)

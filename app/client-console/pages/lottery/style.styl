@@ -1,0 +1,74 @@
+.lottery-layout__content
+	> .ljit-label-selector
+		width calc(900px + 240px - 8px)
+		margin-left: 4px
+		.ljit-label-selector__item
+			margin: 0
+		.ljit-tag
+			padding: 0 12px
+
+	.content-column__main-top
+		background: #fcfcfc
+		padding: 6px 16px
+		display: flex
+		justify-content: space-between
+		margin-bottom: 4px
+		.ljit-label-selector__item
+			margin: 0
+		.ljit-tag
+			padding: 2px 19.5px
+
+.lottery-betting-tooltip
+	font-size: 12px
+	background-color: #e4e4e4
+	color: #646464
+	width: 72px
+	height: 24px
+	display: block
+	border-radius: 4px
+	text-align: center
+	line-height: 24px
+	margin: 8px 0 0 20px
+	flex: none
+
+	&__overlay
+		width: 100%
+		max-width: 400px
+		.ant-tooltip-content
+			position: relative
+		.ant-tooltip-arrow
+			border-bottom-color: #fff
+			position: absolute
+			top: -4px
+			&::after
+				content: ""
+				border-style: solid
+				border-width: 0 7px 7px
+				border-color: transparent transparent #e0e0e0 transparent
+				z-index: -1
+				position: absolute
+				top: -1px
+				left: -7px
+		.ant-tooltip-inner
+			padding: 12px 15px
+			border-radius: 8px
+			background-color: #fff
+			color: #646464
+			border: 1px solid #e0e0e0
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .42)
+
+.lottery-layout
+	.content-column__left
+		margin-top: 40px
+
+		.ljit-client-tab-label-selector
+			transform: translateX(2px)
+			margin-left: 4px
+
+		.lottery-layout__my-favorite
+			transform: translateX(2px)
+			border: 0px
+			.ljit-expandable-panel--closed
+				width: 22px
+				&.ljit-expandable-panel--left
+					border-radius: 4px

@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel should renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Panel
+    className="mock-class"
+    content="mock-content"
+    footer="mock-footer"
+    headerRight="mock-headerRight"
+    headerTitle="mock-Headertitle"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="ljit-panel__header"
+        >
+          <span
+            className="ljit-panel__title"
+          >
+            mock-Headertitle
+          </span>
+          <div
+            className="ljit-panel__right"
+          >
+            mock-headerRight
+          </div>
+        </div>,
+        <div
+          className="ljit-panel__content"
+        >
+          mock-content
+        </div>,
+        <div
+          className="ljit-panel__footer"
+        >
+          mock-footer
+        </div>,
+      ],
+      "className": "ljit-panel mock-class",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="ljit-panel__title"
+            >
+              mock-Headertitle
+            </span>,
+            <div
+              className="ljit-panel__right"
+            >
+              mock-headerRight
+            </div>,
+          ],
+          "className": "ljit-panel__header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "mock-Headertitle",
+              "className": "ljit-panel__title",
+            },
+            "ref": null,
+            "rendered": "mock-Headertitle",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "mock-headerRight",
+              "className": "ljit-panel__right",
+            },
+            "ref": null,
+            "rendered": "mock-headerRight",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "mock-content",
+          "className": "ljit-panel__content",
+        },
+        "ref": null,
+        "rendered": "mock-content",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "mock-footer",
+          "className": "ljit-panel__footer",
+        },
+        "ref": null,
+        "rendered": "mock-footer",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="ljit-panel__header"
+          >
+            <span
+              className="ljit-panel__title"
+            >
+              mock-Headertitle
+            </span>
+            <div
+              className="ljit-panel__right"
+            >
+              mock-headerRight
+            </div>
+          </div>,
+          <div
+            className="ljit-panel__content"
+          >
+            mock-content
+          </div>,
+          <div
+            className="ljit-panel__footer"
+          >
+            mock-footer
+          </div>,
+        ],
+        "className": "ljit-panel mock-class",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="ljit-panel__title"
+              >
+                mock-Headertitle
+              </span>,
+              <div
+                className="ljit-panel__right"
+              >
+                mock-headerRight
+              </div>,
+            ],
+            "className": "ljit-panel__header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "mock-Headertitle",
+                "className": "ljit-panel__title",
+              },
+              "ref": null,
+              "rendered": "mock-Headertitle",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "mock-headerRight",
+                "className": "ljit-panel__right",
+              },
+              "ref": null,
+              "rendered": "mock-headerRight",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "mock-content",
+            "className": "ljit-panel__content",
+          },
+          "ref": null,
+          "rendered": "mock-content",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "mock-footer",
+            "className": "ljit-panel__footer",
+          },
+          "ref": null,
+          "rendered": "mock-footer",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

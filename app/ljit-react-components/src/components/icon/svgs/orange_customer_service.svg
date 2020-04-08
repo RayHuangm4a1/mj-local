@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>icon/20/select_customer service</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.8168498,5.6173913 C15.8168498,2.51499175 12.5549244,3.19744231e-14 8.53113553,3.19744231e-14 C4.50734664,3.19744231e-14 1.24542125,2.51499175 1.24542125,5.6173913" id="path-1"></path>
+    </defs>
+    <g id="icon/20/select_customer-service" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="群組-4" transform="translate(2.000000, 2.000000)">
+            <ellipse id="橢圓形" fill="#FFDCBE" cx="9.775" cy="11.05" rx="5.525" ry="5.1"></ellipse>
+            <ellipse id="橢圓形" stroke="#FF8113" stroke-width="1.5" cx="8.5" cy="9.775" rx="6.8" ry="6.375"></ellipse>
+            <g id="群組-2">
+                <ellipse id="Oval-8" fill="#FF8113" fill-rule="nonzero" cx="5.27747253" cy="8.32953804" rx="1" ry="1"></ellipse>
+                <ellipse id="Oval-8" fill="#FF8113" fill-rule="nonzero" cx="10.9587715" cy="8.32953804" rx="1" ry="1"></ellipse>
+                <path d="M6.72527473,10.5326087 C6.72527473,11.3082086 7.49196659,11.9369565 8.43772894,11.9369565 C9.38349128,11.9369565 10.1501832,11.3082086 10.1501832,10.5326087" id="路徑" stroke="#FF8113" fill-rule="nonzero"></path>
+                <path d="M16.309876,11.9369565 C16.4252149,14.2775362 14.6003112,15.4478261 10.8351648,15.4478261" id="Path-10" stroke="#FF8113" fill-rule="nonzero"></path>
+                <path d="M10.2919175,14.2456522 L10.9425147,14.2456522 C11.6064571,14.2456522 12.1446886,14.7838838 12.1446886,15.4478261 C12.1446886,16.1117684 11.6064571,16.65 10.9425147,16.65 L10.2919175,16.65 C9.62797518,16.65 9.08974359,16.1117684 9.08974359,15.4478261 C9.08974359,14.7838838 9.62797518,14.2456522 10.2919175,14.2456522 Z" id="Rectangle-43" stroke="#FF8113" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M15.9725275,5.6173913 C16.5399849,5.6173913 17,6.07740642 17,6.64486383 L17,10.909484 C17,11.4769414 16.5399849,11.9369565 15.9725275,11.9369565 C15.4050701,11.9369565 14.9450549,11.4769414 14.9450549,10.909484 L14.9450549,6.64486383 C14.9450549,6.07740642 15.4050701,5.6173913 15.9725275,5.6173913 Z" id="Rectangle-35" stroke="#FF8113" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M1.02747253,5.6173913 C1.59492994,5.6173913 2.05494505,6.07740642 2.05494505,6.64486383 L2.05494505,10.909484 C2.05494505,11.4769414 1.59492994,11.9369565 1.02747253,11.9369565 C0.46001512,11.9369565 2.91538095e-16,11.4769414 0,10.909484 L0,6.64486383 C-6.94934898e-17,6.07740642 0.46001512,5.6173913 1.02747253,5.6173913 Z" id="Rectangle-35" stroke="#FF8113" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" stroke="#FF8113" stroke-width="1.5" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,158 @@
+$default-border-color = #d4d4d4
+
+$warmOrange500-color = #fc9327
+$warmOrange500-background-color = #fff1b8
+$warmOrange500-border-color = #fc9327
+
+$warmOrange700-color = #fff
+$warmOrange700-background-color = #ff8113
+
+$warmOrange900-color = #d48806
+$warmOrange900-background-color = #fff1b8
+$warmOrange900-border-color = #d48806
+
+$gradient-orange-color = #fff
+$gradient-orange-background-image = linear-gradient(to bottom, #ff5818, #ff9b3a 53%, #ff5818)
+
+$orangeRed-color = #fff
+$orangeRed-background-color = #ff4700
+
+$lightgrey-color = #646464
+$lightgrey-background-color = #dde0e3
+
+$black-color = #fff
+$black-background-color = #555352
+
+$white-color = #646464
+$white-background-color = #fff
+$white-border-color = #e3e3e3
+
+$green-color = #448224
+$green-background-color = #d9f7be
+$green-border-color = #559036
+
+$red-color = #cf1322
+$red-background-color = #fff1f0
+$red-border-color = #cf1322
+
+$round-border-color = #cdcdcd
+
+borderRadius = 4px 12px 16px;
+fontSizeMap = {
+	extra-large: 32px
+	large: 24px
+	middle: 20px
+	small: 14px
+	extra-small: 12px
+}
+
+setBorderColor(color) {
+	border-color: color
+}
+
+circleAndRoundSize(size) {
+	width: size
+	height: size
+}
+
+.ljit-tag
+	border: 0
+	margin-right: 0
+	text-align: center
+	display: inline-flex
+	justify-content: center
+	align-items: center
+	&--border
+		border-style: solid
+		border-width: 1px
+
+	&-color--warmOrange500
+		background-color: $warmOrange500-background-color
+		color: $warmOrange500-color
+		setBorderColor($warmOrange500-border-color)
+	&-color--warmOrange700
+		background-color: $warmOrange700-background-color
+		color: $warmOrange700-color
+	&-color--warmOrange900
+		background-color: $warmOrange900-background-color
+		color: $warmOrange900-color
+		setBorderColor($warmOrange900-border-color)
+	&-color--gradient-orange
+		background-image: $gradient-orange-background-image
+		color: $gradient-orange-color
+	&-color--orange-red
+		background-color: $orangeRed-background-color
+		color: $orangeRed-color
+	&-color--light-grey
+		background-color: $lightgrey-background-color
+		color: $lightgrey-color
+	&-color--black
+		background-color: $black-background-color
+		color: $black-color
+	&-color--white
+		background-color: $white-background-color
+		color: $white-color
+		setBorderColor($white-border-color)
+	&-color--green
+		background-color: $green-background-color
+		color: $green-color
+		setBorderColor($green-border-color)
+	&-color--red
+		background-color: $red-background-color
+		color: $red-color
+		setBorderColor($red-border-color)
+
+	&-shape--circle
+		border-radius: 50%
+		padding: 0
+		text-align: center
+		
+		~/-size--extra-large&
+			circleAndRoundSize(48px)
+		~/-size--large&
+			circleAndRoundSize(40px)
+		~/-size--middle&
+			circleAndRoundSize(32px)
+		~/-size--small&
+			circleAndRoundSize(24px)
+		~/-size--extra-small&
+			circleAndRoundSize(20px)
+
+	&-shape--round
+		setBorderColor($round-border-color)
+
+		~/-size--extra-large&
+			circleAndRoundSize(48px)
+		~/-size--large&
+			circleAndRoundSize(40px)
+		~/-size--middle&
+			circleAndRoundSize(32px)
+		~/-size--small&
+			circleAndRoundSize(24px)
+		~/-size--extra-small&
+			circleAndRoundSize(20px)
+
+	&-shape--rectangle
+		~/-size--extra-large&
+			width: 170px
+		~/-size--large&
+			width: 112px
+		~/-size--middle&
+			width: 64px
+		~/-size--small&
+			width: 54px
+		~/-size--extra-small&
+			width: 40px
+
+	&-size
+		&--full
+			width: 100%
+			height: auto
+
+	for type, size in fontSizeMap
+		&-font-size--{type}
+			font-size: size
+
+	for radius in borderRadius
+		&-border-radius--with-{radius}
+			border-radius: radius

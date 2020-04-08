@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionBox should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CollectionBox
+    mainList={
+      Array [
+        Object {
+          "id": 0,
+          "name": "时时彩",
+        },
+        Object {
+          "id": 1,
+          "name": "华宇彩",
+        },
+        Object {
+          "id": 2,
+          "name": "11选5",
+        },
+      ]
+    }
+    onChange={[Function]}
+    selectedIds={
+      Array [
+        1,
+        16,
+        33,
+      ]
+    }
+    subList={
+      Object {
+        "0": Array [
+          Object {
+            "id": 1,
+            "name": "重庆时时彩",
+          },
+          Object {
+            "id": 11,
+            "name": "韩式1.5分",
+          },
+          Object {
+            "id": 12,
+            "name": "东京1.5分",
+          },
+        ],
+        "1": Array [
+          Object {
+            "id": 31,
+            "name": "华宇5分彩",
+          },
+          Object {
+            "id": 32,
+            "name": "华宇2分彩",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ljit-collection-box__menus"
+      >
+        <ul
+          className="ljit-collection-box__menu"
+        >
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+            onClick={[Function]}
+          >
+            时时彩
+          </li>
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+            onClick={[Function]}
+          >
+            华宇彩
+          </li>
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+            onClick={[Function]}
+          >
+            11选5
+          </li>
+        </ul>
+        <ul
+          className="ljit-collection-box__menu"
+        >
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+            onClick={[Function]}
+          >
+            重庆时时彩
+          </li>
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+            onClick={[Function]}
+          >
+            韩式1.5分
+          </li>
+          <li
+            className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+            onClick={[Function]}
+          >
+            东京1.5分
+          </li>
+        </ul>
+      </div>,
+      "className": "ljit-collection-box",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ul
+            className="ljit-collection-box__menu"
+          >
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+              onClick={[Function]}
+            >
+              时时彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+              onClick={[Function]}
+            >
+              华宇彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+              onClick={[Function]}
+            >
+              11选5
+            </li>
+          </ul>,
+          <ul
+            className="ljit-collection-box__menu"
+          >
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+              onClick={[Function]}
+            >
+              重庆时时彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+              onClick={[Function]}
+            >
+              韩式1.5分
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+              onClick={[Function]}
+            >
+              东京1.5分
+            </li>
+          </ul>,
+        ],
+        "className": "ljit-collection-box__menus",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+                onClick={[Function]}
+              >
+                时时彩
+              </li>,
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                onClick={[Function]}
+              >
+                华宇彩
+              </li>,
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                onClick={[Function]}
+              >
+                11选5
+              </li>,
+            ],
+            "className": "ljit-collection-box__menu",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-时时彩0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "时时彩",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "时时彩",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-华宇彩1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "华宇彩",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "华宇彩",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-11选52",
+              "nodeType": "host",
+              "props": Object {
+                "children": "11选5",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "11选5",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+                onClick={[Function]}
+              >
+                重庆时时彩
+              </li>,
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                onClick={[Function]}
+              >
+                韩式1.5分
+              </li>,
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                onClick={[Function]}
+              >
+                东京1.5分
+              </li>,
+            ],
+            "className": "ljit-collection-box__menu",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-重庆时时彩1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "重庆时时彩",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "重庆时时彩",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-韩式1.5分11",
+              "nodeType": "host",
+              "props": Object {
+                "children": "韩式1.5分",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "韩式1.5分",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "ljit-collection-box-东京1.5分12",
+              "nodeType": "host",
+              "props": Object {
+                "children": "东京1.5分",
+                "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "东京1.5分",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ljit-collection-box__menus"
+        >
+          <ul
+            className="ljit-collection-box__menu"
+          >
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+              onClick={[Function]}
+            >
+              时时彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+              onClick={[Function]}
+            >
+              华宇彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+              onClick={[Function]}
+            >
+              11选5
+            </li>
+          </ul>
+          <ul
+            className="ljit-collection-box__menu"
+          >
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+              onClick={[Function]}
+            >
+              重庆时时彩
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+              onClick={[Function]}
+            >
+              韩式1.5分
+            </li>
+            <li
+              className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+              onClick={[Function]}
+            >
+              东京1.5分
+            </li>
+          </ul>
+        </div>,
+        "className": "ljit-collection-box",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ul
+              className="ljit-collection-box__menu"
+            >
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+                onClick={[Function]}
+              >
+                时时彩
+              </li>
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                onClick={[Function]}
+              >
+                华宇彩
+              </li>
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                onClick={[Function]}
+              >
+                11选5
+              </li>
+            </ul>,
+            <ul
+              className="ljit-collection-box__menu"
+            >
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+                onClick={[Function]}
+              >
+                重庆时时彩
+              </li>
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                onClick={[Function]}
+              >
+                韩式1.5分
+              </li>
+              <li
+                className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                onClick={[Function]}
+              >
+                东京1.5分
+              </li>
+            </ul>,
+          ],
+          "className": "ljit-collection-box__menus",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected"
+                  onClick={[Function]}
+                >
+                  时时彩
+                </li>,
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                  onClick={[Function]}
+                >
+                  华宇彩
+                </li>,
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--main"
+                  onClick={[Function]}
+                >
+                  11选5
+                </li>,
+              ],
+              "className": "ljit-collection-box__menu",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-时时彩0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "时时彩",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main ljit-collection-box__menu-item--selected",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "时时彩",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-华宇彩1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "华宇彩",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "华宇彩",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-11选52",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "11选5",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--main",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "11选5",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected"
+                  onClick={[Function]}
+                >
+                  重庆时时彩
+                </li>,
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                  onClick={[Function]}
+                >
+                  韩式1.5分
+                </li>,
+                <li
+                  className="ljit-collection-box__menu-item ljit-collection-box__menu-item--sub"
+                  onClick={[Function]}
+                >
+                  东京1.5分
+                </li>,
+              ],
+              "className": "ljit-collection-box__menu",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-重庆时时彩1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "重庆时时彩",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub ljit-collection-box__menu-item--selected",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "重庆时时彩",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-韩式1.5分11",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "韩式1.5分",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "韩式1.5分",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "ljit-collection-box-东京1.5分12",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "东京1.5分",
+                  "className": "ljit-collection-box__menu-item ljit-collection-box__menu-item--sub",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "东京1.5分",
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

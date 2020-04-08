@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Collapse
+    className=""
+    expandIcon={[Function]}
+    isAccordion={false}
+    isBordered={false}
+    isIconPositionRight={true}
+    onChange={[Function]}
+    panelsData={
+      Array [
+        Object {
+          "content": <div>
+            text content
+          </div>,
+          "header": "normal",
+          "key": 1,
+        },
+        Object {
+          "content": <div>
+            text content
+          </div>,
+          "header": "isDisabled",
+          "key": 2,
+        },
+        Object {
+          "content": <div>
+            text content
+          </div>,
+          "header": "with extra",
+          "key": 3,
+        },
+        Object {
+          "content": <div>
+            text content
+          </div>,
+          "header": "isShowArrow false",
+          "key": 4,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "accordion": false,
+      "bordered": false,
+      "children": Array [
+        <CollapsePanel
+          className="ljit-collapse__panel"
+          disabled={false}
+          extra={null}
+          header="normal"
+          showArrow={true}
+        >
+          <div>
+            text content
+          </div>
+        </CollapsePanel>,
+        <CollapsePanel
+          className="ljit-collapse__panel"
+          disabled={false}
+          extra={null}
+          header="isDisabled"
+          showArrow={true}
+        >
+          <div>
+            text content
+          </div>
+        </CollapsePanel>,
+        <CollapsePanel
+          className="ljit-collapse__panel"
+          disabled={false}
+          extra={null}
+          header="with extra"
+          showArrow={true}
+        >
+          <div>
+            text content
+          </div>
+        </CollapsePanel>,
+        <CollapsePanel
+          className="ljit-collapse__panel"
+          disabled={false}
+          extra={null}
+          header="isShowArrow false"
+          showArrow={true}
+        >
+          <div>
+            text content
+          </div>
+        </CollapsePanel>,
+      ],
+      "className": "ljit-collapse ljit-collapse__icon-right",
+      "defaultActiveKey": undefined,
+      "expandIcon": [Function],
+      "onChange": [Function],
+      "openAnimation": Object {
+        "appear": [Function],
+        "enter": [Function],
+        "leave": [Function],
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            text content
+          </div>,
+          "className": "ljit-collapse__panel",
+          "disabled": false,
+          "extra": null,
+          "header": "normal",
+          "showArrow": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "text content",
+          },
+          "ref": null,
+          "rendered": "text content",
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            text content
+          </div>,
+          "className": "ljit-collapse__panel",
+          "disabled": false,
+          "extra": null,
+          "header": "isDisabled",
+          "showArrow": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "text content",
+          },
+          "ref": null,
+          "rendered": "text content",
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            text content
+          </div>,
+          "className": "ljit-collapse__panel",
+          "disabled": false,
+          "extra": null,
+          "header": "with extra",
+          "showArrow": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "text content",
+          },
+          "ref": null,
+          "rendered": "text content",
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "children": <div>
+            text content
+          </div>,
+          "className": "ljit-collapse__panel",
+          "disabled": false,
+          "extra": null,
+          "header": "isShowArrow false",
+          "showArrow": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "text content",
+          },
+          "ref": null,
+          "rendered": "text content",
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "accordion": false,
+        "bordered": false,
+        "children": Array [
+          <CollapsePanel
+            className="ljit-collapse__panel"
+            disabled={false}
+            extra={null}
+            header="normal"
+            showArrow={true}
+          >
+            <div>
+              text content
+            </div>
+          </CollapsePanel>,
+          <CollapsePanel
+            className="ljit-collapse__panel"
+            disabled={false}
+            extra={null}
+            header="isDisabled"
+            showArrow={true}
+          >
+            <div>
+              text content
+            </div>
+          </CollapsePanel>,
+          <CollapsePanel
+            className="ljit-collapse__panel"
+            disabled={false}
+            extra={null}
+            header="with extra"
+            showArrow={true}
+          >
+            <div>
+              text content
+            </div>
+          </CollapsePanel>,
+          <CollapsePanel
+            className="ljit-collapse__panel"
+            disabled={false}
+            extra={null}
+            header="isShowArrow false"
+            showArrow={true}
+          >
+            <div>
+              text content
+            </div>
+          </CollapsePanel>,
+        ],
+        "className": "ljit-collapse ljit-collapse__icon-right",
+        "defaultActiveKey": undefined,
+        "expandIcon": [Function],
+        "onChange": [Function],
+        "openAnimation": Object {
+          "appear": [Function],
+          "enter": [Function],
+          "leave": [Function],
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              text content
+            </div>,
+            "className": "ljit-collapse__panel",
+            "disabled": false,
+            "extra": null,
+            "header": "normal",
+            "showArrow": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "text content",
+            },
+            "ref": null,
+            "rendered": "text content",
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              text content
+            </div>,
+            "className": "ljit-collapse__panel",
+            "disabled": false,
+            "extra": null,
+            "header": "isDisabled",
+            "showArrow": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "text content",
+            },
+            "ref": null,
+            "rendered": "text content",
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              text content
+            </div>,
+            "className": "ljit-collapse__panel",
+            "disabled": false,
+            "extra": null,
+            "header": "with extra",
+            "showArrow": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "text content",
+            },
+            "ref": null,
+            "rendered": "text content",
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "children": <div>
+              text content
+            </div>,
+            "className": "ljit-collapse__panel",
+            "disabled": false,
+            "extra": null,
+            "header": "isShowArrow false",
+            "showArrow": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "text content",
+            },
+            "ref": null,
+            "rendered": "text content",
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

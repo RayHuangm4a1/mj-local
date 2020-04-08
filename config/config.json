@@ -1,0 +1,82 @@
+{
+	"mode": "local",
+	"client": {
+		"name": "麦基",
+		"platform": "mj",
+		"api": {
+			"hostname": "http://localhost",
+			"port": "3000",
+			"apiVersion": "v1"
+		},
+		"pwaCacheUrl": "https://testapp.lyydwy.com",
+		"environment": "development"
+	},
+	"management": {
+		"name": "麦基后台",
+		"platform": "mj",
+		"api": {
+			"hostname": "http://localhost",
+			"port": "3002",
+			"apiVersion": "v1"
+		},
+		"environment": "development"
+	},
+	"server": {
+		"port": {
+			"client": "3000",
+			"mobile": "3001",
+			"management": "3002"
+		},
+		"platformCode": "mj",
+		"db": "mysql",
+		"mysqlURL": "mysql://root:password@localhost:3306/mj-platform-local",
+		"mongoURL": "mongodb://localhost:27017/mj-platform",
+		"sessionStorage": "local",
+		"redis": {
+			"host": "127.0.0.1",
+			"port": 6379
+		},
+		"kafka": {
+			"broker": "13.209.88.90:9092"
+		},
+		"intervalOfDrawingSchedule": 5,
+		"intervalOfOpenBettingSchedule": 3,
+		"intervalOfEarlyOpenedDrawingCloseSchedule": 10,
+		"intervalOfAutoRemitSchedule": 3,
+		"intervalOfTeamStatsSchedule": 5,
+		"daysOfDividendTransferSchedule": "4,7,10,13,19,22,25,28",
+		"appId": "5cd151312dfa1d244dd54517",
+		"appSecret": "Mu5uxTghlKWMexU6ct2q30dAVhsdQrRp",
+		"service": {
+			"apiVersion": 1,
+			"client": {
+				"domain": "http://dev.dl.xiaoji121.com"
+			},
+			"management": {
+				"domain": "http://dev.dc.xiaoji121.com"
+			},
+			"adminJwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybSI6eyJfaWQiOiI1Y2QxNTEzMTJkZmExZDI0NGRkNTQ1MTcifSwidXNlciI6eyJpZCI6MiwiYWNjb3VudElkIjoiNWQ0YTYzY2E5NWNiYWEzY2IzZGJiZDNkIiwidXNlcm5hbWUiOiJhZG1pbiIsInR5cGUiOjZ9LCJpc3MiOiJsaml0LmlvIiwiaWF0IjoxNTY4MjcxMjM2fQ.E-5LOrvemAvqRgovt8TuzCHfFO3UPgcHwrsBgFZBW_c"
+		},
+		"event": {
+			"account": {
+				"archive": {
+					"topic": "account.command.archive",
+					"partitions": 1,
+					"replicationFactor": 1
+				}
+			}
+		},
+		"sessionTTL": 86400,
+		"logLevel": "debug",
+		"sqlLogging": false,
+		"jwtSecret": "UKSzN9q6t8P1AqzrDnFZnkD2Bh7lk2jD",
+		"aws": {
+			"s3": {
+				"bucket": ""
+			},
+			"accessKeyId": "",
+			"secretKey": ""
+		},
+		"cdnURL": ""
+	}
+}

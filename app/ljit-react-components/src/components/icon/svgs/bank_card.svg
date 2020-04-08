@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>icon/16/credit-b</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/16/credit-b" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="credit-card" transform="translate(0.000000, 3.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M15,11 L1,11 C0.44771525,11 0,10.5522847 0,10 L0,1 C0,0.44771525 0.44771525,0 1,0 L15,0 C15.5522847,0 16,0.44771525 16,1 L16,10 C16,10.5522847 15.5522847,11 15,11 Z M1,1 L1,10 L15,10 L15,1 L1,1 Z" id="形狀"></path>
+            <path d="M7.5,9 L2.5,9 C2.22385763,9 2,8.77614237 2,8.5 C2,8.22385763 2.22385763,8 2.5,8 L7.5,8 C7.77614237,8 8,8.22385763 8,8.5 C8,8.77614237 7.77614237,9 7.5,9 Z" id="路徑"></path>
+            <path d="M13.5,9 L11.5,9 C11.2238576,9 11,8.77614237 11,8.5 C11,8.22385763 11.2238576,8 11.5,8 L13.5,8 C13.7761424,8 14,8.22385763 14,8.5 C14,8.77614237 13.7761424,9 13.5,9 Z" id="路徑"></path>
+            <path d="M5.5,6 L2.5,6 C2.22385763,6 2,5.77614237 2,5.5 L2,2.5 C2,2.22385763 2.22385763,2 2.5,2 L5.5,2 C5.77614237,2 6,2.22385763 6,2.5 L6,5.5 C6,5.77614237 5.77614237,6 5.5,6 Z M3,5 L5,5 L5,3 L3,3 L3,5 Z" id="形狀"></path>
+        </g>
+    </g>
+</svg>

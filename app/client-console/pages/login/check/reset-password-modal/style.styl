@@ -1,0 +1,76 @@
+$orange-color = #ff8113
+
+.reset-password-modal
+	.has-error .ant-input-affix-wrapper .ant-input
+		background-color: #fff1f0
+	.ant-modal-header
+		padding: 12px
+
+	.ant-modal-body
+		padding: 21px 52px 0
+
+	.ant-modal-title
+		color: #222
+		font-size: 18px
+		font-weight: 600
+
+	.ant-modal-footer
+		padding: 8px
+
+		button
+			width: 84px
+			height: 32px
+			font-size: 16px
+			font-weight: 600
+
+			&:first-child
+				&,
+				&:focus,
+				&:hover,
+				&:active
+					border-color: inherit
+					color: #c0c0c0
+					border-color: #d9d9d9
+
+
+			&:last-child
+				&,
+				&:focus,
+				&:hover,
+				&:active
+					background-color: $orange-color
+					border-color: $orange-color
+					color: #fff
+
+	.ant-form-item-label
+		margin-bottom: 6px
+		line-height: 1
+		label
+			color: #9f9f9f
+			font-size: 500
+
+	.ant-radio-wrapper
+		color: #6f6f6f
+	.ant-radio-checked .ant-radio-inner
+		border-color: $orange-color
+
+	.ant-radio-checked .ant-radio-inner::after
+		background-color: $orange-color
+
+	.ant-form-item
+		margin-bottom: 20px
+
+		&:first-child .ant-form-item-control
+			line-height: 20px
+
+	.ljit-form-label .ant-form-explain
+			font-size: 14px
+			color: #e23f3d
+			margin-top: 0
+
+	&__methods-message
+		margin: 5px auto 30px
+		text-align: center
+
+	.ant-modal-close
+		display: none

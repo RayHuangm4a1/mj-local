@@ -1,0 +1,21 @@
+.ljit-divider
+	&.ant-divider-horizontal.ant-divider-with-text-center
+		display: table
+		margin: 16px 0
+		color: rgba(0, 0, 0, .85)
+		font-weight: 500
+		font-size: 16px
+		white-space: nowrap
+		text-align: center
+		background: transparent
+		&::before,
+		&::after
+			position: relative
+			top: 50%
+			display: table-cell
+			width: 50%
+			border-top: 1px solid #e8e8e8
+			-webkit-transform: translateY(50%)
+			-ms-transform: translateY(50%)
+			transform: translateY(50%)
+			content: ''

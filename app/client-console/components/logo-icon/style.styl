@@ -1,0 +1,18 @@
+$icon-middle-size = 29px
+$icon-large-size = 50px
+
+setIconSize(iconSize)
+	width iconSize
+	height iconSize
+	line-height: iconSize
+	> img
+		width iconSize
+		height iconSize
+		display: inherit
+
+.ljit-logo-icon
+	&--middle
+		setIconSize($icon-middle-size)
+
+	&--large
+		setIconSize($icon-large-size)

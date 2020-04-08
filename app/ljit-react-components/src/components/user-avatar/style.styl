@@ -1,0 +1,26 @@
+$user-avatar-color = #646464
+$user-avatar-description-color = #8c8c8c
+
+.ljit-user-avatar
+	&__username
+		color: $user-avatar-color
+		font-weight: 500
+
+	&__description
+		margin-top: 4px
+		font-weight: 500
+		color: $user-avatar-description-color
+
+	&--top
+		text-align: center
+
+	&--left
+		display: flex
+
+		.ljit-user-avatar__avatar
+			margin-right: 16px
+
+		.ljit-user-avatar__content
+			display: flex
+			justify-content: center
+			flex-direction: column

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-30-/-settings-gj" transform="translate(-3.000000, -5.000000)" fill-rule="nonzero" stroke="#5F5F5F">
+            <g id="Group" transform="translate(3.000000, 5.000000)">
+                <path d="M12.9336387,16.8079749 L16.3623575,19.1773154 C16.8167137,19.4912882 16.9305169,20.1141419 16.6165441,20.568498 C16.4298204,20.8387096 16.1223104,21 15.7938595,21 L8.8466119,21 C8.29432715,21 7.8466119,20.5522847 7.8466119,20 C7.8466119,19.6672902 8.0120851,19.356369 8.28805709,19.1705324 L11.8065859,16.8011919 C12.1478871,16.5713632 12.5951285,16.5740549 12.9336387,16.8079749 Z" id="Triangle" fill="#FFFFFF"></path>
+                <rect id="Rectangle-20" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="17" rx="2"></rect>
+                <rect id="Rectangle-20" x="2.5" y="2.5" width="19" height="13" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

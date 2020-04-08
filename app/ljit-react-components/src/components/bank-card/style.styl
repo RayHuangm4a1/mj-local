@@ -1,0 +1,53 @@
+$card-vertical-padding = 5px
+$card-horizontal-padding = 11px
+$button-margin-top = $card-vertical-padding
+$button-margin-bottom = - $card-vertical-padding + 1px
+$button-horizontal-margin = - $card-horizontal-padding
+
+.ljit-bank-card
+	padding: $card-vertical-padding $card-horizontal-padding
+	border-radius: 3px
+	border: solid 1px #d8d8d8
+	background-color: #f6f6f6
+	.ljit-label-text__label
+		white-space: nowrap
+		font-weight: normal
+		color: #757575
+	&__left
+		margin: 0px 4px
+		.ljit-label-text
+			line-height: 22px
+			margin: 1px 0px
+		.ljit-label-text__label
+			width: auto
+			margin-right: 0px
+		.ljit-label-text__text
+			width: auto
+			font-weight: 500
+			color: #262626
+	&__title
+		font-size: 16px
+		font-weight: 500
+		line-height: 1.38
+		margin: 3px 0px
+		color: #262626
+	&__right
+		.ljit-label-text
+			display: block
+			margin: 0px
+			line-height: 1.5
+		.ljit-label-text__text
+			white-space: nowrap
+		.ljit-label-text + .ljit-label-text
+			margin-top: 5px
+	&__bottom
+		margin: $button-margin-top $button-horizontal-margin $button-margin-bottom
+		border-top: solid 1px #d8d8d8
+		border-radius: 0 0 3px 3px
+		.ljit-btn
+			color: #58a2ba
+			background: #fff
+			border: 0
+			border-radius: 0 0 3px 3px
+			font-size: 12px
+			line-height: 1.83
