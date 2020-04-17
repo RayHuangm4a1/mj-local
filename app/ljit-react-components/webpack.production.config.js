@@ -97,7 +97,9 @@ module.exports = merge(base, {
 		new webpack.DefinePlugin({
 			'process.env.NODE_ENV': JSON.stringify('production'),
 		}),
-		new BundleAnalyzerPlugin(),
+		new BundleAnalyzerPlugin({
+			analyzerMode: 'disabled',
+		}),
 	],
 	externals: {
 		react: {
