@@ -137,7 +137,9 @@ module.exports = {
 	},
 	plugins: [
 		extractRoot,
-		new BundleAnalyzerPlugin(),
+		new BundleAnalyzerPlugin({
+			analyzerMode: 'disabled',
+		}),
 		new HtmlWebpackPlugin({
 			filename: 'management-app.html',
 			chunks: ['management-console'],
