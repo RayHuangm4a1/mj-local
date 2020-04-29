@@ -79,9 +79,9 @@ const AccountMemberBonusRulesDividend = loadComponent({ loader: () => import('./
 const AccountMemberBonusRulesEffectiveMember = loadComponent({ loader: () => import('./pages/account/member/bonus-rules/effective-member') });
 const AccountMemberBonusRulesMaxProfit = loadComponent({ loader: () => import('./pages/account/member/bonus-rules/max-profit') });
 const AccountInfo = loadComponent({ loader: () => import('./pages/account/info') });
-const AccountInfoIpSearch = loadComponent({ loader: () => import('./pages/account/Info/ip-search') });
-const AccountInfoLinkWechat = loadComponent({ loader: () => import('./pages/account/Info/link-wechat') });
-const AccountInfoLink = loadComponent({ loader: () => import('./pages/account/Info/link') });
+const AccountInfoIpSearch = loadComponent({ loader: () => import('./pages/account/info/ip-search') });
+const AccountInfoLinkWechat = loadComponent({ loader: () => import('./pages/account/info/link-wechat') });
+const AccountInfoLink = loadComponent({ loader: () => import('./pages/account/info/link') });
 const AccountBlacklist = loadComponent({ loader: () => import('./pages/account/blacklist') });
 const AccountBlacklistBankBanned = loadComponent({ loader: () => import('./pages/account/blacklist/bank-banned') });
 const AccountBlacklistBankBannedInfo = loadComponent({ loader: () => import('./pages/account/blacklist/bank-banned/info') });
